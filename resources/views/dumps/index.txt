@@ -1,0 +1,221 @@
+<x-header>
+    
+<meta name="description" content="Bloom Digital Media is a Media and Communications Agency looking to partner
+                with leading brands to engineer ROI focused digital campaigns and activities
+                that attract, connect, engage, improve sales and convert Nigerian consumers online.">
+</x-header>
+<x-nav>
+
+</x-nav>
+
+<!-- Video Banner -->
+<div class="container-fluid">
+  <div class="hold">
+       <!--<div class="vid-text warning"><h2>We Create Memorable Experiences.</h2></div>-->
+      <div class="video">
+        <video preload="auto" autoplay="autoplay" loop="loop" muted>
+            <source src="/img/bloom fluid ad.mp4" type="video/mp4">
+        </video>
+      </div>
+
+  </div>
+</div>
+
+<!-- Video Banner -->
+
+
+<div class=" container text-center display-6 p-2 my-5 neo-pressed"> <img id="oo-logo" src="/images/oo.png" alt="" class=" p-4"></div>
+
+<!-- About We Are Bloom  -->
+<div class="container">
+  <div class="my-5">
+  <h1 id="who-we-are" class="centered my-5">WHO WE ARE</h1>
+  <div class="border_line"></div>
+  <div class="row container" data-aos="zoom-in" data-aos-duration="2000">
+    
+    
+     
+         <div class="col-lg-4 centered">
+        <img src="/img/BLOOM/LAPTOP WHO WE ARE .png" alt="" style="height: 250px; width: 250px" class="mt-1">
+        </div>
+      <div class="col-lg-4 mt-5">
+        <p>
+        Bloom Digital Media is a Media and Communications Agency looking to partner with 
+        leading brands to engineer ROI focused digital campaigns and activities that attract, 
+        connect, engage, improve sales and convert Nigerian consumers online.</p>
+      </div>
+      <div class="col-lg-4 mt-5">
+        <p>
+      Our team of brand and communication strategists combine business, marketing, communications, 
+        advertising and design thinking to develop meaningful, differentiated, and authentic brands 
+        for companies big and small, start-ups or stalwarts. We don't just come up with what's cool; 
+        we craft the message your customers want to hear and one that you can deliver on.</p>
+      </div>
+  </div>
+</div>
+</div>
+<!-- End of About We Are Bloom  -->
+
+<!--  spotlight  -->
+<div class="container-fluid  py-5 my-5" >
+    
+    <h1 class=" px-5 py-1 fw-bold display-6  text-center"> STEP INTO THE SPOTLIGHT <br><span class="text-white">------</span> </h1>
+    <p class="px-5 text-center  h5">Creativity is our super power.  </p>
+    <p class="px-5  h5 text-center">You'll need an agency that sees the bigger picture.
+        We partner with those brave enough to do things differently. 
+    </p>
+    
+    <div class="text-center my-2"><a class="gradient-underline h4   " href="#super-power" role="button">We Move</a></div> <br> 
+          
+    <div class="text-center py-3">
+        <a href="#super-power">
+            <i class="fas fa-angle-double-down  fa-4x  my-2 text-pal-3"></i>
+        </a> 
+    </div>
+</div>
+
+<div class="my-5">&nbsp;</div>
+
+
+
+<!-- end spotlight  -->
+        
+    <div class="row container-fluid border-bottom border-warning my-5" id="super-power">
+    <div class="col-md-4 p-5 " data-aos="fade">
+        <img src="/images/assets/super-woman-anim.svg" alt="">
+
+    </div>
+    
+    <div class="col-md-8 p-5" data-aos="fade">
+        <h4 class="mb-4 h2">OUR SUPER POWER </h4>
+        <p class="">Bloom is fuelled by creative and strategic thinking, and extensive experience. 
+            We help our clients achieve their advertising, branding, 
+            marketing and media objectives with honesty, transparency and pride in our diverse cultural roots.
+        </p>
+        
+    </div>
+    
+
+    </div>
+    
+<div class="my-5">&nbsp;</div>
+<div class="my-5">&nbsp;</div>
+
+<!-- Our Services-->
+
+<x-our_service>
+
+
+</x-our_service>
+
+<!-- Our Services-->
+
+<div class="my-5">&nbsp;</div>
+<div class="my-5">&nbsp;</div>
+<div class="my-5">&nbsp;</div>
+<div class="my-5">&nbsp;</div>
+
+<!-- Light Box -->
+<div class="my-5">
+<div data-aos="zoom-out" data-aos-duration="3000">
+    <div class="container-fluid">
+        <div class="gallery">
+
+            <a href="/img/1.jpg">
+                <img src="/img/1.jpg" alt="">
+            </a>
+
+            <a href="/img/mockup/1.png">
+                <img src="/img/mockup/1.png" alt="">
+            </a>
+
+            <a href="/img/3.jpg">
+                <img src="/img/3.jpg" alt="">
+            </a>
+
+            <a href="/img/mockup/5.png">
+                <img src="/img/mockup/5.png" alt="">
+            </a>
+
+            <a href="/img/2.jpg">
+                <img src="/img/2.jpg" alt="">
+            </a>
+
+            <a href="/img/mockup/6.png">
+                <img src="/img/mockup/6.png" alt="">
+            </a>
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- Light Box Ends -->
+
+<!-- Bloom clients -->
+<div class="my-5"> 
+<x-our-clients />
+</div>
+
+
+<!-- End of Bloom clients -->
+
+<!-- Bloom team -->
+
+<!-- End of Bloom team -->
+
+<!-- Bloom contacts
+
+<div class="container px-5 my-5" data-aos="fade-in" data-aos-duration="1500" id="connect">
+    <div class="row">
+        <div class="col-md-4  text-center hover-shadow p-5 my-5  ">
+            <i class="fa fa-phone fa-3x neo-convex p-5"></i>
+            <h5 class="py-5">CALL US</h5>
+            <p>+2347086278644, +2347031380418</p>
+        </div>
+
+        <div class="col-md-4  text-center hover-shadow p-5 my-5 ">
+            <i class="fa fa-map-marker fa-3x neo-convex p-5"></i>
+            <h5 class="py-5">HEAD OFFICE</h5>
+            <p>Plot 5, Tema Street, Wuse Zone 6, Abuja.</p>
+        </div>
+
+        <div class="col-md-4  text-center hover-shadow p-5 my-5">
+            <i class="fa fa-envelope fa-3x neo-convex p-5"></i>
+            <h5 class="py-5">MAIL US</h5>
+            <p>info@bloomdigitmedia.com</p>
+        </div>
+
+    </div>
+</div> -->
+<!-- End of Bloom contacts -->
+
+<x-to-top />
+
+<!-- Subscrbe Modal-->
+<x-subscribe-form></x-subscribe-form>
+
+
+
+<!-- Button trigger modal -->
+
+
+
+<!-- End of Subscribe Modal -->
+
+
+<!-- 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+
+<script>
+    gsap.from("#oo-logo", {duration: 5, x: -50, rotate:30, ease: "bounce"});
+    
+    console.log('hi');
+</script>
+
+ -->
+
+
+<x-footer>
+
+</x-footer>

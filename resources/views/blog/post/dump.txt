@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/oo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/oo.png">
+    <!-- Favicon -->
+
+    <!-- Fb verification -->
+    <meta name="facebook-domain-verification" content="i1si9gdz0prrhx0zxlf7kk0po3jcvc" />
+    <!-- End of Fb verification -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1544542205912428');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none" 
+        src="https://www.facebook.com/tr?id=1544542205912428&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Style link starts -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+    <!-- MD BOOTSTRAP 5 -->
+    <link rel="stylesheet" href="/css/mdb.dark.min.css">
+
+    <!--STATIC CSS -->
+    <link rel="stylesheet" href="{{asset('css/local_style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/local_style_2.css')}}">
+    <link rel="shortcut icon" href="/images/oo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/oo.png">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style_v1.css')}}">
+    <!-- Style link ends -->
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- Font Awesome -->
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS CSS -->
+
+  <!-- Light Box Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"/>
+  <!-- Light Box Css -->
+
+  <title>{{$post->title}} | Bloom Digital Media</title>
+
+    <meta name="description" content="{{$post->meta['meta_description']}}">
+    <meta name="og:title" content="{{$post->meta['opengraph_title']}}">
+    <meta name="og:description" content="{{$post->meta['opengraph_description']}}">
+    <meta name="og:image" content="{{$post->featured_image}}">
+    
+  </head>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="#1D1D1D">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+    class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="/">
+    <img style="height:45px" src="/img/meeting.png">
+    </a>
+
+     <!-- Collapsible wrapper -->
+   
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <!-- Nav Items -->
+      <div class="da_list">
+      <ul class="navbar-nav mb-4 mb-lg-0">
+      <li class="nav-item">
+            <a class="nav-link text-black" href="/services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="/contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="/meeting">Book A Meeting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="/blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="/about">About</a>
+          </li>
+      </ul>
+    </div>
+      <!-- Nav Items -->
+    
+    </div>
+        <!-- Collapsible wrapper -->
+ </div>
+</nav>
+
+<!-- Curtain Nav -->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content text-warning">
+      
+      <a href="/services" class="text-dark">Services</a>
+      <a href="/contact" class="text-warning">Contact Us</a>
+      <a href="/meeting" class="text-warning">Book a Meeting</a>
+      <a href="/blog" class="text-warning">Blog</a>
+      <a href="/about" class="text-warning">About</a>
+      
+    </div>
+</div>
+
+  <!-- End curtain nav -->
+
+<!-- Navbar Ends -->
+
+
+<div class="container">
+
+    <div class="row bg-white  px-2 py-5  mt-4">
+    <img src="{{$post->featured_image}}" height="400px"   
+                class="w-100 rounded-large mt-3" alt="Featured Image"
+                style="filter:brightness(.8) contrast(1.2); object-fit: contain;"
+                />
+        <div class="col-md-8 mx-auto">
+            <div>
+                
+                <h1 class="display-6 my-5 fw-bold">{{$post->title}}</h1>
+
+                <div class="mb-3">
+                    <img src="{{$post->author->avatar}}" height="30px" width="30px" alt="" 
+                    class="d-inline rounded-circle me-2"
+                    style="filter:grayscale()"
+                    >
+                    <span class="fw-bold">  {{$post->author->name}}</span> on 
+                    <span> {{date_format( date_create($post->publish_date),'D, d M Y ')}}</span>
+                </div>
+                
+                <div class="mb-3"><span class="me-2">Share: </span>  
+                     <!-- Facebook -->
+       
+                    <a class="btn btn-outline-dark btn-floating   " 
+                    href="https://www.facebook.com/sharer.php?u=https://bloomdigitmedia.com/blog/{{$post->slug}}" role="button">
+                    <i class="fab fa-facebook-f "></i> &nbsp;</a> 
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-dark btn-floating "
+                     href="https://twitter.com/share?url=https://bloomdigitmedia.com/blog/{{$post->slug}}&text={{$post->title}}&via=[via]&hashtags=bloomdigitalmedia" 
+                     role="button"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-dark btn-floating " 
+                    href="https://plus.google.com/share?url=https://bloomdigitmedia.com/blog/{{$post->slug}}" 
+                    role="button"
+                        ><i class="fab fa-google"></i
+                    ></a>
+
+                    <!-- Linked In -->
+                    <a class="btn btn-outline-dark btn-floating " 
+                    href="https://www.linkedin.com/shareArticle?url=https://bloomdigitmedia.com/blog/{{$post->slug}}&title={{$post->title}}
+" 
+                    role="button"
+                        ><i class="fab fa-linkedin-in"></i
+                    ></a>
+
+                     
+                    
+                    
+                
+                </div>
+                
+            </div>
+
+            <div class="text-dark my-5">
+                <p class="text-dark">{!!$post->body!!}</p>
+            </div>
+
+            
+            <div class="text-dark my-5">
+
+                @if ($previous_post)
+                <a href="/blog/{{$previous_post->slug}}" class="float-left">
+                <span><i class="fa fa-caret-left"></i>
+                   Previous - {{$previous_post->title}}
+                </span>  
+                </a>   
+                @endif
+                <br> <br>
+                @if ($next_post)
+                <a href="/blog/{{$next_post->slug}} " class="float-right" style="float:right">
+                <span>
+                    {{$next_post->title}} - Next <i class="fa fa-caret-right"></i>
+                </span>  
+                </a>   <br>
+                @endif
+                
+            </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="row my-4 p-3 py-5">
+                <div class="text-center mx-2">
+                
+                <img src="{{$post->author->avatar}}" height="80px" width="80px" alt="" 
+                class="  rounded-circle neo-circle-convex "
+                style="transform:translateY(-30px); border:2px solid #aaa;">
+                <h6 class="fw-bold">{{$post->author->name}}</h6>
+                <span class="">Author</span>
+                 <hr>
+                
+                <div class="my-5 text-black pb-5"> {!!$post->author->bio!!}</div>
+                </div>
+                
+            
+
+            
+            </div>
+
+        
+        
+        </div>
+    </div>
+    
+<x-to-top></x-to-top>
+
+</div>
+
+
+<!-- Footer-->
+
+<h1 class="centered">Get Connected</h1>
+<div class="border_line"></div>
+<br>
+<br>
+<div class="container centered">
+<div class="foot">
+<section class="mb-2 centered">
+   <!--Footer -->
+  <footer class="text-white text-center text-md-start" style="#1D1D1D">
+     <!--Grid container -->
+    <div class="col-md-12 centered">
+      <div class="row" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+     <div class="col-md-4 services-bordered">
+          <i class="fas fa-envelope fa-5x"></i>
+          <h4 class="text-dark my-5">MAIL US</h4>
+          <p>info@bloomdigitmedia.com</p>
+        </div>
+        <div class="col-md-4 services-bordered">
+          <i class="fas fa-phone fa-5x"></i>
+          <h4 class="text-dark my-5">CALL US</h4>
+          <p class="mb-4">+2347086278644, +2347031380418</p>
+        </div>
+        <div class="col-md-4 services-bordered mt-7">
+          <i class="fas fa-map-marker fa-5x"></i>
+          <h4 class="text-dark my-5">HEAD OFFICE</h4>          
+          <p>G10 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja.</p>
+        </div>
+        </div>
+ <!--Grid container -->
+    </div>
+    
+    <div class="container p-4 pb-0 centered">
+      <!--Section: Social media -->
+     <section class="mb-4">
+
+     <!--Twitter -->
+    <!--<a class="btn m-1" href="#!" role="button"-->
+    <!--  ><i class="fab fa-twitter fa-2x"></i></a>-->
+      
+ <!--Twitter -->
+<a class="btn m-1" href="https://facebook.com/bloomdigitmedia" target="_blank" role="button"
+  ><i class="fab fa-facebook-f fa-2x"></i></a>
+
+ <!--Instagram -->
+<a class="btn m-1" href="https://www.instagram.com/bloom_digitalmedia/" target="_blank" role="button"
+  ><i class="fab fa-instagram fa-2x"></i></a>
+
+ <!--Linkedin -->
+<a class="btn m-1" href="https://www.linkedin.com/company/bloom-digital-media-nigeria" target="_blank" role="button"
+  ><i class="fab fa-linkedin fa-2x"></i></a>
+
+</section>
+ <!--Section: Social media -->
+</div>
+
+     <!--Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="/">Bloomdigitmedia.com</a>
+  </div>
+   <!--Copyright -->
+  </footer>
+   <!--Footer -->
+</section>
+</div>
+
+
+</div>
+
+<!-- JS link start -->
+
+<!-- Light Box Script-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+  lightGallery(document.querySelector('.gallery'));
+
+</script>
+
+<!-- Light Box Script-->
+
+<!--AOS SCRIPT-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+  <!--AOS SCRIPT-->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<!--MD BOOTSTRAP JS -->
+<script src="/js/mdb.min.js"></script>
+
+<script src="/js/app.js"></script>
+<script src="/js/script.js"></script>
+<!-- JS link end -->
+
+
+</body>
+</html>

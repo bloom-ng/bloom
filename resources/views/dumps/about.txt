@@ -1,0 +1,60 @@
+<x-header />
+
+<x-nav/>
+
+<!--<div class="position-absolute display-1 fw-bolder" style="opacity:0.02; font-size:180px">-->
+<!--    ABOUT US-->
+
+<!--</div>-->
+
+<div class=" container">
+
+<h6 class="display-4 mb-0 pb-0 mt-5">About Us </h6>
+<p class="mt-0 pt-0 fw-bolder text-warning">------ </p>
+
+</div>
+
+
+ <div class="container my-5">
+     <p> Bloom Digital Media works with Nigeria's leading brands to engineer ROI focused
+         digital campaigns and activities that attract, connect, engage and convert Nigerian consumers online.
+     </p>
+     <p>
+         Our team of brand and communication strategists combine business, marketing, communications,
+        and design thinking to develop meaningful, differentiated, and authentic brands for companies big and small, 
+        start-ups or stalwarts. We don't just come up with what's cool; we craft the message your customers want to hear 
+        and one that you can deliver on.
+     </p>
+
+
+     <!-- Bloom contacts -->
+
+<!--<div class="container px-5 my-5" data-aos="fade-in" data-aos-duration="1500" id="connect">-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-4  text-center hover-shadow p-5 my-5  ">-->
+<!--            <i class="fa fa-phone fa-3x neo-convex p-5"></i>-->
+<!--            <h5 class="py-5">CALL US</h5>-->
+<!--            <p>+2347086278644, +2347031380418</p>-->
+<!--        </div>-->
+
+<!--        <div class="col-md-4  text-center hover-shadow p-5 my-5 ">-->
+<!--            <i class="fa fa-map-marker fa-3x neo-convex p-5"></i>-->
+<!--            <h5 class="py-5">HEAD OFFICE</h5>-->
+<!--            <p>Plot 5, Tema Street, Wuse Zone 6, Abuja.</p>-->
+<!--        </div>-->
+
+<!--        <div class="col-md-4  text-center hover-shadow p-5 my-5">-->
+<!--            <i class="fa fa-envelope fa-3x neo-convex p-5"></i>-->
+<!--            <h5 class="py-5">MAIL US</h5>-->
+<!--            <p>info@bloomdigitmedia.com</p>-->
+<!--        </div>-->
+
+<!--    </div>-->
+<!--</div>-->
+<!-- End of Bloom contacts -->
+    
+ </div>
+
+ <x-to-top></x-to-top>
+
+<x-footer />

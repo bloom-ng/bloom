@@ -1,0 +1,140 @@
+<x-header><meta name="description" content="Bloom Digital Media is a Media and Communications Agency looking to partner
+                with leading brands to engineer ROI focused digital campaigns and activities
+                that attract, connect, engage, improve sales and convert Nigerian consumers online."></x-header>
+
+<x-nav/>
+
+<!--<div class="position-absolute display-1 fw-bolder" style="opacity:0.02; font-size:180px">-->
+<!--    OUR SERVICES-->
+
+<!--</div>-->
+
+<div class=" container">
+
+<h6 class="display-4 mb-0 pb-0 mt-5">Our Services </h6>
+<p class="mt-0 pt-0 fw-bolder text-warning">------ </p>
+
+</div>
+
+<div class="container">
+
+    <div class=" p-3 my-5 border-bottom border-warning row" >
+    <h4 class=" my-5 text-warning "><span class="  ">DIGITAL<br> MARKETING</span></h4>
+        
+        <div class="col-md-4 ">
+        <div class="text-center "><img src="/images/assets/dm-trans.png"  alt="" loading="lazy"></div>
+        </div>
+        <div class="col-md-8">
+        <p class="my-3">Is your digital campaign hitting the mark? At Bloom, we don't follow recipes;
+                each client is unique (so is our appraoch). It takes insights, planning and a cross-disciplinary team 
+                of digital experts to properly position a brand in the digital landscape with a compelling online marketing
+                campaign. <br> 
+                <div class="d-flex flex-wrap">
+                    <span class="btn btn-outline-warning ">Content Marketing</span>
+                    <span class="btn btn-outline-warning ">Social Media Management & Marketing</span>
+                    <span class="btn btn-outline-warning ">Influencer marketing</span>
+                    <span class="btn btn-outline-warning">Display Campaign</span>
+                    <span class="btn btn-outline-warning">Google Ads</span>
+                </div>
+        </p>
+        </div>
+        
+    </div>
+
+<!-- Branding and design  -->
+
+<div class=" p-3 my-5 border-bottom border-warning  row" >
+    <h4 class=" my-5 text-warning "><span class="  ">BRANDING &<br> DESIGN</span></h4>
+        
+        <div class="col-md-4 ">
+        <div class="text-center "><img src="/images/assets/bd.png"  alt="" loading="lazy"></div>
+
+        </div>
+        <div class="col-md-8">
+        <p class="my-3">Branding builds trust and loyalty. Who are you and where do you want to go? 
+                At Bloom, We build brands from A to Z, translating brand strategy and brand research into 
+                robust marketing insights. We help our clients determine what they want and how they should say it. <br> 
+                
+                <div class="d-flex flex-wrap">
+                    
+                    <span class="btn btn-outline-warning ">Business branding</span>
+                    <span class="btn btn-outline-warning ">Logo Design</span>
+                    <span class="btn btn-outline-warning">Product Design</span>
+                    <span class="btn btn-outline-warning">Motion Graphics</span>
+                </div>
+        </p>
+        </div>
+
+</div>
+
+
+<!-- web development  -->
+
+<div class=" p-3 my-5 border-bottom border-warning row" data-aos="zoom-in-down" data-aos-duration="1700">
+    <h4 class=" my-5 text-warning "><span class="  ">WEB<br> DEVELOPMENT</span></h4>
+        
+        <div class="col-md-4 ">
+        <div class="text-center "><img src="/images/assets/wd.png"  alt="" loading="lazy"></div>
+        </div>
+        <div class="col-md-8">
+        <p class="my-3">6 seconds! Thats all you have before someone loses interest and clicks the big red X at the top right corner
+                of the browser. At Bloom, we build cutting edge websites that encompass the latest technology and keeps user engaged.
+            <br>
+            <div class="d-flex flex-wrap">
+                <span class="btn btn-outline-warning ">Web Design</span>
+                <span class="btn btn-outline-warning ">SEO</span>
+                <span class="btn btn-outline-warning">UI & UX</span>
+            </div>
+                
+        </p>
+        </div> 
+</div>
+
+<!-- ADvert and PR  -->
+
+<div class=" p-3 my-5 border-bottom border-warning row" data-aos="zoom-in-down" data-aos-duration="1700">
+    <h4 class=" my-5 text-warning "><span class="  ">ADVERTISEMENT &<br> PR</span></h4>
+        
+        <div class="col-md-4 ">
+        <div class="text-center "><img src="/images/assets/ad.png"  alt="" loading="lazy"></div>
+
+        </div>
+        <div class="col-md-8">
+        <p class="my-3">How many advertisements do you see in a day? In a lifetime? At Bloom, we know what it takes to cut through
+                the clutter, we rise above the noise. A minute, 15 seconds, one page - no matter how much time or how many words
+                we have, you can be sure your brand's story catches the right eye. <br>
+                <div class="d-flex flex-wrap">
+                    <span class="btn btn-outline-warning ">Brand Management</span>
+                    <span class="btn btn-outline-warning ">TV Commercials</span>
+                    <span class="btn btn-outline-warning">Radio Commercials</span>
+                    <span class="btn btn-outline-warning">Billboard</span>
+                    <span class="btn btn-outline-warning">Newspaper Ads</span>
+                    <span class="btn btn-outline-warning">Brand Activation</span>
+                </div>
+                
+        </p>
+        </div> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</div>
+
+
+
+
+<x-to-top />
+<x-footer />
+    

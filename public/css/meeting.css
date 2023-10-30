@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+input{
+    border: none;
+    background-color: #eeebff;
+}
+.sub{
+    background-color: #e3a410;
+}

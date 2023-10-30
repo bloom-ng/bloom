@@ -1,0 +1,88 @@
+
+<!--<div class="position-absolute display-1 fw-bolder" style="opacity:0.02; font-size:180px">-->
+<!--    CONTACT US-->
+
+<!--</div>-->
+
+<div class=" container my-5">
+
+<h6 class="display-4 mb-0 pb-0 mt-5">Contact Us </h6>
+<p class="mt-0 pt-0 fw-bolder text-warning">------ </p>
+
+</div>
+
+<div class="container">
+    <div class="row glass blur-lg">
+    <h3 class="p-5 text-center text-warning " >Let's talk about your next project.</h3>
+    @if (session('contact-success'))
+        <div class="text-warning">
+            {{session('contact-success')}}
+        </div>
+    @endif
+        <div class="col-md-6">
+            
+
+
+            <form action="/contact" method="post">
+            @csrf
+
+                <div class="form-outline my-5 ">
+                <input type="text" id="name" class="form-control  " name="name" />
+                <label class="form-label" for="name">Name</label>
+                @if ($errors->has('name'))
+                <span class=""> {{$errors->first('name')}}</span>
+                @endif
+                </div>
+
+                <div class="form-outline my-5">
+                <input type="text" id="email" class="form-control " name="email" />
+                <label class="form-label" for="email">Email</label>
+                @if ($errors->has('email'))
+                <span class=""> {{$errors->first('email')}}</span>
+                @endif
+                </div>
+
+                <div class="form-outline my-5">
+                <input type="text" id="phone" class="form-control" name="phone" />
+                <label class="form-label" for="phone">Phone Number</label>
+                @if ($errors->has('phone'))
+                <span class=""> {{$errors->first('phone')}}</span>
+                @endif
+                </div>
+
+                <div class="form-outline my-5 ">
+                <input type="text" id="subject" class="form-control  " name="subject" />
+                <label class="form-label" for="subject">Subject</label>
+                @if ($errors->has('subject'))
+                <span class=""> {{$errors->first('subject')}}</span>
+                @endif
+                </div>
+
+                <div class="form-outline my-5">
+                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                <label class="form-label" for="message">Message</label>
+                @if ($errors->has('message'))
+                <span class=""> {{$errors->first('message')}}</span>
+                @endif
+                </div>
+
+                <div class=" my-5">
+                    <button class="btn  btn-outline-warning" type="submit">SEND <i class="fa fa-paper-plane"></i></button> 
+                </div>
+
+            </form> 
+        </div>
+        <div class="col-md-6 my-5">
+            <p class="py-2 h6 my-2" > <i class="fa fa-paper-plane"></i> G10 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja. </p>
+            <p class="py-2 h6 my-2"> <i class="fa fa-envelope"></i> info@bloomdigitmedia.com </p>
+            <p class="py-2 h6 my-2"> <i class="fa fa-phone"></i> +2347086278644, +2347031380418 </p>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="mb-5">
+    
+</div>
+
