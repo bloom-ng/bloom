@@ -97,7 +97,7 @@
                 class="font-bold text-sm md:text-base border border-white px-3 py-1.5 md:py-3 xl:px-10 xl:py-5 lg:px-8 lg:py-4 hover:bg-bloom-orange">Get
                 Started</button>
         </div>
-        <img src="images/image 68pr.png" alt="webdev"
+        <img src="images/marketandpr.png" alt="webdev"
             class="basis-1/2 mb:h-[200px] lg:h-[590px] md:order-last order-first">
     </div>
     <!-- /MARKETING & PR -->

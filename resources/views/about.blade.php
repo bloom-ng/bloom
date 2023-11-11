@@ -7,7 +7,7 @@
   <!-- About Us img -->
 
   <div class="">
-    <img src="images/About.png" class="w-screen" alt="">
+    <img src="images/about.jpg" class="w-screen" alt="">
     <h1
       class="text-2xl font-bold flex justify-center bottom-20 md:bottom-40 lg:bottom-52 xl:bottom-72 relative z-50  md:text-3xl lg:text-7xl ">
       About <span class="text-bloom-orange ml-1 lg:ml-2">us</span></h1>

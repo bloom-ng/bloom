@@ -124,7 +124,7 @@
               <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                 <use xlink:href="#image0_1376_1069" transform="translate(-0.0929876) scale(0.000273224 0.000341764)" />
               </pattern>
-              <img src="/images/Herro 1.png" class="hero-img absolute rounded-full" id="image0_1376_1069" />
+              <img src="images/herro1.png" class="hero-img absolute rounded-full" id="image0_1376_1069" />
             </defs>
           </svg>
 
@@ -148,7 +148,7 @@
               </pattern>
 
             </defs>
-            <img src="/images/Herro 1.png" class="hero-img absolute rounded-full  2xl:ml-2 2xl:mt-24 "
+            <img src="images/herro1.png" class="hero-img absolute rounded-full  2xl:ml-2 2xl:mt-24 "
               id="image0_1376_1069" />
           </svg>
         </div>
@@ -192,7 +192,8 @@
   </div>
   
   <!--BLOOM META-->
-  <div style="margin-bottom: 10px" class="relative text-center">
+  <!-- was asked to remove this - Lekan IT -->
+  <!-- <div style="margin-bottom: 10px" class="relative text-center">
       <a
         href="https://web.facebook.com/business/partner-directory/search?solution_type=campaign_management&id=5619578234820978&section=overview"
         class="mb-5 flex flex-col text-center justify-center items-center capitalize gap-1 px-1 text-sm underline underline-offset-1 font-medium lg:text-3xl lg:gap-4 lg:font-bold lg:mb-24"
@@ -204,7 +205,7 @@
           src="images/MBP Badge - Dark backgrounds@1x.png"
         />
       </a>
-  </div>
+  </div> -->
     
     <!--/BLOOM META-->
 
@@ -216,7 +217,7 @@
 
       <div class="mt-8 md:basis-1/2 mb-8 lg:mx-8">
         <img
-          class="ease-out transition duration-500 brightness-100 transition-all contrast-100 sepia-[.8] hover:filter-none"
+          class="h-96 ease-out transition duration-500 brightness-100 transition-all contrast-100 sepia-[.8] hover:filter-none"
           src="images/default1.jpg" alt="default1">
 
       </div>
