@@ -43,6 +43,7 @@
                         <path d="M70.4434 17.4238C70.4434 17.4238 72.691 22.1528 78.808 24.5173L70.4434 17.4238Z"
                             fill="white" />
                     </svg>
+                    <!-- <img src="images/bloomlogo.png" alt="Bloom Logo"> -->
                 </span>
             </a>
             <!-- /BLOOM LOGO -->
