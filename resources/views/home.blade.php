@@ -211,7 +211,7 @@
   <!--WE ARE BLOOM-->
 
   <div class="relative">
-    <div class="backdrop-filter backdrop-blur-2xl border box-border-gradient2 p-6 mt-22 mx-12 md:flex md:flex-row md:gap-8 ">
+    <div class="backdrop-filter backdrop-blur-2xl border box-border-gradient2 p-6 mt-22 mx-12 md:flex md:flex-row md:gap-8">
 
       <div class="mt-8 md:basis-1/2 mb-8 lg:mx-8">
         <img
@@ -254,7 +254,7 @@
   </div>
 
   <!--CASE STUDIES-->
-  <div class="lg:relative md:bottom-20 lg:bottom-28 mb-1 lg:-mt-48">
+  <div class="py-6 lg:relative md:bottom-20 lg:bottom-28 mb-1 lg:-mt-48">
     <div class="">
       <h1 class="text-2xl md:text-4xl lg:text-5xl font-bold md:relative text-center">Case Studies</h1>
       <div class="hidden md:flex justify-center md:relative bottom-5 right-20 -z-40">
