@@ -50,7 +50,7 @@ class BlogController extends Controller
         $previous_post = $this->getPreviousPost($post);
         
         
-        return view('blog.post.index',['post' => $post, 
+        return view('single_blog_post',['post' => $post, 
                                   'tags'=>WinkTag::all(), 
                                   'author'=>$author,
                                   //'related_posts'=>$related_posts,

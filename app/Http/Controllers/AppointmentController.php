@@ -26,7 +26,7 @@ class AppointmentController extends Controller
         $request->validate([
             'requester_name' => 'required|max:99',
             'requester_phone' => 'required',
-            'requester_email' => 'required',
+            'requester_email' => 'required|email',
         ]);
         
         //Verify if its working day
@@ -41,46 +41,46 @@ class AppointmentController extends Controller
         
         
         //Test if request is from Personnel booking page
-        if($request->input('personnel_id')){
+        // if($request->input('personnel_id')){
             
-            //verify if date time is available
-            $count = Appointment::where('personnel_id', $request->input('personnel_id'))
-                        ->whereBetween('start',
-                    [
-                        Carbon::parse($request->input('start'))->subHours(2), 
-                        Carbon::parse($request->input('start'))->addHours(2)
-                    ] )->count();
-            if($count>0){
-                return back()->with('action-fail', 'Sorry, date and time already booked. Please consider another day or time. Thanks ');
-            }
-            $appointment = new Appointment;   
-            $appointment->personnel_id = $request->input('personnel_id');
-            $appointment->requester_name =$request->input('requester_name');
-            $appointment->requester_phone =$request->input('requester_phone');
-            $appointment->requester_email =$request->input('requester_email');
-            $appointment->start =$request->input('start');
-            $appointment->duration =$request->input('duration',15);
-            $success = $appointment->save();
+        //     //verify if date time is available
+        //     $count = Appointment::where('personnel_id', $request->input('personnel_id'))
+        //                 ->whereBetween('start',
+        //             [
+        //                 Carbon::parse($request->input('start'))->subHours(2), 
+        //                 Carbon::parse($request->input('start'))->addHours(2)
+        //             ] )->count();
+        //     if($count>0){
+        //         return back()->with('action-fail', 'Sorry, date and time already booked. Please consider another day or time. Thanks ');
+        //     }
+        //     $appointment = new Appointment;   
+        //     $appointment->personnel_id = $request->input('personnel_id');
+        //     $appointment->requester_name =$request->input('requester_name');
+        //     $appointment->requester_phone =$request->input('requester_phone');
+        //     $appointment->requester_email =$request->input('requester_email');
+        //     $appointment->start =$request->input('start');
+        //     $appointment->duration =$request->input('duration',15);
+        //     $success = $appointment->save();
             
            
             
 
-            if($success){
-                 $personnel = Personnel::find($request->input('personnel_id'));
-                 $data = ['name' => $request->input('requester_name'),
-                        'phone' => $request->input('requester_phone'),
-                        'email' => $request->input('requester_email'),
-                        'time' => $request->input('start'),
-                        'duration' => $request->input('duration',15),
-                        'personnel_name' => $personnel->user->name ,
-                    ];
+        //     if($success){
+        //          $personnel = Personnel::find($request->input('personnel_id'));
+        //          $data = ['name' => $request->input('requester_name'),
+        //                 'phone' => $request->input('requester_phone'),
+        //                 'email' => $request->input('requester_email'),
+        //                 'time' => $request->input('start'),
+        //                 'duration' => $request->input('duration',15),
+        //                 'personnel_name' => $personnel->user->name ,
+        //             ];
                     
-                $this->sendMail($personnel->user->email,$data,$request->input('requester_email'));
+        //         $this->sendMail($personnel->user->email,$data,$request->input('requester_email'));
                 
-                return back()->with('action-success', 'Meeting booked successfully');
-            }
-            return back()->with('action-fail', 'Something went wrong. Try again');
-        }
+        //         return back()->with('action-success', 'Meeting booked successfully');
+        //     }
+        //     return back()->with('action-fail', 'Something went wrong. Try again');
+        // }
         //For Main Booking page
         //Verify if the date time is available
         $count = Appointment::whereBetween('start',
@@ -88,21 +88,20 @@ class AppointmentController extends Controller
                         Carbon::parse($request->input('start'))->subHours(2), 
                         Carbon::parse($request->input('start'))->addHours(2)
                     ] )->count();
-        if($count>0){
+        if($count > 0){
                 return back()->with('action-fail', 'Sorry, date and time already booked. Please consider another day or time. Thanks. ');
         }
+        
         $personnels = Personnel::where('featured',1)->get();
         $appointment = new Appointment;
         foreach($personnels as $personnel){
-            
-            
             
             $appointment->personnel_id = $personnel->id;
             $appointment->requester_name =$request->input('requester_name');
             $appointment->requester_phone =$request->input('requester_phone');
             $appointment->requester_email =$request->input('requester_email');
             $appointment->start =$request->input('start');
-            $appointment->duration =$request->input('duration',15);
+            $appointment->duration =$request->input('duration', 15);
             $success = $appointment->save();
             if($success){
                 $personnel_record = Personnel::find($personnel->id);
@@ -112,6 +111,7 @@ class AppointmentController extends Controller
                             'time' => $request->input('start'),
                             'extra' => $personnel->user->email,
                             'duration' => $request->input('duration',15),
+                            'additional_info' => $request->input('additional_info', ""),
                             'personnel_name' => $personnel->user->name,
                         ];
                         

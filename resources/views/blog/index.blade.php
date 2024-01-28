@@ -1,4 +1,5 @@
-<x-tailwind-header title="Blogs">
+  <link rel="stylesheet" href="{{asset('css/output.css')}}" />
+	<link rel="stylesheet" href="{{asset('css/app.css')}}" />
   <meta name="description" content="Bloom Digital Media is a Media and Communications Agency looking to partner
               with leading brands to engineer ROI focused digital campaigns and activities
               that attract, connect, engage, improve sales and convert Nigerian consumers online.">
@@ -23,14 +24,15 @@
     <img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1544542205912428&ev=PageView&noscript=1" />
   </noscript>
-</x-tailwind-header>
 
-<x-tailwind-navbar />
+<x-navbar logo="/images/images-v2/blog.png"
+          header="Blog"
+			    width="11%"/>
 
-<section class="mx-6 md:mx-8 mt-20 lg:mx-12 mt-20 md:pb-24">
+
 
   <!-- BLOG -->
-  <div class="lg:mt-5 mt-20 md:mt-32">
+  {{-- <div class="lg:mt-5 mt-20 md:mt-32">
     <div class="md:my-20 md:relative">
       <h1 class="text-2xl md:text-4xl mb-12 md:mb-0 font-bold md:relative text-center">Our Blog Posts</h1>
       <div class="hidden md:flex justify-center md:relative bottom-5 right-16 -z-40">
@@ -38,37 +40,30 @@
           <rect width="208" height="32" fill="#FF8100" />
         </svg>
       </div>
-    </div>
+    </div> --}}
 
-
-    <div class="grid grid-cols-1 md:grid-cols-2 mb-8 mx-12 md:gap-4 lg:gap-8 xl:gap-0">
-      @if($posts)
-      @foreach($posts as $post)
-      <div style="background-image: url('{{$post->featured_image}}')" class="image-overlay mt-5 md:mx-4 h-[450px] bg-cover bg-no-repeat">
-        <!-- <img src="images/image 67a.png" class="m-0 h-48" alt=""> -->
-        <p class="text-sm font-light ml-8 mt-24 lg:text-lg xl:text-xl md:text-base">
-          {{ (int)(str_word_count($post->content) / 320)}} min read</p>
-        <h1 class="ml-8 text-sm font-bold mt-10 xl:text-3xl md:text-base lg:text-2xl pr-20">
-          {{$post->title}}
-        </h1>
-        <div class="ml-8 mt-24">
-          <a class="flex" href="/blog/{{$post->slug}}">
-            <p class="font-semibold text-sm md:text-lg lg:text-xl xl:text-2xl">Read more</p>
-            <svg class="pb-4 md:pb-2 xl:pb-1 md:w-16 h-10" width="30" height="24" viewBox="0 0 60 34" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path d="M1.5 17L51.5 17" stroke="white" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-              <path d="M44.5 24L51.5 17L44.5 10" stroke="white" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </a>
-        </div>
-      </div>
-      @endforeach
-      @else
+<section class="bg-[#1E1E1E]">
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6 mx-[5%] lg:mx-32">
+					@foreach ($posts as $post)
+          <div class="bg-[#fff] flex-col">
+						<img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
+            class="w-[465px] h-[310px]" />
+						<p
+							class="p-6 pr-10 leading-tight text-center font-['Faustina'] font-bold text-left text-[#000000] text-base"
+						>
+							{{$post->title}}
+						</p>
+						<a href="/blog/{{$post->slug}}" class="font-['Faustina'] text-sm font-bold flex items-center justify-end pr-6 pb-6" >Read More &nbsp; 
+							<img src="/images/images-v2/double_right.png" alt="" class="w-[7px] h-[7px]"> 
+						</a>
+					  </div>	
+            @endforeach
+		      </div>
+          <div>{{$posts->links()}}</div>
+      {{-- @else
       <h1>Sorry, No articles posted yet. </h1>
       @endif
-      <div>{{$posts->links()}}</div>
+      <div class="text-white">{{$posts->links()}}</div> --}}
       {{-- <div class="relative bottom-20 md:bottom-0">
         <img src="images/image 67b.png" alt="">
         <p
@@ -122,11 +117,14 @@
     @endif
     <!-- Article end -->
 
-    <div>{{$posts->links()}}</div>
+    
 
 
 
   </div> --}}
+  
+				
+				<x-newsletter />
+		
 
-  <x-to-top />
-  <x-tailwind-footer />
+<x-tailwind-footer-v2 />

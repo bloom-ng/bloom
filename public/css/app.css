@@ -1,1 +1,447 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
+.background {
+	width: 100vw;
+	min-height: 100vh;
+	height: fit-content;
+	background: #1e1e1e;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+/* Services.html's CSS */
+
+.tab-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: first baseline;
+	width: fit-content;
+	gap: 15px;
+	color: white;
+	font-family: "faustina", serif;
+	margin-bottom: 20px;
+}
+
+.tab-buttons > h3 {
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+	margin-right: 10px;
+}
+
+.tab-buttons > h3.active::before {
+	content: "";
+	background: orange;
+	width: 120%;
+	height: 60%;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.containers-group {
+	width: 100%;
+}
+
+#flyers-container,
+#videoAnim-container,
+#bloomStudios-container {
+	display: none;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 5px;
+	flex-wrap: wrap;
+	width: 100%;
+	height: fit-content;
+}
+
+#flyers-container > img {
+	width: 202px;
+	height: 202px;
+	object-fit: cover;
+}
+
+#videoAnim-container > img {
+	width: 202px;
+	height: 166px;
+	object-fit: cover;
+}
+#bloomStudios-container > img {
+	width: 265px;
+	height: 373px;
+	object-fit: cover;
+}
+
+#print-container {
+	display: none;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	grid-template-rows: auto;
+	grid-gap: 5px;
+	width: 100%;
+}
+
+#print-container img:nth-child(2) {
+	grid-row: 1/3;
+	grid-column: 2/3;
+}
+
+#print-container img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#print-container img:nth-child(4),
+#print-container img:nth-child(5) {
+	height: 300px;
+}
+#print-container img:nth-child(6),
+#print-container img:nth-child(7) {
+	grid-column: 50%;
+}
+
+/* contact-us page's css */
+
+.header-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.input-container > input,
+.input-container > textarea {
+	width: 100%;
+	font-family: "faustina", sans-serif;
+	padding: 10px 30px;
+	box-shadow: none;
+	outline: none;
+	font-style: italic;
+}
+
+.input-container > input::placeholder,
+.input-container > textarea::placeholder {
+	font-style: italic;
+}
+
+.input-container > textarea {
+	resize: vertical;
+
+	min-height: 100px;
+	max-height: 200px;
+}
+
+.input-container > button {
+	background: #ff9501;
+	width: 100%;
+	height: 50px;
+	border: none;
+	font-weight: 900;
+	color: black;
+}
+
+/* Help.html css */
+
+.formsContainer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 25px;
+	position: relative;
+}
+
+.divider {
+	border-radius: 100px;
+	background: orange;
+	height: fit-content;
+	width: fit-content;
+	padding: 15px;
+	font-family: "faustina", sans-serif;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 46.1%;
+}
+
+.bookMeetingContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: fit-content;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	background-color: #3a3a3a;
+	padding: 30px 20px;
+}
+
+.bookMeetingContainer > input,
+.bookMeetingContainer > select {
+	width: 100%;
+	font-family: "faustina", sans-serif;
+	padding: 10px 30px;
+	box-shadow: none;
+	outline: none;
+	font-style: italic;
+	color: #505050;
+}
+.bookMeetingContainer > input::placeholder,
+.bookMeetingContainer > select {
+	font-style: italic;
+}
+
+.bookMeetingContainer button {
+	background: orange;
+	width: 100%;
+	padding: 10px 30px;
+	border: none;
+	outline: none;
+	color: black;
+	font-weight: 900;
+}
+
+.headerText2 {
+	width: 100%;
+	color: white;
+}
+
+.headerText2 > span {
+	color: orange;
+}
+
+/* blogs.html css */
+
+.blogs-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 20px;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.blog-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	width: 265px;
+	height: fit-content;
+}
+
+.blog-card > img {
+	width: 265px;
+	height: 60%;
+	object-fit: cover;
+}
+
+.blog-card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	padding: 10px;
+	background: white;
+}
+
+.blog-card-content > h3 {
+	font-family: "faustina", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	line-height: auto;
+	font-size: 16px;
+}
+
+.blog-card-content > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.blog-card-content > div > p {
+	font-family: "faustina", sans-serif;
+	font-weight: lighter;
+	font-size: 13px;
+	color: black;
+}
+
+/* SingleBlogPost.html css */
+
+.single-post-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	padding-top: 10px;
+}
+
+.single-post-image-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.single-post-image-container > img {
+	width: 70%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.header-text-container h3 {
+	font-family: "faustina", sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+}
+
+.single-post-content-container p {
+	font-family: "faustina", sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	color: white;
+}
+
+@media (min-width: 1000px) {
+	.tab-buttons > h3 {
+		font-size: 24px;
+	}
+
+	.header-text {
+		font-size: 1.5em;
+	}
+
+	.input-container > input,
+	.input-container > textarea {
+		width: 80%;
+		font-size: 2em;
+	}
+
+	.input-container > button {
+		width: 80%;
+		font-size: 1.5em;
+	}
+
+	.divider {
+		left: calc(46.1% + 10px);
+	}
+}
+
+@media (max-width: 768px) {
+	.formsContainer {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 25px;
+		position: relative;
+	}
+
+	.divider {
+		position: static;
+	}
+
+	.divider-container {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.single-post-image-container > img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 661px) {
+	.blogs-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 325px) {
+	.headerText2 {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	.bookMeetingContainer > input,
+	.bookMeetingContainer > select {
+		padding: 10px 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.divider {
+		left: calc(46.1% + 25px);
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.tab-buttons > h3 {
+		font-size: 12px;
+	}
+
+	.background {
+		padding: 32px 36px;
+	}
+
+	#flyers-container,
+	#videoAnim-container,
+	#bloomStudios-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	.containers-group {
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

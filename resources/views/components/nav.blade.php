@@ -24,8 +24,8 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <!-- Nav Items -->
       <div class="da_list">
-      <ul class="navbar-nav mb-4 mb-lg-0">
-      <li class="nav-item">
+        <ul class="navbar-nav mb-4 mb-lg-0">
+          <li class="nav-item">
             <a class="nav-link" href="/services">Services</a>
           </li>
           <li class="nav-item">
@@ -40,8 +40,8 @@
           <li class="nav-item">
             <a class="nav-link" href="/about">About</a>
           </li>
-      </ul>
-    </div>
+        </ul>
+      </div>
       <!-- Nav Items -->
     
     </div>

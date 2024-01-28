@@ -516,7 +516,7 @@
       </div>
     </div>
 
-    @if($posts)
+    @if($posts) 
         <div class="grid grid-cols-1 lg:grid-cols-2 mb-8 mx-8 md:gap-4 lg:gap-8 xl:gap-0 ">
             @foreach (collect($posts)->slice(0,2) as $post)
                 <div style="background-image: url('{{$post->featured_image}}'); background-size: contain; background-position: center;" class="image-overlay mt-4  md:mx-4 h-[500px] bg-no-repeat">

@@ -8,6 +8,7 @@
     <p>Email: {{$data['email']}}</p> <br>
     <p>Phone: {{$data['phone']}}</p> <br>
     <p>Time: {{date_format( date_create($data['time']),'D, d M Y, h:i a. ')}}</p> <br> 
+    <p>Additional Info: {{$data['additional_info']}}</p> <br>
     
     
     

@@ -26,17 +26,24 @@ class ContactController extends Controller
 
     public function store(Request $request){
         // validate form
-        $this->validate($request, [
+        $data = $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
-            'phone' => 'required|max:14',
+            'phone' => 'max:14',
             'subject' => 'max:250',
+            'budget' => 'nullable',
+            'service' => 'nullable',
+            'additional_info' => 'nullable',
             'message' => 'required',
         ]);
 
-        Contact::create($request->all());
+        $data["message"] .= empty($data["budget"]) ? "" :  " \n Budget: {$data['budget']}";
+        $data["message"] .= empty($data["service"]) ? "" :  " \n Service: {$data['service']}";
+        $data["message"] .= empty($data["additional_info"]) ? "" :  " \n Additional Info: {$data['additional_info']}";
 
-        $this->sendMail('bloomdigitmedia@gmail.com',$request->all());
+        Contact::create($data);
+
+        $this->sendMail('bloomdigitmedia@gmail.com',$data);
 
         return back()->with('contact-success', 'We have received your message and our team is currently on it. Thanks');
     }

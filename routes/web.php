@@ -43,19 +43,77 @@ Route::get('/', function (){
     $posts = WinkPost::with('tags')
                 ->live()
                 ->orderBy('publish_date','DESC')
-                ->take(7)
+                ->take(6)
                 ->get()->shuffle();
 
 
-    return view('home',['posts'=>$posts, 'tags'=>WinkTag::all()]);
+    return view('homepage',['posts'=>$posts, 'tags'=>WinkTag::all()]);
 });
+
+Route::get('/homepage', function () {
+    $posts = WinkPost::with('tags')
+                ->live()
+                ->orderBy('publish_date','DESC')
+                ->take(7)
+                ->get()->shuffle();
+    return view('homepage',['posts'=>$posts, 'tags'=>WinkTag::all()]);
+});
+
+Route::get('/digital', function () {
+    return view('digital-marketing');
+});
+
+Route::get('/brand-strategy', function () {
+    return view('brand_strategy');
+});
+
+Route::get('/branding-and-design', function () {
+    return view('branding_and_design');
+});
+
+Route::get('/content-creation', function () {
+    return view('content_creation');
+});
+
+Route::get('/creative-campaign', function () {
+    return view('creative_campaign');
+});
+
+Route::get('/media-planning', function () {
+    return view('media_planning');
+});
+
+Route::get('/media-production', function () {
+    return view('media_production');
+});
+
+Route::get('/public-relations', function () {
+    return view('public_relations');
+});
+
+Route::get('/web-development', function () {
+    return view('web_development');
+});
+
+Route::get('/single-blog-post', function () {
+    return view('single_blog_post');
+});
+
+Route::get('/help', function () {
+    return view('help');
+});
+
+Route::get('/footprint', function () {
+    return view('footprint');
+});
+
 
 Route::get('/services', function () {
     return view('services');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact_us');
 });
 
 Route::post('/contact', [ContactController::class, 'store']);
