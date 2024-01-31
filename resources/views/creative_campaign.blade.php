@@ -30,7 +30,7 @@
 			  width="40%"/>
 		<!-- /END OF HEADER ONE -->
 
-		<section class="bg-stone-900 text-white py-8 px-8 text-center">
+		<section class="bg-stone-900 text-white pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-20 text-center">
 			<div class="">
 				<div class="py-4 header-text">
 					<p>

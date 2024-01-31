@@ -13,7 +13,14 @@
 				>
 					Who Are We?
 				</li> --}}
-                <a href="/footprint">
+                <a href="#whoWeAre">
+				<li
+					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
+				>
+					WHO ARE WE?
+				</li>
+                </a>
+				<a href="/footprint">
 				<li
 					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 				>
@@ -23,7 +30,7 @@
 				<li
 					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 				>
-					<a href="/digital"> WHAT WE DO</a>
+					<a href="#whatwedo"> WHAT WE DO</a>
 				</li>
 				<li
 					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"

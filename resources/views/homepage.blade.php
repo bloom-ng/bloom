@@ -14,12 +14,15 @@
 		/>
 
 		<section class="max-w-screen bg-[#1E1E1E] pb-16">
+			
+
 			<!-- WE ARE BLOOM START -->
-			<section class="flex flex-col justify-center items-center px-4 py-12 md:px-12 lg:px-24 lg:py-24">
+			<section class="flex flex-col justify-center items-center px-4 pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-12">
+				<x-metapartners />
 			<div class="pt-16 lg:hidden block">
-				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
+				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" /> pt-12
 			</div>
-			<div class="flex items-center xl:gap-36 lg:gap-32 justify-between lg:flex-row flex-col">
+			<div id="whoWeAre" class="flex items-center xl:gap-36 lg:gap-32 justify-between lg:flex-row flex-col">
 				<div class="w-full lg:max-w-lg">
 					<div class="flex flex-col self-start mt-12 mb-5 text-left">
 						<img
@@ -193,18 +196,21 @@
 				<!-- <swiper-slide><img src="/images/images-v2/iita.png" class="py-10 w-auto h-[150px]" /></swiper-slide>
 				<swiper-slide><img src="/images/images-v2/ty_danjum.png" class="py-10 w-auto h-[150px]" /></swiper-slide> -->
 
-				<swiper-slide><img src="images/iita.png" alt="iita logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img class="mt-8" src="images/air peace.png" alt="airpeace logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/D&H Logo 1.png" alt="dandh logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/Halibiz.png" alt="Halibiz logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/access logo 1.jpg" alt="access logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/Inec.png" alt="Inec logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/pdp.png" alt="pdp logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/raise.png" alt="raise logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/throne.png" alt="throne logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/ty danjuma.png" alt="ty danjuma logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/ventourer.png" alt="ventourer logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="images/MBP Badge - Dark backgrounds@1x.png" alt="Meta logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/Air-Peace-Logo-900x0.png" alt="Air peace logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/Doors logo.png" alt="doors logo" class="py-10 pl-20 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/full scale logo 1.png" alt="full scale logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/Furniture Republic Logo.png" alt="Furniture Republic logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/GT.png" alt="Goshen Trust" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/IITA.png" alt="IITA logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/inec logo wb.png" alt="INEC logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/raise_logo-copy.png" alt="Raise logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/Rimworld Logo_.png" alt="Rimworld logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/smart-spaces.png" alt="Smart Spaces logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/TIH.jpeg" alt="TIH logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/WhatsApp Image 2023-10-28 at 12.29.32_1f2cfbfd.jpg" alt="Dazzle Jenc logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/WhatsApp Image 2023-11-06 at 13.04.32_1145f8d7.jpg" alt="ventourer logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+				<swiper-slide><img src="/images/images-v2/WWW/WhatsApp Image 2023-12-11 at 10.52.21_b9a68b02.jpg" alt="Meta logo" class="py-10 w-auto h-[150px]"></swiper-slide>
+
 			</swiper-container>
 			</div>
 
@@ -243,7 +249,7 @@
 					<div class="absolute bg-[#FFB855] w-full h-8 top-5"></div>
 				</div>
 			</div>
-			<div class="relative grid grid-cols-4 gap-2 mt-5">
+			<div class="relative grid grid-cols-4 gap-2 mx-[5%] lg:mx-32">
 				<div class="bg-white">
 					<img src="/images/images-v2/f2db8c844e8e8abd235197e653784d6d.jpeg" class="w-full" />
 				</div>
@@ -280,7 +286,32 @@
 				<div class="bg-white">
 					<img src="/images/images-v2/dazzle_jencc2.png" class="w-full" />
 				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers 2-03.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-01.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-08.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-19.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-86.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-73.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-105.jpg" class="w-full" />
+				</div>
+				<div class="bg-white">
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-119.jpg" class="w-full" />
+				</div>
 				
+
 				<div>
 					<a href="/footprint"
 						class="font-bold text-sm absolute bottom-10 right-10 p-1 text-black bg-amber-500"
@@ -291,7 +322,7 @@
 			</div>
 
 			<div class="mt-16 w-full flex items-center justify-center">
-				<div class="relative pb-16">
+				<div id="whatwedo" class="relative pb-16">
 					<h1
 						class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 					>
@@ -302,84 +333,102 @@
 			</div>
 			<div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-8 mt-5 mx-[5%] lg:mx-32">
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/idan.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						BRAND STRATEGY & <br />POSITIONING
-					</p>
+					<a href="/brand-strategy">
+						<img src="/images/images-v2/idan.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							BRAND STRATEGY & <br />POSITIONING
+						</p>
+					</a>
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/bulb.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						CREATIVE <br />CAMPAIGNS
-					</p>
+					<a href="/creative-campaign">
+						<img src="/images/images-v2/bulb.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							CREATIVE <br />CAMPAIGNS
+						</p>
+					</a>	
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/billboard.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						MEDIA PLANNING & <br />BUYING
-					</p>
+					<a href="/media-planning">
+						<img src="/images/images-v2/billboard.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							MEDIA PLANNING & <br />BUYING
+						</p>
+					</a>	
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img
-						src="/images/images-v2/hand_holding_smartphone_social_media_concept.png"
-						class="h-[400px] w-full"
-					/>
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						DIGITAL <br />
-						MARKETTING
-					</p>
+					<a href="/digital">
+						<img
+							src="/images/images-v2/hand_holding_smartphone_social_media_concept.png"
+							class="h-[400px] w-full"
+						/>
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							DIGITAL <br />
+							MARKETTING
+						</p>
+					</a>
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/content_market.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						CONTENT <br />CREATION
-					</p>
+					<a href="/content-creation">
+						<img src="/images/images-v2/content_market.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							CONTENT <br />CREATION
+						</p>
+					</a>
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/microphones.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						PUBLIC <br />
-						RELATIONS
-					</p>
+					<a href="/public-relations">
+						<img src="/images/images-v2/microphones.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							PUBLIC <br />
+							RELATIONS
+						</p>
+					</a>
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/brand.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						BRANDING <br />
-						& DESIGN
-					</p>
+					<a href="/branding-and-design">
+						<img src="/images/images-v2/brand.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							BRANDING <br />
+							& DESIGN
+						</p>
+					</a>
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/media.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						MEDIA PRODUCTION & <br />
-						PRODUCT SHOOT
-					</p>
+					<a href="/media-production">
+						<img src="/images/images-v2/media.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							MEDIA PRODUCTION & <br />
+							PRODUCT SHOOT
+						</p>
+					</a>
 				</div>
 				<div class="bg-[#3C3C3C] flex-col">
-					<img src="/images/images-v2/code_screen.png" class="h-[400px] w-full" />
-					<p
-						class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
-					>
-						WEB <br />
-						DEVELOPMENT
-					</p>
+					<a href="/web-development">
+						<img src="/images/images-v2/code_screen.png" class="h-[400px] w-full" />
+						<p
+							class="p-6 text-center font-extrabold text-[#FF9501] text-2xl"
+						>
+							WEB <br />
+							DEVELOPMENT
+						</p>
+					</a>
 				</div>
 			</div>
 			<div class="flex-col">
@@ -399,12 +448,12 @@
 				<div
 					
 				>
-				<swiper-container slides-per-view="4" speed="500" loop="true" autoplay="true" css-mode="true" class="flex md:px-20 gap-4 max-w-[100vw] mt-16 justify-between">
+				<swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true" class="flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between">
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/idan1.jpg" class="w-full lg:max-h-[300px] lg:max-w-[200px]" />
+						<img src="/images/images-v2/idan1.jpg" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[200px] font-semibold font-['Faustina'] leading-[30px]"
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
 							<p>Tseyi Agharaye</p>
 							<p
@@ -422,9 +471,9 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/justemma.png" class="w-full lg:max-h-[300px] lg:max-w-[200px]" />
+						<img src="/images/images-v2/justemma.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[200px] font-semibold font-['Faustina'] leading-[30px]"
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
 							<p>Emmanuel Obi</p>
 							<p
@@ -442,9 +491,9 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/caleb.png" class="w-full lg:max-h-[300px] lg:max-w-[200px]" />
+						<img src="/images/images-v2/caleb.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[200px] font-semibold font-['Faustina'] leading-[30px]"
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
 							<p>Caleb Senda</p>
 							<p
@@ -462,9 +511,9 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/mayowa.png" class="w-full lg:max-h-[300px] lg:max-w-[200px]" />
+						<img src="/images/images-v2/mayowa.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[200px] font-semibold font-['Faustina'] leading-[30px]"
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
 							<p>Mayowa Oludare</p>
 							<p
@@ -482,9 +531,9 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/chidi.png" class="w-full lg:max-h-[300px] lg:max-w-[200px]" />
+						<img src="/images/images-v2/chidi.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[200px] font-semibold font-['Faustina'] leading-[30px]"
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
 							<p>Chidiebere Ogbonna</p>
 							<p
@@ -502,15 +551,55 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/ify.png" class="w-full lg:max-h-[300px] lg:max-w-[200px]" />
+						<img src="/images/images-v2/ify.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[200px] font-semibold font-['Faustina'] leading-[30px]"
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
 							<p>Ifeoma Anyamah</p>
 							<p
 								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
 							>
 								Head Of Digital
+							</p>
+							<div class="flex text-center items-center">
+								<hr
+									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
+								/>
+							</div>
+						</div>
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/emmanuelolugbemi.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<div
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
+						>
+							<p>Emmanuel Olugbemi</p>
+							<p
+								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
+							>
+								Head of Design/UI Designer
+							</p>
+							<div class="flex text-center items-center">
+								<hr
+									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
+								/>
+							</div>
+						</div>
+					
+					</swiper-slide>
+						<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/lizzy.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<div
+							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
+						>
+							<p>Elizabeth Inyang</p>
+							<p
+								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
+							>
+								HR/Office Manager
 							</p>
 							<div class="flex text-center items-center">
 								<hr
@@ -537,70 +626,78 @@
 					</div>
 				</div>
 
-				<div class="mx-[5%] grid lg:grid-cols-3 sm:grid-cols-1 sm:gap-6 md:grid-cols-2 gap-6 sm:px-16 md:px-16 justify-items-center justify-center items-center">
+				<div class="mx-[15%] grid lg:grid-cols-3 sm:grid-cols-1 sm:gap-6 md:grid-cols-2 gap-2 sm:px-16 md:px-16 justify-items-center justify-center items-center">
 					<div
-						class="items-center justify-center flex-col lg:w-[70%] p-6 text-sm bg-[#3C3C3C] text-center text-white"
+						class="items-center justify-center grid grid-rows-[auto,1fr,auto] w-64 h-80 p-8 text-sm bg-[#3C3C3C] text-center text-white"
 					>
-						<p
-							class="text-[9px] font-light italic leading-[16px]"
-						>
-							Working with Bloom media has 
-							brought a tremendous increase in our 
-							business sales and social media 
-							engagement, thank you, Bloom!
+						<div>	
+							<p
+								class="text-[9px] font-light italic leading-[16px]"
+							>
+								Working with Bloom media has brought a 
+								 tremendous increase in our business sales and 
+								social media engagement, thank you, Bloom!
+
 							
-						</p>
+							</p>
+						</div>
 						<div class="flex text-center items-center py-6">
 							<hr
 								class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
 							/>
 						</div>
-						<p
-							class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk"
-						>
-							Mr. Micahel Amejuma
-						</p>
-						<p
-							class="text-[10px] font-light italic"
-						>
-							CEO <br />
-							Duduye Global Concept Ltd
-						</p>
+						<div>
+							<p
+								class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk"
+							>
+								Mr. Micahel Amejuma
+							</p>
+							<p
+								class="text-[10px] font-light italic"
+							>
+								CEO <br />
+								Duduye Global Concept Ltd
+							</p>
+						</div>
 					</div>
 					<div
-						class="items-center justify-center flex-col lg:w-[70%] p-6 text-sm bg-[#3C3C3C] text-center text-white"
+						class="items-center justify-center grid grid-rows-[auto,1fr,auto] w-64 h-80 p-8 text-sm bg-[#3C3C3C] text-center text-white"
 					>
-						<p
-							class="text-[9px] font-light font-grotesk italic leading-[16px]"
-						>
-							Bloom Media is a digital agency where 
-							you get above what you'd ever expect. 
-							This was my case when I hired them 
-							for my brand activation. Well done guy!
+						<div>	
+							<p
+								class="text-[9px] font-light font-grotesk italic leading-[16px]"
+							>
+								Bloom Media is a digital agency where you get above
+								 what you'd ever expect. This was my case when I 
+								 hired them for my brand activation. Well done guy!
 
 
-						</p>
+							</p>
+						</div>
 						<div class="flex text-center items-center py-6">
 							<hr
 								class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
 							/>
 						</div>
-						<p
-							class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk"
-						>
-							Mrs Funmi Ojo.
-						</p>
-						<p
-							class="text-[10px] font-light italic"
-						>
-							Communications Manager<br />
-							Throne Investment homes.
-						</p>
+						<div>
+							<p
+								class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk"
+							>
+								Mrs Funmi Ojo.
+							</p>
+							<p
+								class="text-[10px] font-light italic"
+							>
+								Communications Manager<br />
+								Throne Investment homes.
+							</p>
+						</div>
 					</div>
 					<div
-						class="items-center justify-center flex-col lg:w-[70%] p-6 text-sm bg-[#3C3C3C] text-center text-white"
+						class="items-center justify-center grid grid-rows-[auto,1fr,auto] w-64 h-80 p-8 text-sm bg-[#3C3C3C] text-center text-white"
 					>
-						<p
+					<div>	
+					<p
 							class="text-[9px] font-light italic leading-[16px]"
 						>
 							Bloom built an e-commerce website for 
@@ -611,13 +708,13 @@
 							relationship so far.
 
 
-						</p>
+						</p></div>
 						<div class="flex text-center items-center py-6">
 							<hr
 								class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
 							/>
 						</div>
-						<p
+						<div><p
 							class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk"
 						>
 							Dr Bukola Ologunagba.
@@ -627,7 +724,7 @@
 						>
 							Manager <br />
 							Doors and Handles Ltd.
-						</p>
+						</p></div>
 					</div>
 					
 				</div>

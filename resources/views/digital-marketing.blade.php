@@ -31,20 +31,20 @@
 		
 		<!-- /END OF HEADER ONE -->
 
-		<section class="bg-stone-900 text-white py-8 px-8 text-center">
+		<section class="bg-stone-900 text-white pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-20 text-center">
 			<div class="">
 				<div class="py-4 header-text">
 					<p>
 						Leveraging the power of the digital realm, we execute
 						online marketing campaigns to boost your brand's online
-						<br />presence.
+						presence.
 					</p>
 				</div>
 
 				<div class="py-2 header-text">
 					<p>
 						Social media management | Search engine optimization |
-						Pay-per-click advertising | Influencer Marketing <br />
+						Pay-per-click advertising | Influencer Marketing 
 						and more.
 					</p>
 				</div>
@@ -90,7 +90,7 @@
 
 			<div class="py-16">
 				<button
-					class="px-6 py-2 bg-amber-400 font-bold text-base text-black"
+					class="px-6 py-2 bg-amber-500 font-bold text-base text-black"
 				>
 					LET'S MAKE YOUR PAGE EXCEPTIONAL
 				</button>

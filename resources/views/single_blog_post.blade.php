@@ -32,7 +32,7 @@
               header="{{$post->title}}"
 			  width="0%"/>
 		<!-- /END OF HEADER ONE -->
-    <div class="bg-stone-900 text-white text-xl py-8 px-12 text-left">
+    <div class="bg-stone-900 text-white text-xl lg:text-2xl py-12 lg:py-28 px-12 lg:px-20 text-left">
       <div class="">
          {!!$post->body!!}
       </div>

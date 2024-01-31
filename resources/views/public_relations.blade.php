@@ -31,7 +31,7 @@
 			  width="35%"/>
 		<!-- /END OF HEADER ONE -->
 
-		<section class="bg-stone-900 text-white py-8 px-8 text-center">
+		<section class="bg-stone-900 text-white pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-20 text-center">
 			<div class="">
 				<div class="py-4 header-text">
 					<p>
@@ -40,15 +40,14 @@
 						<br />
 						<br />
 						We manage your reputation, coordinate press releases,
-						and handle crisis communications with professionalism
-						<br />
+						and handle crisis communications with professionalism 
 						and grace.
 					</p>
 				</div>
 			</div>
 			<div class="py-16">
 				<button
-					class="px-6 py-2 bg-amber-400 font-bold text-base text-black"
+					class="px-6 py-2 bg-amber-500 font-bold text-base text-black"
 				>
 					LET'S SHOW YOU TO THE WORLD THE WAY YOU WANT TO BE SEEN
 				</button>

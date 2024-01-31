@@ -4,23 +4,23 @@
 		</p>
 
 		<div class="flex">
-			<a href="https://instagram.com"
-				><img src="/images/images-v2/Instagram.svg" alt="Instagram Link"
+			<a href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+				target="_blank"><img src="/images/images-v2/Instagram.svg" alt="Instagram Link"
 			/></a>
-			<a href="https://x.com"
-				><img src="/images/images-v2/Twitter.svg" alt="X Link"
+			<a href="https://x.com/bloomdigitmedia?s=20"
+				target="_blank"><img src="/images/images-v2/Twitter.svg" alt="X Link"
 			/></a>
-			<a href="https://linkedin.com"
-				><img src="/images/images-v2/LinkedIn.svg" alt="LinkedIn Link"
+			<a href="https://www.linkedin.com/company/bloom-digital-media-nigeria/"
+				target="_blank"><img src="/images/images-v2/LinkedIn.svg" alt="LinkedIn Link"
 			/></a>
-			<a href="https://facebook.com"
-				><img src="/images/images-v2/Facebook.svg" alt="Facebook Link"
+			<a href="https://www.facebook.com/bloomdigitmedia/"
+				target="_blank"><img src="/images/images-v2/Facebook.svg" alt="Facebook Link"
 			/></a>
-			<a href="https://tiktok.com"
-				><img src="/images/images-v2/TikTok.svg" alt="TikTok Link"
+			<a href="https://www.tiktok.com/@bloomdigitmedia?_t=8j71WPhCotx&_r=1"
+				target="_blank"><img src="/images/images-v2/TikTok.svg" alt="TikTok Link"
 			/></a>
-			<a href="https://youtube.com"
-				><img src="/images/images-v2/Youtube.svg" alt="Youtube Link"
+			<a href="www.youtube.com/@Bloom_DigitalMedia"
+				target="_blank"><img src="/images/images-v2/YouTube.svg" alt="Youtube Link"
 			/></a>
 		</div>
 	</footer>

@@ -3,6 +3,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="{{asset('css/output.css')}}" />
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
+    {{-- <link rel="stylesheet" href="{{asset('css/fonts.css')}}" /> --}}
+    <link href="css/fonts.css" rel="stylesheet" />
 		<meta name="description" content="Choose an award winning digital marketing agency in Abuja, Nigeria to handle your business marketing. Contact Bloom Media to schedule a marketing consultation and review of your current efforts. We offer knowledgeable advice on digital marketing services to elevate your marketing and get more leads."/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://www.bloomdigitmedia.com/how-can-we-help" />
@@ -78,8 +80,8 @@
     <div class="background p-24">
       <div class="formsContainer">
         <div class="flex flex-col w-full h-fit-content gap-20 bg-zinc-800 p-8">
-          <h3 class="headerText2 text-2xl text-center font-grotesk leading-10 ">
-            <span>Provide us relevant information</span>
+          <h3 class="headerText2 text-2xl text-center font-grotesk font-['TomatoGrotesk'] leading-10 ">
+            <span class="boldtest">Provide us relevant information</span>
             for what you need and we will get back to you with the best path for you and your business.
           </h3>
           <form class="text-black flex flex-col items-center gap-6 w-full font-extralight leading-10" action="/contact" method="POST">
@@ -89,8 +91,7 @@
             <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text" name="email" required placeholder="Email" />
             <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="number" name="phone" required placeholder="Phone number" />
             <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text" name="message" required placeholder="What is your project/business about?" />
-            <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text" name="budget" placeholder="What’s your budget?" />
-            
+                        
             
             <select class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" name="service">
               <option value="What service are you looking for?">
@@ -108,6 +109,7 @@
              
             </select>
 
+            <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text" name="budget" placeholder="What’s your budget?" />
             <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text" name="additional_info" placeholder="Additional Information" />
 
             <button class="w-full bg-amber-500 text-black font-black py-4" type="submit">WE MOVE!</button>
@@ -120,7 +122,7 @@
           <h3 class="headerText2 text-2xl text-center font-grotesk leading-10">
             <span>Book a meeting with us</span>, Gain clarity on what works in your industry and easily win your audience over.
           </h3>
-          <form class="flex flex-col items-center gap-6 w-full" action="/appointments" method="post">
+          <form class="flex flex-col items-center gap-6 w-full leading-10" action="/appointments" method="post">
             @csrf
             <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text" name="requester_name" required placeholder="Name" />
             <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="email" name="requester_email" required placeholder="Email" />

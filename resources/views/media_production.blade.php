@@ -30,31 +30,27 @@
 			  width="70%"/>
 		<!-- /END OF HEADER ONE -->
 
-		<section class="bg-stone-900 text-white py-8 px-12 text-center">
+		<section class="bg-stone-900 text-white pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-20 text-center">
 			<div class="">
 				<div class="py-4 header-text">
 					<p>
 						We pride ourselves as a top multimedia company, Our
 						production process works from the ground-up, first
-						building
-						<br />
+						building 
 						a great concept, then adding layers of stunning visuals,
-						modern motion graphics, and clear and compelling audio.
-						<br />
+						modern motion graphics, and clear and compelling audio. 
 						We then unveil it to your ideal audience by leveraging
 						our extensive web and social media expertise.
 						<br />
 						<br />
 						Our team has decades of experience producing effective
 						video content that is known for its detail and high
-						quality.
-						<br />
+						quality. 
 						We excel at all of the necessary technical components of
 						producing great video, but the real key to our success
-						is
-						<br />not our gear. It is our detailed process. Our
+						is not our gear. It is our detailed process. Our
 						process allows us to efficiently and effectively find
-						the core of your story <br />and reveal it to the world.
+						the core of your story and reveal it to the world.
 						<br />
 						<br />
 						Documentaries | TV Commercials | Photography | Wedding
@@ -65,7 +61,7 @@
 			</div>
 			<div class="py-16">
 				<button
-					class="px-6 py-2 bg-amber-400 font-bold text-base text-black"
+					class="px-6 py-2 bg-amber-500 font-bold text-base text-black"
 				>
 					LET THE WORLD SEE YOU THROUGH OUR LENS
 				</button>

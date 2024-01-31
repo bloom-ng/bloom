@@ -30,17 +30,15 @@
 			  width="36%"/>
 		<!-- /END OF HEADER ONE -->
 
-		<section class="bg-stone-900 text-white py-8 px-12 text-center">
+		<section class="bg-stone-900 text-white pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-20 text-center">
 			<div class="">
 				<div class="py-4 header-text">
 					<p>
 						Our web design and development team builds the best
-						websites on the web. Our years of web design experience
-						<br />
+						websites on the web. Our years of web design experience 
 						have led to a results driven process that ensures
 						successful outcomes. We start with analysis, research
-						and
-						<br />
+						and 
 						planning followed by architecture, wireframing and
 						content creation.
 						<br />
@@ -51,7 +49,7 @@
 			</div>
 			<div class="py-16">
 				<button
-					class="px-6 py-2 bg-amber-400 font-bold text-base text-black"
+					class="px-6 py-2 bg-amber-500 font-bold text-base text-black"
 				>
 					LET'S BUILD A WEBSITE THAT BRINGS SUCCESS
 				</button>

@@ -15,6 +15,13 @@
 				</div>
 			</a>
 			<ul class="flex gap-3 items-center justify-center">
+			<a href="/#whoWeAre">
+				<li
+					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
+				>
+					WHO ARE WE?
+				</li>
+                </a>
 			<a href="/footprint">
 			<li
 				class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
@@ -25,7 +32,7 @@
 			<li
 				class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 			>
-				<a href="/digital"> WHAT WE DO</a>
+				<a href="/#whatwedo"> WHAT WE DO</a>
 			</li>
 			<li
 				class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
@@ -57,7 +64,7 @@
 			</h1>
 			<div
 				style="width:{{$width}}"
-				class=" z-0 h-[30px] bg-amber-300 text-center"
+				class=" z-0 h-[30px] bg-[#FFB855] text-center"
 			></div>
 		</div>
 		

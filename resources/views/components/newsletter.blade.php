@@ -1,6 +1,6 @@
 <section
 			id="newsletter"
-			class="py-12 px-[5%] lg:px-[20%] bg-white max-w-[100vw] flex-col items-center justify-center"
+			class="py-12 px-[5%] lg:px-[15%] bg-white max-w-[100vw] flex-col items-center justify-center"
 		>
 			<div class="mb-16 w-full flex justify-center">
 				<div class="relative">
@@ -14,7 +14,7 @@
 			</div>
 
 			<p
-				class="text-center text-black text-lg text-2xl font-normal font-grotesk leading-tight lg:leading-10"
+				class="text-center text-black text-2xl font-normal font-grotesk leading-tight lg:leading-10"
 			>
 				Stay up to date with industry trends, tips, and information that
 				will help you upscale your business, reach the right audience,
@@ -36,7 +36,7 @@
 					value="Submit"
 				/> -->
 				<button class="px-8 py-4 bg-amber-500 w-[30vw] font-semibold text-lg text-center" type="submit">
-					Submit
+					Subscribe
 				</button>
 			</form>
 		</section>

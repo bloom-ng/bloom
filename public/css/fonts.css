@@ -1,0 +1,156 @@
+/* TomatoGrotesk-Bold */
+@font-face {
+	font-family: "TomatoGrotesk-Bold";
+	src: url("/fonts/TomatoGrotesk-Bold.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-Bold.otf") format("otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+.boldtest {
+	font-family: "TomatoGrotesk-ExtraBold";
+}
+
+/* TomatoGrotesk-BlackSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-BlackSlanted";
+	src: url("/fonts/TomatoGrotesk-BlackSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-BlackSlanted.otf") format("otf");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-BoldSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-BoldSlanted";
+	src: url("/fonts/TomatoGrotesk-BoldSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-BoldSlanted.otf") format("otf");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-ExtraBold */
+@font-face {
+	font-family: "TomatoGrotesk-ExtraBold";
+	src: url("/fonts/TomatoGrotesk-ExtraBold.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-ExtraBold.otf") format("otf");
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-ExtraBoldSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-ExtraBoldSlanted";
+	src: url("/fonts/TomatoGrotesk-ExtraBoldSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-ExtraBoldSlanted.otf") format("otf");
+	font-weight: 800;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-ExtraLight */
+@font-face {
+	font-family: "TomatoGrotesk-ExtraLight";
+	src: url("/fonts/TomatoGrotesk-ExtraLight.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-ExtraLight.otf") format("otf");
+	font-weight: 200;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-ExtraLightSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-ExtraLightSlanted";
+	src: url("/fonts/TomatoGrotesk-ExtraLightSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-ExtraLightSlanted.otf") format("otf");
+	font-weight: 200;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-Light */
+@font-face {
+	font-family: "TomatoGrotesk-Light";
+	src: url("/fonts/TomatoGrotesk-Light.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-Light.otf") format("otf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-LightSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-LightSlanted";
+	src: url("/fonts/TomatoGrotesk-LightSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-LightSlanted.otf") format("otf");
+	font-weight: 300;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-Medium */
+@font-face {
+	font-family: "TomatoGrotesk-Medium";
+	src: url("/fonts/TomatoGrotesk-Medium.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-Medium.otf") format("otf");
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-MediumSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-MediumSlanted";
+	src: url("/fonts/TomatoGrotesk-MediumSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-MediumSlanted.otf") format("otf");
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-Regular */
+@font-face {
+	font-family: "TomatoGrotesk-Regular";
+	src: url("/fonts/TomatoGrotesk-Regular.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-Regular.otf") format("otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-SemiBold */
+@font-face {
+	font-family: "TomatoGrotesk-SemiBold";
+	src: url("/fonts/TomatoGrotesk-SemiBold.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-SemiBold.otf") format("otf");
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-SemiBoldSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-SemiBoldSlanted";
+	src: url("/fonts/TomatoGrotesk-SemiBoldSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-SemiBoldSlanted.otf") format("otf");
+	font-weight: 600;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-Slanted */
+@font-face {
+	font-family: "TomatoGrotesk-Slanted";
+	src: url("/fonts/TomatoGrotesk-Slanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-Slanted.otf") format("otf");
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* TomatoGrotesk-Thin */
+@font-face {
+	font-family: "TomatoGrotesk-Thin";
+	src: url("/fonts/TomatoGrotesk-Thin.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-Thin.otf") format("otf");
+	font-weight: 100;
+	font-style: normal;
+}
+
+/* TomatoGrotesk-ThinSlanted */
+@font-face {
+	font-family: "TomatoGrotesk-ThinSlanted";
+	src: url("/fonts/TomatoGrotesk-ThinSlanted.otf") format("otf"),
+		url("/fonts/TomatoGrotesk-ThinSlanted.otf") format("otf");
+	font-weight: 100;
+	font-style: italic;
+}

@@ -30,11 +30,11 @@
               header="Contact Us"
 			  width="23%"/>
 		<!-- /END OF HEADER ONE -->
-    <section>
+    <section class="">
 
-    <div class="background">
+    <div class="background pt-12 pb-12 lg:px-24 lg:pb-24 lg:pt-24">
       <div class="header-text">
-        <h3>Get in touch with Bloom Digital Media and let our team of specialists fix your problem. </h3>
+        <h3 class="lg:pb-24">Get in touch with Bloom Digital Media and let our team of specialists fix your problem. </h3>
       </div>
       <form action="/contact" method="POST" class="input-container">
         @csrf
@@ -46,8 +46,11 @@
         <button type="submit">SUBMIT</button>
       </form
     </div>
-  </div>
-
+    
+  </div><div class="flex flex-wrap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d955.2832207389714!2d7.40552668937182!3d9.117396039153277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bba2dde5cb1%3A0xe4b6fc3d6ef958b2!2sBloom%20Digital%20Media%20Ltd!5e0!3m2!1sen!2sng!4v1706625524462!5m2!1sen!2sng" 
+      width="1349" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 		<!-- FOOTER -->
 						<x-newsletter />
 		

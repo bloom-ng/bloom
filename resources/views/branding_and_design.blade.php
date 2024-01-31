@@ -27,18 +27,16 @@
 		<!-- HEADER ONE -->
 		<x-navbar logo="/images/images-v2/branding_and_design.png"
               header="Branding & Design"
-			  width="35%"/>
+			  width="37%"/>
 		<!-- /END OF HEADER ONE -->
 
-		<section class="bg-stone-900 text-white py-8 px-12 text-center">
+		<section class="bg-stone-900 text-white pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-20 text-center">
 			<div class="">
 				<div class="py-4 header-text">
 					<p>
 						At Bloom, we understand that branding is more than just
 						a logo, it is how customers recognize and experience
-						your
-						<br />
-						business and we have what it takes to ensure your brand
+						your business and we have what it takes to ensure your brand
 						reflects everything your business stands for.
 						<br />
 						<br />
@@ -49,7 +47,7 @@
 			</div>
 			<div class="py-16">
 				<button
-					class="px-6 py-2 bg-amber-400 font-bold text-base text-black"
+					class="px-6 py-2 bg-amber-500 font-bold text-base text-black"
 				>
 					LET'S MAKE YOUR BRAND RECOGNIZABLE
 				</button>

@@ -42,8 +42,9 @@
       </div>
     </div> --}}
 
-<section class="bg-[#1E1E1E]">
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6 mx-[5%] lg:mx-32">
+<section class="max-w-screen bg-[#1E1E1E] flex flex-col justify-center items-center pb-16 pt-12 lg:pb-24 lg:pt-12">
+    <x-metapartners />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6 mx-[5%] lg:mx-32">
 					@foreach ($posts as $post)
           <div class="bg-[#fff] flex-col">
 						<img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
