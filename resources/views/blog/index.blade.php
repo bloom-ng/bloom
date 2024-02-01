@@ -48,7 +48,7 @@
 					@foreach ($posts as $post)
           <div class="bg-[#fff] flex-col">
 						<img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
-            class="w-[465px] h-[310px]" />
+            class="w-full h-[310px]" />
 						<p
 							class="p-6 pr-10 leading-tight text-center font-['Faustina'] font-bold text-left text-[#000000] text-base"
 						>

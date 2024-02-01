@@ -5,7 +5,7 @@
 			<div class="mb-16 w-full flex justify-center">
 				<div class="relative">
 					<h1
-						class="text-center text-black text-4xl lg:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+						class="text-center text-black text-4xl lg:text-[55px] font-extrabold test font-['Faustina'] leading-10 inline px-3 relative z-10"
 					>
 						Stay In The Mix
 					</h1>
@@ -23,7 +23,7 @@
 			</p>
 			<form class="flex text-center justify-center items-center my-5">
 				<input
-					class="px-8 py-4 bg-neutral-300 italic w-[40vw]"
+					class="px-8 leading-[40px] text-[24px] placeholder:text-slate-600 py-4 bg-neutral-300 italic w-[40vw]"
 					placeholder="Email"
 					type="email"
 					name="email"
@@ -35,8 +35,8 @@
 					type="submit"
 					value="Submit"
 				/> -->
-				<button class="px-8 py-4 bg-amber-500 w-[30vw] font-semibold text-lg text-center" type="submit">
-					Subscribe
+				<button class="px-8 py-4 bg-amber-500 w-[20vw] font-black text-[24px] leading-[40px] text-center" type="submit">
+					SUBSCRIBE
 				</button>
 			</form>
 		</section>

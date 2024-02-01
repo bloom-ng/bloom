@@ -110,7 +110,7 @@
 				@endforeach
 			</div>
 
-			<div class="grid grid-cols-3 gap-4 mt-5" id="videoAnim-container">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-5" id="videoAnim-container">
 				<div>
 					<iframe src="https://drive.google.com/file/d/1SQLCBHUekdzUMGZ9pIslvRM4QxGq3RbO/preview" width="390" height="250" allow="autoplay"></iframe>
 				</div>

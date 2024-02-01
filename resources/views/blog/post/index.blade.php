@@ -35,7 +35,7 @@
 <section>
   <div class="md:my-36 md:mx-24 my-12 mx-12">
     <div class="my-12 md:my-24">
-      <img src="{{$post->featured_image}}" " alt=" Featured Image" />
+      <img src="{{$post->featured_image}}" alt=" Featured Image" />
     </div>
 
     <p class="font-bold text-xl md:text-3xl xl:text-4xl text-center my-12">

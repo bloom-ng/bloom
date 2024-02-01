@@ -7,11 +7,14 @@
 		</div>
 
 		<!-- /END OF HEADER ONE -->
-		<img
-			src="/images/images-v2/hero.png"
-			class="max-h-[90vh] w-[100vw] object-fit relative"
-			alt="hero banner"
-		/>
+		<div class="max-h-[70vh]">
+			<swiper-container slides-per-view="1" speed="900" loop="true" autoPlay="true" css-mode="true" class="flex max-w-[100vw] justify-between items-center">
+				<swiper-slide class=""><img src="/images/images-v2/home_page-01.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/home_page-02.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/home_page-03.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/home_page-04.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide>
+			</swiper-container>
+		</div>
 
 		<section class="max-w-screen bg-[#1E1E1E] pb-16">
 			
@@ -20,7 +23,7 @@
 			<section class="flex flex-col justify-center items-center px-4 pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-12">
 				<x-metapartners />
 			<div class="pt-16 lg:hidden block">
-				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" /> pt-12
+				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 			</div>
 			<div id="whoWeAre" class="flex items-center xl:gap-36 lg:gap-32 justify-between lg:flex-row flex-col">
 				<div class="w-full lg:max-w-lg">
@@ -310,15 +313,13 @@
 				<div class="bg-white">
 					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-119.jpg" class="w-full" />
 				</div>
-				
-
-				<div>
-					<a href="/footprint"
-						class="font-bold text-sm absolute bottom-10 right-10 p-1 text-black bg-amber-500"
-					>
-						SEE MORE
-					</a>
-				</div>
+			</div>
+			<div class="flex lg:justify-end sm:justify-center md:justify-center xl:justify-end mx-[5%] py-[2%] lg:mx-32">
+				<a href="/footprint"
+					class="font-black text-sm py-3.5 px-5 text-black bg-amber-500"
+				>
+					SEE MORE
+				</a>
 			</div>
 
 			<div class="mt-16 w-full flex items-center justify-center">
@@ -451,7 +452,7 @@
 				<swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true" class="flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between">
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/idan1.jpg" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/idanfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -471,7 +472,7 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/justemma.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/justemmafinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -491,7 +492,7 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/caleb.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/calebfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -511,7 +512,7 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/mayowa.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/mayowafinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -531,7 +532,7 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/chidi.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/chidifinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -551,7 +552,7 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/ify.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/ifyfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -571,7 +572,7 @@
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/emmanuelolugbemi.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/olugbemifinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -591,7 +592,7 @@
 					</swiper-slide>
 						<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/lizzy.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+						<img src="/images/images-v2/lizzyfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
 						>
@@ -800,9 +801,9 @@
                     </div>
                 </div> --}}<div class="bg-[#fff] flex-col">
 						<img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
- 							class="w-[465px] h-[310px]" />
+ 							class="h-[310px] w-full" />
 						<p
-							class="p-6 pr-10 leading-tight text-center font-['Faustina'] font-bold text-left text-[#000000] text-base"
+							class="p-6 pr-10 leading-tight text-start font-['Faustina'] font-bold text-left text-[#000000] text-base"
 						>
 							{{$post->title}}
 						</p>

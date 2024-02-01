@@ -7,14 +7,14 @@
 		<div class="absolute inset-0 bg-black opacity-75"></div>
 
 		<div
-			class="w-full flex items-center relative justify-between mb-5"
+			class="w-full flex items-center relative mb-5 leading-[19.2px] text-[16px] justify-between"
 		>
 			<a href="/">
 				<div class="logo">
 					<img src="/images/images-v2/Logo.svg" alt="" />
 				</div>
 			</a>
-			<ul class="flex gap-3 items-center justify-center">
+			<ul class="flex items-center justify-between  gap-12">
 			<a href="/#whoWeAre">
 				<li
 					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
@@ -44,21 +44,24 @@
 			>
 				<a href="/contact">CONTACT US</a>
 			</li>
-				</ul>
-
-				<a
+			<li
+					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
+				>
+					<a
 					href="/help"
 					class="text-center text-black text-base font-black font-grotesk uppercase 
 					tracking-wide bg-amber-500 px-[19px] py-[13px]"
 					>HOW CAN WE HELP YOU?</a
 				>
+				</li>
+				</ul>
 			</div>
 		<div
 			class="w-full flex justify-center items-center relative mb-16"
 		>
 			<h1
 				class="absolute top-[-12%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
-				font-extrabold font-['Faustina'] leading-10"
+				font-extrabold font-['Faustina'] leading-[3.5rem]"
 			>
 				{{$header}}
 			</h1>

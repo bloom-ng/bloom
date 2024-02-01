@@ -1,14 +1,13 @@
 /* TomatoGrotesk-Bold */
 @font-face {
 	font-family: "TomatoGrotesk-Bold";
-	src: url("/fonts/TomatoGrotesk-Bold.otf") format("otf"),
-		url("/fonts/TomatoGrotesk-Bold.otf") format("otf");
+	src: url("{{asset('fonts/TomatoGrotesk-Bold.otf')}}") format("otf");
 	font-weight: bold;
 	font-style: normal;
 }
 
 .boldtest {
-	font-family: "TomatoGrotesk-ExtraBold";
+	font-family: "TomatoGrotesk-Bold";
 }
 
 /* TomatoGrotesk-BlackSlanted */

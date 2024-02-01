@@ -1,13 +1,13 @@
 
             <section
-					class="max-w-[100vw] bg-[#1E1E1E] opacity-90 flex items-center justify-between px-12 py-10"
+					class="max-w-[100vw] bg-[#1E1E1E] opacity-90 flex items-center justify-between px-12 py-12"
 				>
 					<a href="/">
 						<div class="logo md:vw-[50%]">
 							<img src="/images/images-v2/Logo.svg" alt="" />
 						</div>
 					</a>
-				<ul class="hidden lg:flex gap-3 items-center justify-center">
+				<ul class="hidden lg:flex gap-12 leading-[19.2px] text-[16px]  items-center justify-center">
 				{{-- <li
 					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 				>
@@ -42,14 +42,19 @@
 				>
 					<a href="/contact">CONTACT US</a>
 				</li>
-				</ul>
-			
-				<a
+				<li
+					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
+				>
+					<a
 					href="/help"
-					class="hidden lg:block text-center text-black lg:text-base xl:text-base md:text-xs font-black font-bold font-grotesk uppercase 
+					class="text-center text-black text-base font-black font-grotesk uppercase 
 					tracking-wide bg-amber-500 px-[19px] py-[13px]"
 					>HOW CAN WE HELP YOU?</a
 				>
+				</li>
+				</ul>
+			
+				
                 <div class="block lg:hidden justify-between" id="menu-toggle-button">
                     <!-- DROPDOWN MENU -->
                     <span class="mt-2 text-3x1 text-white cursor-pointer lg:hidden" id="menu-toggle-button" >
