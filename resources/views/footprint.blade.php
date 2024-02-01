@@ -105,7 +105,7 @@
 			<div class="grid grid-cols-4 gap-2 mt-5" id="flyers-container">
 				@foreach ($data as $item)
 					<div class="bg-white">
-						<img src="/images/images-v2/reduced_flyers/{{$item}}" />
+						<img src="/images/images-v2/reduced_flyers/{{$item}}" class="w-full" />
 					</div>
 				@endforeach
 			</div>
@@ -251,7 +251,7 @@
 			<div class="grid grid-cols-3 gap-4 mt-5" id="bloomStudios-container">
 				@foreach ($studios as $item)
 					<div class="bg-white">
-						<img src="/images/images-v2/reduced_studios/{{$item}}" />
+						<img src="/images/images-v2/reduced_studios/{{$item}}" class="w-full" />
 					</div>
 				@endforeach
 			</div>
