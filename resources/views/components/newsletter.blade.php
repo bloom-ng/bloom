@@ -5,7 +5,7 @@
 			<div class="mb-16 w-full flex justify-center">
 				<div class="relative">
 					<h1
-						class="text-center text-black text-4xl lg:text-[55px] font-extrabold test font-['Faustina'] leading-10 inline px-3 relative z-10"
+						class="text-center text-black text-4xl lg:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 					>
 						Stay In The Mix
 					</h1>

@@ -50,7 +50,7 @@
 						<img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
             class="w-full h-[310px]" />
 						<p
-							class="p-6 pr-10 leading-tight text-center font-['Faustina'] font-bold text-left text-[#000000] text-base"
+							class="p-6 pr-10 leading-tight text-start font-['Faustina'] font-bold text-left text-[#000000] text-base"
 						>
 							{{$post->title}}
 						</p>
