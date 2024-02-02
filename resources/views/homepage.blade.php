@@ -7,12 +7,12 @@
 		</div>
 
 		<!-- /END OF HEADER ONE -->
-		<div class="max-h-[70vh]">
+		<div class="max-h-[70vh] max-w-[100vw]">
 			<swiper-container slides-per-view="1" speed="900" loop="true" autoPlay="true" css-mode="true" class="flex max-w-[100vw] justify-between items-center">
-				<swiper-slide class=""><img src="/images/images-v2/home_page-01.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/home_page-02.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/home_page-03.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/home_page-04.jpg" alt="" class=" h-[70vh] w-[100vw] "></swiper-slide>
+				<swiper-slide class=""><img src="/images/images-v2/home_page-01.jpg" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/home_page-02.jpg" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/home_page-03.jpg" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/home_page-04.jpg" alt="" class=" w-[100vw] "></swiper-slide>
 			</swiper-container>
 		</div>
 
@@ -25,8 +25,8 @@
 			<div class="pt-16 lg:hidden block">
 				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 			</div>
-			<div id="whoWeAre" class="flex items-center xl:gap-36 lg:gap-32 justify-between lg:flex-row flex-col">
-				<div class="w-full lg:max-w-lg">
+			<div id="whoWeAre" class="flex items-center xl:gap-36 lg:gap-20 justify-between lg:flex-row flex-col">
+				<div class="w-full lg:max-w-lg basis-1/2">
 					<div class="flex flex-col self-start mt-12 mb-5 text-left">
 						<img
 						class="h-full w-auto object-cover"
@@ -36,26 +36,26 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col">
+				<div class="flex flex-col basis-1/2">
 					<div class="lg:block hidden mb-5">
 						<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 					</div>
 
 					<p class="mb-8 text-xl md:text-2xl text-[#fff]">
-							As an industry leading digital marketing agency <br />in 
-							Abuja, Nigeria, we pride ourselves on not <br />just being 
-							a media solutions company – we <br />are curators of compelling 
-							visuals and brand <br />stories that <u>convert</u> and orchestrators 
-							of brand <br />stories that leave lasting impressions.<br /><br />
+							As an industry leading digital marketing agency in 
+							Abuja, Nigeria, we pride ourselves on not just being 
+							a media solutions company – we are curators of compelling 
+							visuals and brand stories that <u>convert</u> and orchestrators 
+							of brand stories that leave lasting impressions.<br /><br />
 
 
-							Our goal as a digital marketing, advertising <br />
-							and communications and web development agency <br />
-							is to illuminate the world with the <i>Radiance of <br />
-							Creativity</i> to spark brand growth in every corner <br />
-							of Abuja, Nigeria, Africa and the World.      <br />
-							We don’t just come up with what’s cool; <br />
-							We craft the message your prospects and <br />
+							Our goal as a digital marketing, advertising 
+							and communications and web development agency 
+							is to illuminate the world with the <i>Radiance of 
+							Creativity</i> to spark brand growth in every corner 
+							of Abuja, Nigeria, Africa and the World.      
+							We don’t just come up with what’s cool; 
+							We craft the message your prospects and 
 							customers needs to hear that <u>converts.</u><br />
 					</p>
 				</div>
@@ -432,7 +432,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="flex-col">
+			<div class="flex-col max-w-[100vw]">
 				<div class="mt-16 w-full flex justify-center">
 					<div class="relative pb-16">
 						<h1
@@ -613,7 +613,7 @@
 				</swiper-container>
 				</div>
 			</div>
-			<div class="flex-col">
+			<div class="flex-col max-w-[100vw]">
 				<div class="mt-16 w-full flex justify-center">
 					<div class="relative pb-16">
 						<h1

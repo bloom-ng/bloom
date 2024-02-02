@@ -1,6 +1,6 @@
 <section
 			id="newsletter"
-			class="py-12 px-[5%] lg:px-[15%] bg-white max-w-[100vw] flex-col items-center justify-center"
+		class="py-12 px-[5%] lg:px-[15%] bg-white max-w-[100vw] flex-col items-center justify-center"
 		>
 			<div class="mb-16 w-full flex justify-center">
 				<div class="relative">
@@ -35,7 +35,7 @@
 					type="submit"
 					value="Submit"
 				/> -->
-				<button class="px-8 py-4 bg-amber-500 w-[20vw] font-black text-[24px] leading-[40px] text-center" type="submit">
+				<button class="px-8 py-4 bg-amber-500 w-[20vw] font-black text-[24px] lg:text-lg leading-[40px] text-center" type="submit">
 					SUBSCRIBE
 				</button>
 			</form>
