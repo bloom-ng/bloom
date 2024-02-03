@@ -187,35 +187,10 @@
 						<p class="text-white">Enjoy Your Job</p>
 					</div>
 				</div>
+				
 			</div>
-			<div
-				class="bg-white h-[220px] max-w-[100vw] mt-16 justify-between items-center flex"
-			>
-			<swiper-container slides-per-view="4" speed="100" loop="true" autoPlay="true" css-mode="true" class="flex max-w-[100vw] justify-between items-center">
-				<!-- <swiper-slide><img src="/images/images-v2/inec_logo.png" class="py-10 w-auto h-[180px]" /></swiper-slide> -->
-				<!-- <swiper-slide><img
-					src="/images/images-v2/air_peace_logo.png"
-					class="py-10 w-auto h-[150px]"
-				/></swiper-slide> -->
-				<!-- <swiper-slide><img src="/images/images-v2/iita.png" class="py-10 w-auto h-[150px]" /></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/ty_danjum.png" class="py-10 w-auto h-[150px]" /></swiper-slide> -->
-
-				<swiper-slide><img src="/images/images-v2/WWW/Air-Peace-Logo-900x0.png" alt="Air peace logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/Doors logo.png" alt="doors logo" class="py-10 pl-20 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/full scale logo 1.png" alt="full scale logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/Furniture Republic Logo.png" alt="Furniture Republic logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/GT.png" alt="Goshen Trust" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/IITA.png" alt="IITA logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/inec logo wb.png" alt="INEC logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/raise_logo-copy.png" alt="Raise logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/Rimworld Logo_.png" alt="Rimworld logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/smart-spaces.png" alt="Smart Spaces logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/TIH.jpeg" alt="TIH logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/WhatsApp Image 2023-10-28 at 12.29.32_1f2cfbfd.jpg" alt="Dazzle Jenc logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/WhatsApp Image 2023-11-06 at 13.04.32_1145f8d7.jpg" alt="ventourer logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-				<swiper-slide><img src="/images/images-v2/WWW/WhatsApp Image 2023-12-11 at 10.52.21_b9a68b02.jpg" alt="Meta logo" class="py-10 w-auto h-[150px]"></swiper-slide>
-
-			</swiper-container>
+			<div class="max-h-[70vh] py-[5%] max-w-[100vw]">
+				<img src="/images/images-v2/logodisplay.png" alt="">
 			</div>
 
 			<div class="mt-16 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
