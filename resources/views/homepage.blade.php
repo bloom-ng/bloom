@@ -9,10 +9,11 @@
 		<!-- /END OF HEADER ONE -->
 		<div class="max-h-[70vh] max-w-[100vw]">
 			<swiper-container slides-per-view="1" speed="900" loop="true" autoPlay="true" css-mode="true" class="flex max-w-[100vw] justify-between items-center">
-				<swiper-slide class=""><img src="/images/images-v2/home_page-01.jpg" alt="" class=" w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/home_page-02.jpg" alt="" class=" w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/home_page-03.jpg" alt="" class=" w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/home_page-04.jpg" alt="" class=" w-[100vw] "></swiper-slide>
+				<swiper-slide class=""><img src="/images/images-v2/carousel1.png" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/carousel2.png" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/carousel3.png" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><img src="/images/images-v2/carousel4.png" alt="" class=" w-[100vw] "></swiper-slide>
+				<swiper-slide class=""><img src="/images/images-v2/carousel5.png" alt="" class=" w-[100vw] "></swiper-slide>
 			</swiper-container>
 		</div>
 
@@ -50,9 +51,9 @@
 
 
 							Our goal as a digital marketing, advertising 
-							and communications and web development agency 
-							is to illuminate the world with the <i>Radiance of 
-							Creativity</i> to spark brand growth in every corner 
+							and IT (Web Consulting) agency 
+							is to illuminate the world with the <i><b>Radiance of 
+							Creativity</i></b> to spark brand growth in every corner 
 							of Abuja, Nigeria, Africa and the World.      
 							We don’t just come up with what’s cool; 
 							We craft the message your prospects and 
