@@ -28,9 +28,8 @@
 	</head>
 	<body class="font-grotesk">
 		<!-- HEADER ONE -->
-		<x-navbar logo="{{$post->featured_image}}"
-              header="{{$post->title}}"
-			  width="0%"/>
+		<x-single_blog_header logo="{{$post->featured_image}}"
+              header="{{$post->title}}"/>
 		<!-- /END OF HEADER ONE -->
     <div class="bg-stone-900 text-white text-xl lg:text-2xl py-12 lg:py-28 px-12 lg:px-20 text-left">
       <div class="">

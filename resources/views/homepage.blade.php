@@ -428,168 +428,90 @@
 				<swiper-container slides-per-view="2" speed="500" loop="true" autoplay="true" css-mode="true" class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between block md:hidden lg:hidden xl:hidden">
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/idanfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Tseyi Agharaye</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								General Team Lead
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 16.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/justemmafinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Emmanuel Obi</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Creative Director
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 17.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/calebfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Caleb Senda</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Lead Marketing Manager
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 18.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/mayowafinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Mayowa Oludare</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head Of IT
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-				
+						<img src="/images/images-v2/Group 19.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/chidifinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Chidiebere Ogbonna</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head Of Studios
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 20.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/ifyfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Ifeoma Anyamah</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head Of Digital
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 21.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					
 					</swiper-slide>
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/olugbemifinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Emmanuel Olugbemi</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head of Design/UI Designer
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 22.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 					
 					</swiper-slide>
 						<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
-						<img src="/images/images-v2/lizzyfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Elizabeth Inyang</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								HR/Office Manager
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
+						<img src="/images/images-v2/Group 23.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
 					
 					</swiper-slide>
 				</swiper-container>
 				<swiper-container slides-per-view="3" speed="500" loop="true" autoplay="true" css-mode="true" class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:block lg:hidden xl:hidden">
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
+						<img src="/images/images-v2/Group 16.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 17.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 18.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 19.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 20.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 21.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 22.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+						<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 23.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+				</swiper-container>
+				{{-- <swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true" class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:hidden lg:block">
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
 						<img src="/images/images-v2/idanfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
@@ -748,172 +670,51 @@
 						</div>
 					
 					</swiper-slide>
-				</swiper-container>
-				<swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true" class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:block xl:hidden">
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/idanfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Tseyi Agharaye</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								General Team Lead
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/justemmafinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Emmanuel Obi</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Creative Director
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/calebfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Caleb Senda</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Lead Marketing Manager
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/mayowafinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Mayowa Oludare</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head Of IT
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-				
-					</swiper-slide>
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/chidifinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Chidiebere Ogbonna</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head Of Studios
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/ifyfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Ifeoma Anyamah</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head Of Digital
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/olugbemifinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Emmanuel Olugbemi</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								Head of Design/UI Designer
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-						<swiper-slide class="px-2 lg:px-6 flex-col items-center">
-					
-						<img src="/images/images-v2/lizzyfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-						<div
-							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
-						>
-							<p>Elizabeth Inyang</p>
-							<p
-								class="text-white text-[10px] font-light font-['TomatoGrotesk'] leading-[30px]"
-							>
-								HR/Office Manager
-							</p>
-							<div class="flex text-center items-center">
-								<hr
-									class="w-[30%] h-[0px] border border-amber-500 ml-[35%]"
-								/>
-							</div>
-						</div>
-					
-					</swiper-slide>
-				</swiper-container>
+				</swiper-container> --}}
 				<swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true" class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:hidden lg:block">
 					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
 					
+						<img src="/images/images-v2/Group 16.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 17.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 18.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 19.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 20.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 21.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 22.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+						<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
+						<img src="/images/images-v2/Group 23.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+					
+					</swiper-slide>
+				</swiper-container>
+				{{-- <swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true" class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:hidden ">
+					<swiper-slide class="px-2 lg:px-6 flex-col items-center">
+					
 						<img src="/images/images-v2/idanfinal.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 						<div
 							class="bg-[#3C3C3C] flex-col px-2 py-2 text-center text-[#FF9501] text-white lg:max-w-[232px] font-semibold font-['Faustina'] leading-[30px]"
@@ -1072,7 +873,7 @@
 						</div>
 					
 					</swiper-slide>
-				</swiper-container>
+				</swiper-container> --}}
 				</div>
 			</div>
 			<div class="flex-col max-w-[100vw]">
