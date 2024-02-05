@@ -193,7 +193,7 @@
 				<img src="/images/images-v2/logodisplay.png" alt="">
 			</div>
 
-			<div class="mt-16 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
+			<div class="lg:pt-28 sm:pt-16 md:pt-16 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
 				<div class="flex-col text-center">
 					<p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">5</p>
 					<p class="text-white">
