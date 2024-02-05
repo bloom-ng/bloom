@@ -21,9 +21,9 @@
 				and keep them interested in what you do.<br /><br />Subscribe to
 				our newsletter!
 			</p>
-			<form class="flex text-center lg:justify-center md:justify-center justify-center items-center lg:mx-4 mx-2 md:mx-[10%]">
+			<form class="flex text-center lg:justify-center md:justify-center justify-center items-center pt-4 lg:mx-4 mx-2 md:mx-[10%]">
 				<input
-					class="px-8 leading-[40px] text-base lg:text-[24px] placeholder:text-slate-600 py-4 bg-neutral-300 italic w-[40vw]"
+					class="px-8 leading-[40px] text-base lg:text-[24px] placeholder:text-slate-600 py-1 lg:py-4 md:py-4 bg-neutral-300 italic w-[40vw]"
 					placeholder="Email"
 					type="email"
 					name="email"
@@ -35,7 +35,7 @@
 					type="submit"
 					value="Submit"
 				/> -->
-				<button class="px-4 py-4 bg-amber-500 text-base font-black lg:text-[24px]  leading-[40px] text-center" type="submit">
+				<button class="px-4 py-1 lg:py-4 md:py-4 bg-amber-500 text-base font-black lg:text-[24px] leading-[40px] text-center" type="submit">
 					SUBSCRIBE
 				</button>
 			</form>

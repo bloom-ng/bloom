@@ -60,7 +60,7 @@
 			class="w-full flex justify-center items-center relative mb-16"
 		>
 			<h1
-				class="text-center text-white text-2xl lg:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+				class="text-center text-white text-2xl lg:text-[55px] font-extrabold font-['Faustina'] lg:leading-[3.5rem] sm:leading-10 inline px-3 relative z-10"
 
 			>
 				{{$header}}
@@ -130,7 +130,7 @@
 		
 		<div class="relative mt-5">
 			<h1
-				class="text-center text-white text-2xl lg:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+				class="text-center text-white text-2xl lg:text-[55px] font-extrabold font-['Faustina'] lg:leading-[3.5rem] sm:leading-10 inline px-3 relative z-10"
 			>
 				{{$header}}
 			</h1>

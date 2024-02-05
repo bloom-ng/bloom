@@ -1,13 +1,13 @@
 
             <section
-					class="max-w-[100vw] bg-[#1E1E1E] opacity-90 flex items-center justify-between px-12 py-12"
+					class="max-w-[100vw] bg-[#000000] opacity-90 flex items-center justify-between px-12 py-12"
 				>
 					<a href="/">
 						<div class="logo md:vw-[50%]">
 							<img src="/images/images-v2/Logo.svg" alt="" />
 						</div>
 					</a>
-				<ul class="hidden lg:flex gap-12 leading-[19.2px] text-[16px]  items-center justify-center">
+				<ul class="hidden lg:flex gap-12 leading-[19.2px] text-[10px]  items-center justify-center">
 				{{-- <li
 					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 				>
@@ -72,7 +72,14 @@
    
     <div class=" hidden navbar-collapse bg-[#1E1E1E] opacity-90 py-4" id="navbarSupportedContent">
       <!-- Nav Items -->
-		<ul class="flex flex-col gap-6 items-left justify-center py-6 px-12 ">
+		<ul class="flex flex-col gap-6 items-left justify-center py-6 px-8 ">
+		<a href="/#whoWeAre">
+			<li
+				class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
+			>
+				WHO ARE WE?
+			</li>
+        </a>
 		<a href="/footprint">
 		<li
 			class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
@@ -83,7 +90,7 @@
 		<li
 			class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 		>
-			<a href="/digital"> WHAT WE DO</a>
+			<a href="/#whatwedo"> WHAT WE DO</a>
 		</li>
 		<li
 			class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
@@ -96,15 +103,11 @@
 			<a href="/contact">CONTACT US</a>
 		</li>
 		<li>
-			
+			<a href="/help" class="text-center text-black lg:text-base xl:text-base md:text-xs font-black font-bold font-grotesk uppercase tracking-wide bg-amber-500 px-[19px] py-[13px]">
+				HOW CAN WE HELP YOU?
+			</a>
 		</li>
 		</ul>
-		<a href="/help"
-			class="text-center text-black lg:text-base xl:text-base md:text-xs font-medium font-grotesk uppercase 
-			tracking-wide bg-amber-500 px-2 py-[13px] ml-12"
-		>
-			HOW CAN WE HELP YOU?
-		</a>
       <!-- Nav Items -->
     
     </div>

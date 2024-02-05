@@ -21,7 +21,7 @@
 				>
 					WHO ARE WE?
 				</li>
-                </a>
+            </a>
 			<a href="/footprint">
 			<li
 				class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
@@ -96,7 +96,14 @@
 
 <div class=" hidden navbar-collapse bg-[#1E1E1E] opacity-90" id="navbarSupportedContent">
 	<!-- Nav Items -->
-	<ul class="flex flex-col gap-6 items-left justify-center py-6 px-12 ">
+	<ul class="flex flex-col gap-6 items-left justify-center py-6 px-8">
+		<a href="/#whoWeAre">
+				<li
+					class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
+				>
+					WHO ARE WE?
+				</li>
+        </a>
 		<li
 		class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 		>
@@ -107,7 +114,7 @@
 		<li
 			class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
 		>
-			<a href="/digital">WHAT WE DO</a>
+			<a href="/#whatwedo">WHAT WE DO</a>
 		</li>
 		<li
 			class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide"
