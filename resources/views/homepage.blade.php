@@ -193,24 +193,24 @@
 				<img src="/images/images-v2/logodisplay.png" alt="">
 			</div>
 
-			<div class="lg:pt-28 sm:pt-16 md:pt-16 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
+			<div class="lg:pt-16 sm:pt-16 md:pt-16 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
 				<div class="flex-col text-center">
 					<p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">5</p>
-					<p class="text-white">
+					<p class="text-white pt-2">
 						Years of <br />
 						Experience
 					</p>
 				</div>
 				<div class="flex-col text-center">
 					<p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">130</p>
-					<p class="text-white">
+					<p class="text-white pt-2">
 						Finished <br />
 						Projects
 					</p>
 				</div>
 				<div class="flex-col text-center">
 					<p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">34</p>
-					<p class="text-white">
+					<p class="text-white pt-2">
 						Satisfied <br />
 						Clients
 					</p>
