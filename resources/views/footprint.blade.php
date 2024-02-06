@@ -98,19 +98,20 @@
 		<div class="tab-buttons max-w-[100vw] mx-[3%] pt-[7%] md:px-12">
 
 
-			<div
+			{{-- <div
 			class="w-full flex justify-center items-center relative mb-16"
 		>
 			<h1
-				class="absolute top-[-12%] bottom-[0%] -mt-5 text-center text-white z-20 text-[24px] 
-				font-extrabold font-grotesk leading-[3.5rem]"
-			>Flyers
+				class="absolute top-[-12%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
+				font-extrabold font-['Faustina'] leading-[3.5rem]"
+			>
+				{{$header}}
 			</h1>
 			<div
-				style="width:35%"
-				class=" z-0 h-[18px] bg-[#FFB855] text-center"
+				style="width:{{$width}}"
+				class=" z-0 h-[30px] bg-[#FFB855] text-center"
 			></div>
-		</div>
+		</div> --}}
 
 
 			<h3 id="firstTab" onclick="activateTab(1)">Flyers</h3>
