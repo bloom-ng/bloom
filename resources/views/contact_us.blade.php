@@ -47,9 +47,10 @@
       </form
     </div>
     
-  </div><div class="flex flex-wrap">
+  </div>
+  <div class="flex flex-col items-center justify-center max-h-[70vh] max-w-[100vw]">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d955.2832207389714!2d7.40552668937182!3d9.117396039153277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0bba2dde5cb1%3A0xe4b6fc3d6ef958b2!2sBloom%20Digital%20Media%20Ltd!5e0!3m2!1sen!2sng!4v1706625524462!5m2!1sen!2sng" 
-      width="1349" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      width="2700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 		<!-- FOOTER -->
 						<x-newsletter />

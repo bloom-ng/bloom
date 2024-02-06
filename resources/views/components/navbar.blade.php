@@ -60,14 +60,14 @@
 			class="w-full flex justify-center items-center relative mb-16"
 		>
 			<h1
-				class="absolute top-[-12%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
+				class="absolute top-[-30%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
 				font-extrabold font-['Faustina'] leading-[3.5rem]"
 			>
 				{{$header}}
 			</h1>
 			<div
 				style="width:{{$width}}"
-				class=" z-0 h-[30px] bg-[#FFB855] text-center"
+				class="text-center bg-[#FFB855] w-full h-8"
 			></div>
 		</div>
 		
@@ -151,7 +151,7 @@
 			>
 				{{$header}}
 			</h1>
-			<div class="absolute bg-amber-300 w-full h-8 top-5"></div>
+			<div class="absolute bg-[#FFB855] w-full h-8 top-5"></div>
 		</div>
 	</div>
 </div>

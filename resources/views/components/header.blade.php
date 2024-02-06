@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/images/oo.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/images/oo.png">
+    <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/images-v2/favicon.png">
     <!-- Favicon -->
     <meta name="google-site-verification" content="bjWCGcltjrwPQBsMdywGBz6Gaq7wSSgJnfM6dbsVdOo" />
    <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -51,8 +51,8 @@
 
     <!--STATIC CSS -->
     <link rel="stylesheet" href="{{asset('css/local_style.css')}}">
-    <link rel="shortcut icon" href="/images/oo.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/images/oo.png">
+    <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/images/images-v2/favicon.png">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/style_v1.css')}}">
     <!-- Style link ends -->

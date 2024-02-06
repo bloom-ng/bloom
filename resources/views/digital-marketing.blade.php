@@ -52,12 +52,12 @@
 			<div class="py-12 pt-24 text-center">
 				<div class="relative flex justify-center items-center">
 					<h2
-						class="absolute top-[-10%] bottom-[0%] -mt-5 text-center text-white z-20 text-[50px] font-extrabold font-['Faustina'] leading-10"
+						class="absolute top-[-10%] bottom-[0%] -mt-5 text-center text-white z-20 xs:text-3xl  md:text-[45px] xl:text-[65px] font-extrabold font-['Faustina'] leading-10"
 					>
 						Our Social Media Management Packages
 					</h2>
 					<div
-						class="w-[65vw] z-0 h-[30px] bg-amber-300 text-center"
+						class="xl:w-[67vw] lg:w-[67vw] md:w-[67vw] z-0 h-[30px] bg-[#FFB855] text-center"
 					></div>
 				</div>
 			</div>

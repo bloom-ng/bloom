@@ -23,12 +23,12 @@
 			<!-- WE ARE BLOOM START -->
 			<section class="flex flex-col justify-center items-center px-4 pt-12 pb-12 md:px-12 lg:px-24 lg:pb-24 lg:pt-12">
 				<x-metapartners />
-			<div class="pt-16 lg:hidden block">
+			<div class="pt-16 py-10 lg:hidden block">
 				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 			</div>
 			<div id="whoWeAre" class="flex items-center xl:gap-36 lg:gap-20 justify-between lg:flex-row flex-col">
-				<div class="w-full lg:max-w-lg basis-1/2">
-					<div class="flex flex-col self-start mt-12 mb-5 text-left">
+				<div class="w-full lg:max-w-lg  pb-6 basis-1/2">
+					<div class="flex flex-col self-start  text-left">
 						<img
 						class="h-full w-auto object-cover"
 						alt="hero"
@@ -37,12 +37,12 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col basis-1/2">
-					<div class="lg:block hidden mb-5">
+				<div class="flex flex-col items-start basis-1/2">
+					<div class="lg:block mb-5 hidden">
 						<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 					</div>
 
-					<p class="mb-8 text-xl md:text-2xl text-[#fff]">
+					<p class="xl:text-[27px] mb-18 text-xl md:text-2xl text-[#fff]">
 							As an industry leading digital marketing agency in 
 							Abuja, Nigeria, we pride ourselves on not just being 
 							a media solutions company – we are curators of compelling 
@@ -68,7 +68,7 @@
 				<div class="mb-16 w-full flex justify-center">
 					<div class="relative">
 						<h1
-							class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+							class="text-center text-white text-4xl xl:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 						>
 							Core Values
 						</h1>
@@ -189,7 +189,7 @@
 				</div>
 				
 			</div>
-			<div class="max-h-[70vh] py-[5%] max-w-[100vw]">
+			<div class="flex flex-col items-center justify-center bg-[#ffffff] max-h-[70vh] py-[5%] max-w-[100vw]">
 				<img src="/images/images-v2/logodisplay.png" alt="">
 			</div>
 
@@ -221,7 +221,7 @@
 				<div class="relative pb-16">
 					<h1
 						id="footprint"
-						class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+						class="text-center text-white text-4xl xl:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 					>
 						Our Footprint
 					</h1>
@@ -301,7 +301,7 @@
 			<div class="mt-16 w-full flex items-center justify-center">
 				<div id="whatwedo" class="relative pb-16">
 					<h1
-						class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+						class="text-center text-white text-4xl xl:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 					>
 						What We Do
 					</h1>
@@ -463,7 +463,7 @@
 				<div class="mt-16 w-full flex justify-center">
 					<div class="relative pb-16">
 						<h1
-							class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+							class="text-center text-white text-4xl xl:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 						>
 							Meet The Team
 						</h1>
@@ -607,7 +607,7 @@
 				<div class="mt-16 w-full flex justify-center">
 					<div class="relative pb-16">
 						<h1
-							class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+							class="text-center text-white text-4xl xl:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 						>
 							Testimonials
 						</h1>
@@ -724,7 +724,7 @@
 				<div class="mt-16 w-full flex justify-center">
 					<div class="relative pb-16">
 						<h1
-							class="text-center text-white text-4xl lg:text-4xl font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
+							class="text-center text-white text-4xl xl:text-[55px] font-extrabold font-['Faustina'] leading-10 inline px-3 relative z-10"
 						>
 							Featured Blogs
 						</h1>

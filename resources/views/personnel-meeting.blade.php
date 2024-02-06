@@ -21,7 +21,7 @@
   <!-- MD BOOTSTRAP 5 -->
   <link rel="stylesheet" href="/css/mdb.dark.min.css">
 
-  <link rel="shortcut icon" href="/images/oo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
   
   <!-- Facebook Pixel Code -->
 <script>

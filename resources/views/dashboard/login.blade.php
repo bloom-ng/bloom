@@ -6,7 +6,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary" >
     <div class="card-header text-center">
-      <a href="/" class="h1"><img src="/images/oo.png" alt="logo" height="30px" width="40px"></a>
+      <a href="/" class="h1"><img src="/images/images-v2/favicon.png" alt="logo" height="30px" width="40px"></a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Enter credentials to login.</p>

@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-primary bg-white elevation-4">
     <!-- Brand Logo -->
     <a href="/dashboard/home" class="brand-link">
-      <img src="/images/oo.png"  alt="Bloom Logo" class="brand-image mx-1  elevation-0" style="opacity: .8">
+      <img src="/images/images-v2/favicon.png"  alt="Bloom Logo" class="brand-image mx-1  elevation-0" style="opacity: .8">
       <span class="brand-text font-weight-light">&nbsp;</span>
     </a>
 

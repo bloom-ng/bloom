@@ -96,6 +96,23 @@
 		
     <section class="background max-w-[100vw]">
 		<div class="tab-buttons max-w-[100vw] mx-[3%] pt-[7%] md:px-12">
+
+
+			<div
+			class="w-full flex justify-center items-center relative mb-16"
+		>
+			<h1
+				class="absolute top-[-12%] bottom-[0%] -mt-5 text-center text-white z-20 text-[24px] 
+				font-extrabold font-grotesk leading-[3.5rem]"
+			>Flyers
+			</h1>
+			<div
+				style="width:35%"
+				class=" z-0 h-[18px] bg-[#FFB855] text-center"
+			></div>
+		</div>
+
+
 			<h3 id="firstTab" onclick="activateTab(1)">Flyers</h3>
 			<h3 id="secondTab" onclick="activateTab(2)">Video & Animation</h3>
 			<h3 id="thirdTab" onclick="activateTab(3)">Print</h3>

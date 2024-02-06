@@ -24,7 +24,7 @@
 <!-- Video Banner -->
 
 
-<div class=" container text-center display-6 p-2 my-5 neo-pressed"> <img id="oo-logo" src="/images/oo.png" alt="" class=" p-4"></div>
+<div class=" container text-center display-6 p-2 my-5 neo-pressed"> <img id="oo-logo" src="/images/images-v2/favicon.png" alt="" class=" p-4"></div>
 
 <!-- About We Are Bloom  -->
 <div class="container">

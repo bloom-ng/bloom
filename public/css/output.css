@@ -734,6 +734,10 @@ video {
   top: -12%;
 }
 
+.top-\[-30\%\] {
+  top: -30%;
+}
+
 .top-\[-5\%\] {
   top: -5%;
 }
@@ -1181,6 +1185,10 @@ video {
   height: 112px;
 }
 
+.h-\[18px\] {
+  height: 18px;
+}
+
 .h-\[250px\] {
   height: 250px;
 }
@@ -1298,10 +1306,6 @@ video {
   width: 465px;
 }
 
-.w-\[65vw\] {
-  width: 65vw;
-}
-
 .w-\[7px\] {
   width: 7px;
 }
@@ -1393,10 +1397,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-start {
@@ -1601,6 +1601,11 @@ video {
 }
 
 .bg-\[\#fff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffffff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -2004,26 +2009,6 @@ video {
   padding-top: 7%;
 }
 
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
-}
-
-.pt-44 {
-  padding-top: 11rem;
-}
-
-.pt-48 {
-  padding-top: 12rem;
-}
-
-.pt-52 {
-  padding-top: 13rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2085,8 +2070,8 @@ video {
   font-size: 16px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-\[24px\] {
+  font-size: 24px;
 }
 
 .text-\[55px\] {
@@ -2802,6 +2787,10 @@ video {
     width: 12rem;
   }
 
+  .md\:w-\[67vw\] {
+    width: 67vw;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -2960,12 +2949,12 @@ video {
     padding-top: 3rem;
   }
 
-  .md\:pt-8 {
-    padding-top: 2rem;
-  }
-
   .md\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .md\:pt-8 {
+    padding-top: 2rem;
   }
 
   .md\:text-left {
@@ -2990,6 +2979,10 @@ video {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-\[45px\] {
+    font-size: 45px;
   }
 
   .md\:text-base {
@@ -3274,6 +3267,10 @@ video {
     width: 24rem;
   }
 
+  .lg\:w-\[67vw\] {
+    width: 67vw;
+  }
+
   .lg\:w-full {
     width: 100%;
   }
@@ -3466,30 +3463,6 @@ video {
     padding-top: 13rem;
   }
 
-  .lg\:pt-32 {
-    padding-top: 8rem;
-  }
-
-  .lg\:pt-28 {
-    padding-top: 7rem;
-  }
-
-  .lg\:pt-36 {
-    padding-top: 9rem;
-  }
-
-  .lg\:pt-44 {
-    padding-top: 11rem;
-  }
-
-  .lg\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .lg\:pt-48 {
-    padding-top: 12rem;
-  }
-
   .lg\:text-left {
     text-align: left;
   }
@@ -3637,6 +3610,10 @@ video {
     width: 16rem;
   }
 
+  .xl\:w-\[67vw\] {
+    width: 67vw;
+  }
+
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -3698,14 +3675,6 @@ video {
     padding-top: 1rem;
   }
 
-  .xl\:pt-32 {
-    padding-top: 8rem;
-  }
-
-  .xl\:pt-64 {
-    padding-top: 16rem;
-  }
-
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -3729,6 +3698,18 @@ video {
   .xl\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .xl\:text-\[27px\] {
+    font-size: 27px;
+  }
+
+  .xl\:text-\[55px\] {
+    font-size: 55px;
+  }
+
+  .xl\:text-\[65px\] {
+    font-size: 65px;
   }
 
   .xl\:text-base {

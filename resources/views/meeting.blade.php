@@ -17,7 +17,7 @@
    <link rel="stylesheet" href="/dist/css/adminlte.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/local_style.css">
-  <link rel="shortcut icon" href="/images/oo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
   <!-- MD BOOTSTRAP 5 -->
   <link rel="stylesheet" href="/css/mdb.dark.min.css">
   
@@ -170,7 +170,7 @@
 
     <div class="row flex-container shadow-sm">
         <!--<div class=" text-center">-->
-        <!--    <img src="/images/oo.png" height="100px" width="150px" alt="" class="elevation-0"> <br>-->
+        <!--    <img src="/images/images-v2/favicon.png" height="100px" width="150px" alt="" class="elevation-0"> <br>-->
         <!--    <h5 class="text-center text-muted my-3">Bloom Digital Media</h5>-->
             
                     
