@@ -19,7 +19,7 @@
 			<a href="https://www.tiktok.com/@bloomdigitmedia?_t=8j71WPhCotx&_r=1"
 				target="_blank"><img src="/images/images-v2/TikTok.svg" alt="TikTok Link"
 			/></a>
-			<a href="www.youtube.com/@Bloom_DigitalMedia"
+			<a href="https://www.youtube.com/@Bloom_DigitalMedia"
 				target="_blank"><img src="/images/images-v2/YouTube.svg" alt="Youtube Link"
 			/></a>
 		</div>

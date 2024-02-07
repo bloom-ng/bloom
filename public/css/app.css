@@ -176,7 +176,7 @@
 	background: orange;
 	height: fit-content;
 	width: fit-content;
-	padding: 15px;
+	padding: 40px;
 	font-family: "faustina", sans-serif;
 	color: white;
 	position: absolute;
@@ -354,7 +354,8 @@
 	}
 
 	.divider {
-		left: calc(46.1% + 10px);
+		left: calc(44%);
+		top: calc(-5%);
 	}
 }
 
@@ -410,7 +411,8 @@
 
 @media (min-width: 1200px) {
 	.divider {
-		left: calc(46.1% + 25px);
+		left: calc(46.1%);
+		top: calc(-5%);
 	}
 }
 

@@ -123,7 +123,7 @@
 			<div class="grid grid-cols-4 gap-2 mt-5" id="flyers-container">
 				@foreach ($data as $item)
 					<div class="bg-white">
-						<img src="/images/images-v2/reduced_flyers/{{$item}}" class="w-full" />
+						<img src="/images/images-v2/reduced_flyers/{{$item}}" class="w-full" loading="lazy" />
 					</div>
 				@endforeach
 			</div>
@@ -209,59 +209,59 @@
 			<div class="grid grid-cols-3 gap-4 mt-5" id="print-container">
 				<div class="grid gap-4">
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-01.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-01.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-02.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-02.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-03.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-03.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-04.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-04.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-15.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-15.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-16.png" alt="">
-					</div>
-				</div>
-				<div class="grid gap-4">
-					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-05.png" alt="">
-					</div>
-					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-06.png" alt="">
-					</div>
-					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-07.png" alt="">
-					</div>
-					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-08.png" alt="">
-					</div>
-					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-14.png" alt="">
-					</div>
-					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-17.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-16.png" alt="" loading="lazy">
 					</div>
 				</div>
 				<div class="grid gap-4">
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-09.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-05.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-10.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-06.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-11.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-07.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-12.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-08.png" alt="" loading="lazy">
 					</div>
 					<div>
-						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-13.png" alt="">
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-14.png" alt="" loading="lazy">
+					</div>
+					<div>
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-17.png" alt="" loading="lazy">
+					</div>
+				</div>
+				<div class="grid gap-4">
+					<div>
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-09.png" alt="" loading="lazy">
+					</div>
+					<div>
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-10.png" alt="" loading="lazy">
+					</div>
+					<div>
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-11.png" alt="" loading="lazy">
+					</div>
+					<div>
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-12.png" alt="" loading="lazy">
+					</div>
+					<div>
+						<img class="" src="/images/images-v2/PRINT REDUCED/DSC_1148-13.png" alt="" loading="lazy">
 					</div>
 				</div>
 			</div>
@@ -269,7 +269,7 @@
 			<div class="grid grid-cols-3 gap-4 mt-5" id="bloomStudios-container">
 				@foreach ($studios as $item)
 					<div class="bg-white">
-						<img src="/images/images-v2/reduced_studios/{{$item}}" class="w-full" />
+						<img src="/images/images-v2/reduced_studios/{{$item}}" class="w-full" loading="lazy" />
 					</div>
 				@endforeach
 			</div>

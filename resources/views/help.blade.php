@@ -119,8 +119,12 @@
           <div class="divider">OR</div>
         </div>
         <div class="flex flex-col w-full h-fit-content gap-20 bg-zinc-800 p-8">
-          <h3 class="headerText2 text-2xl text-center font-grotesk leading-10">
+          {{-- <h3 class="headerText2 text-2xl text-center font-grotesk leading-10">
             <span>Book a meeting with us</span>, Gain clarity on what works in your industry and easily win your audience over.
+          </h3> --}}
+          <h3 class="headerText2 text-2xl text-center font-grotesk font-['TomatoGrotesk'] leading-10 ">
+            <span class="boldtest">Book a meeting with us</span>
+            for what you need and we will get back to you with the best path for you and your business.
           </h3>
           <form class="flex flex-col items-center gap-6 w-full leading-10" action="/appointments" method="post">
             @csrf

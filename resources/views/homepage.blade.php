@@ -1,4 +1,28 @@
-<x-tailwind-header-v2 title="Bloom Digital Media: Digital Marketing Agency"/>
+	<x-tailwind-header-v2 title="Home | Top Digital Marketing Agency in Abuja, Nigeria">
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<link rel="stylesheet" href="{{asset('css/output.css')}}" />
+			<link rel="stylesheet" href="{{asset('css/app.css')}}" />	
+			<meta name="description" content="Bloom Digital Media is an award-winning digital marketing agency in Abuja, Nigeria driving client success with SEO, paid ads, social media, branding, web design, web development &amp; email"/>
+			<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+			<link rel="canonical" href="https://www.bloomdigitmedia.com/" />
+			<meta property="og:locale" content="en_NG" />
+			<meta property="og:type" content="website" />
+			<meta property="og:title" content="Home | Top Digital Marketing Agency in Abuja, Nigeria" />
+			<meta property="og:description" content="Bloom Digital Media is an award-winning digital marketing agency in Abuja, Nigeria driving client success with SEO, paid ads, social media, branding, web design, web development &amp; email" />
+			<meta property="og:url" content="https://www.bloomdigitmedia.com/" />
+			<meta property="og:site_name" content="Bloom Digital Media: Digital Marketing Agency" />
+			<meta property="og:updated_time" content="2024-01-21T10:18:36+00:00" />
+			<meta property="article:published_time" content="2024-01-21T10:18:24+00:00" />
+			<meta property="article:modified_time" content="2023-11-01T20:18:36+00:00" />
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:title" content="Home | Top Digital Marketing Agency in Abuja, Nigeria" />
+			<meta name="twitter:description" content="Bloom Digital Media is an award-winning digital marketing agency in Abuja, Nigeria driving client success with SEO, paid ads, social media, branding, web design, web development &amp; email" />
+			<meta name="twitter:label1" content="Written by" />
+			<meta name="twitter:data1" content="Babalola Dare" />
+			<meta name="twitter:label2" content="Time to read" />
+			<meta name="twitter:data2" content="1 minute" />
+	</x-tailwind-header-v2>
 	<body class="font-grotesk">
 		<!-- HEADER ONE -->
 		{{-- <x-header /> --}}
@@ -11,7 +35,7 @@
 			<swiper-container slides-per-view="1" speed="900" loop="true" autoPlay="true" css-mode="true" class="flex max-w-[100vw] justify-between items-center">
 				<swiper-slide class=""><img src="/images/images-v2/carousel1.png" alt="" class=" w-[100vw] "></swiper-slide  >
 				<swiper-slide class=""><img src="/images/images-v2/carousel2.png" alt="" class=" w-[100vw] "></swiper-slide  >
-				<swiper-slide class=""><img src="/images/images-v2/carousel3.png" alt="" class=" w-[100vw] "></swiper-slide  >
+				<swiper-slide class=""><a href="/contact"><img src="/images/images-v2/carousel3.png" alt="" class=" w-[100vw] "></a></swiper-slide  >
 				<swiper-slide class=""><img src="/images/images-v2/carousel4.png" alt="" class=" w-[100vw] "></swiper-slide>
 				<swiper-slide class=""><img src="/images/images-v2/carousel5.png" alt="" class=" w-[100vw] "></swiper-slide>
 			</swiper-container>
@@ -26,8 +50,8 @@
 			<div class="pt-16 py-10 lg:hidden block">
 				<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 			</div>
-			<div id="whoWeAre" class="flex items-center xl:gap-36 lg:gap-20 justify-between lg:flex-row flex-col">
-				<div class="w-full lg:max-w-lg  pb-6 basis-1/2">
+			<div id="whoWeAre" class="flex items-start xl:gap-36 lg:gap-20 justify-between lg:flex-row flex-col">
+				<div class="w-full lg:max-w-lg pb-6 basis-1/2">
 					<div class="flex flex-col self-start  text-left">
 						<img
 						class="h-full w-auto object-cover"
@@ -37,7 +61,7 @@
 					</div>
 				</div>
 
-				<div class="flex flex-col items-start basis-1/2">
+				<div class="flex flex-col items-start md:items-start basis-1/2">
 					<div class="lg:block mb-5 hidden">
 						<img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
 					</div>
@@ -193,7 +217,7 @@
 				<img src="/images/images-v2/logodisplay.png" alt="">
 			</div>
 
-			<div class="lg:pt-52 sm:pt-16 md:pt-16 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
+			<div class="pt-16 md:mt-12 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
 				<div class="flex-col text-center">
 					<p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">5</p>
 					<p class="text-white pt-2">
@@ -230,64 +254,64 @@
 			</div>
 			<div class="relative grid grid-cols-4 gap-2 mx-[5%] lg:mx-32">
 				<div class="bg-white">
-					<img src="/images/images-v2/f2db8c844e8e8abd235197e653784d6d.jpeg" class="w-full" />
+					<img src="/images/images-v2/f2db8c844e8e8abd235197e653784d6d.jpeg" class="w-full" loading="lazy"/>
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/heritage_homes.png" class="w-full" />
+					<img src="/images/images-v2/heritage_homes.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/dazzle_jencc.png" class="w-full" />
+					<img src="/images/images-v2/dazzle_jencc.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/furniture_republic.png" class="w-full" />
+					<img src="/images/images-v2/furniture_republic.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/foodstuff_store.png" class="w-full" />
+					<img src="/images/images-v2/foodstuff_store.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/podcast.png" class="w-full" />
+					<img src="/images/images-v2/podcast.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/emperor_flyers.png" class="w-full" />
+					<img src="/images/images-v2/emperor_flyers.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/fdc.png" class="w-full" />
+					<img src="/images/images-v2/fdc.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/furniture_rep_2.png" class="w-full" />
+					<img src="/images/images-v2/furniture_rep_2.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/fdc2.png" class="w-full" />
+					<img src="/images/images-v2/fdc2.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/back_to_school.png" class="w-full" />
+					<img src="/images/images-v2/back_to_school.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/dazzle_jencc2.png" class="w-full" />
+					<img src="/images/images-v2/dazzle_jencc2.png" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers 2-03.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers 2-03.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-01.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-01.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-08.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-08.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-19.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-19.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-86.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-86.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-73.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-73.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-105.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-105.jpg" class="w-full" loading="lazy" />
 				</div>
 				<div class="bg-white">
-					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-119.jpg" class="w-full" />
+					<img src="/images/images-v2/reduced_flyers/Reduced Flyers-119.jpg" class="w-full" loading="lazy" />
 				</div>
 			</div>
 			<div class="flex justify-end mx-[5%] py-[2%] lg:mx-32">

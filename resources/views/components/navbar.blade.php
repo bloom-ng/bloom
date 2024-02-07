@@ -60,7 +60,7 @@
 			class="w-full flex justify-center items-center relative mb-16"
 		>
 			<h1
-				class="absolute top-[-30%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
+				class="sm:block xs:hiddden absolute top-[-30%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
 				font-extrabold font-['Faustina'] leading-[3.5rem]"
 			>
 				{{$header}}
