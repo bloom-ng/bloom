@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{-- tags from Dare --}}
-    <meta name="description" content="Bloom Digital Media is an award-winning digital marketing agency in Abuja, Nigeria driving client success with SEO, paid ads, social media, branding, web design, web development &amp; email"/>
+    {{-- <meta name="description" content="Bloom Digital Media is an award-winning digital marketing agency in Abuja, Nigeria driving client success with SEO, paid ads, social media, branding, web design, web development &amp; email"/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://www.bloomdigitmedia.com/" />
     <meta property="og:locale" content="en_NG" />
@@ -25,7 +25,7 @@
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Babalola Dare" />
     <meta name="twitter:label2" content="Time to read" />
-    <meta name="twitter:data2" content="1 minute" />
+    <meta name="twitter:data2" content="1 minute" /> --}}
     {{-- tags from Dare --}}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />

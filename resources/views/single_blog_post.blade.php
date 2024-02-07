@@ -5,8 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="{{asset('css/output.css')}}" />
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
+    <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
     <title>[BLOG-POST-NAME] - Bloom Digital Media</title>
-	<meta name="description" content="[META CONTENT AS SPECIFIED BY COPYWRITER]"/>
+	  <meta name="description" content="[META CONTENT AS SPECIFIED BY COPYWRITER]"/>
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     <link rel="canonical" href="https://www.bloomdigitmedia.com/blog/[BLOG-POST-NAME]" />
     <meta property="og:locale" content="en_NG" />
@@ -25,6 +26,7 @@
     <meta name="twitter:data1" content="Babalola Dare" />
     <meta name="twitter:label2" content="Time to read" />
     <meta name="twitter:data2" content="1 minute" />
+    
 	</head>
 	<body class="font-grotesk">
 		<!-- HEADER ONE -->
