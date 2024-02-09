@@ -18,7 +18,7 @@
 				>
 					Who Are We?
 				</li> --}}
-                <a href="#whoWeAre">
+                <a href="/#whoWeAre">
                     <li
                         class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold lg:font-semibold font-grotesk uppercase tracking-wide">
                         WHO ARE WE?
@@ -32,7 +32,7 @@
                 </a>
                 <li
                     class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
-                    <a href="#whatwedo"> WHAT WE DO</a>
+                    <a href="/#whatwedo"> WHAT WE DO</a>
                 </li>
                 <li
                     class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">

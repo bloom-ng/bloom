@@ -28,7 +28,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const firstTab = document.getElementById("firstTab");
-            firstTab.classList.add("active");
+            firstTab.classList.remove("hidden");
             const flyersContainer = document.getElementById("flyers-container");
             const printContainer = document.getElementById("print-container");
             const bloomStudiosContainer = document.getElementById(
