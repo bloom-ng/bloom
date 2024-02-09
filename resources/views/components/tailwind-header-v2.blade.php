@@ -190,4 +190,4 @@
     {{ $slot }}
 </head>
 
-<body class="font-grotesk bg-[#1E1E1E] font-['TomatoGroteskBold']">
+<body class="bg-[#1E1E1E]">

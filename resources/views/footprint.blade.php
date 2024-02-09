@@ -54,36 +54,40 @@
 
             const printContainer = document.getElementById("print-container");
             if (tab === 1) {
-                firstTab.classList.add("active");
-                secondTab.classList.remove("active");
-                thirdTab.classList.remove("active");
-                fourthTab.classList.remove("active");
+                firstTab.classList.remove("hidden");
+                secondTab.classList.add("hidden");
+                thirdTab.classList.add("hidden");
+                fourthTab.classList.add("hidden");
+
                 flyersContainer.style.display = "grid";
                 videoAnimContainer.style.display = "none";
                 printContainer.style.display = "none";
             } else if (tab === 2) {
-                firstTab.classList.remove("active");
-                thirdTab.classList.remove("active");
-                fourthTab.classList.remove("active");
-                secondTab.classList.add("active");
+                firstTab.classList.add("hidden");
+                thirdTab.classList.add("hidden");
+                fourthTab.classList.add("hidden");
+                secondTab.classList.remove("hidden");
+
                 flyersContainer.style.display = "none";
                 videoAnimContainer.style.display = "grid";
                 bloomStudiosContainer.style.display = "none";
                 printContainer.style.display = "none";
             } else if (tab === 3) {
-                firstTab.classList.remove("active");
-                secondTab.classList.remove("active");
-                fourthTab.classList.remove("active");
-                thirdTab.classList.add("active");
+                firstTab.classList.add("hidden");
+                secondTab.classList.add("hidden");
+                fourthTab.classList.add("hidden");
+                thirdTab.classList.remove("hidden");
+
                 flyersContainer.style.display = "none";
                 videoAnimContainer.style.display = "none";
                 bloomStudiosContainer.style.display = "none";
                 printContainer.style.display = "grid";
             } else if (tab === 4) {
-                firstTab.classList.remove("active");
-                thirdTab.classList.remove("active");
-                secondTab.classList.remove("active");
-                fourthTab.classList.add("active");
+                firstTab.classList.add("hidden");
+                thirdTab.classList.add("hidden");
+                secondTab.classList.add("hidden");
+                fourthTab.classList.remove("hidden");
+
                 flyersContainer.style.display = "none";
                 videoAnimContainer.style.display = "none";
                 bloomStudiosContainer.style.display = "grid";
@@ -100,26 +104,53 @@
     <div class="tab-buttons max-w-[100vw] mx-[3%] pt-[7%] md:px-12">
 
 
-        {{-- <div
-			class="w-full flex justify-center items-center relative mb-16"
-		>
-			<h1
-				class="absolute top-[-12%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] 
-				font-extrabold font-['Faustina'] leading-[3.5rem]"
-			>
-				{{$header}}
-			</h1>
-			<div
-				style="width:{{$width}}"
-				class=" z-0 h-[30px] bg-[#FFB855] text-center"
-			></div>
-		</div> --}}
+        <div onclick="activateTab(1)" class="mb-16 flex justify-center">
+            <div class="relative">
+                <h1
+                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
+                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    Flyers
+                </h1>
+                <div id="firstTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
+            </div>
+        </div>
 
+        <div onclick="activateTab(2)" class="mb-16 flex justify-center">
+            <div class="relative">
+                <h1
+                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
+                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    Video & Animation
+                </h1>
+                <div id="secondTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
+            </div>
+        </div>
 
-        <h3 id="firstTab" class="font-['TomatoGroteskBold'] " onclick="activateTab(1)">Flyers</h3>
+        <div onclick="activateTab(3)" class="mb-16 flex justify-center">
+            <div class="relative">
+                <h1
+                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
+                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    Print
+                </h1>
+                <div id="thirdTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
+            </div>
+        </div>
+
+        <div onclick="activateTab(4)" class="mb-16 flex justify-center">
+            <div class="relative">
+                <h1
+                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
+                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    Bloom Studios
+                </h1>
+                <div id="fourthTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
+            </div>
+        </div>
+        {{-- <h3 id="firstTab" class="font-['TomatoGroteskBold'] " onclick="activateTab(2)">Flyers</h3>
         <h3 id="secondTab" class=" font-['TomatoGroteskBold']" onclick="activateTab(2)">Video & Animation</h3>
         <h3 id="thirdTab" class="font-['TomatoGroteskBold']" onclick="activateTab(3)">Print</h3>
-        <h3 id="fourthTab" class="font-['TomatoGroteskBold']" onclick="activateTab(4)">Bloom Studios</h3>
+        <h3 id="fourthTab" class="font-['TomatoGroteskBold']" onclick="activateTab(4)">Bloom Studios</h3> --}}
     </div>
     <div class="containers-group max-w-[100vw] pt-[4%] pb-[5%] mx-[5%] lg:mx-20">
         <div class="grid grid-cols-4 gap-2 mt-5" id="flyers-container">
