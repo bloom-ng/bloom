@@ -76,7 +76,7 @@
                      As an industry leading digital marketing agency in
                      Abuja, Nigeria, we pride ourselves on not just being
                      a media solutions company – we are curators of compelling
-                     visuals and brand stories. We <u>convert</u> and we're
+                     visuals and brand stories. We <u>convert</u>, and we're
                      orchestrators
                      of brand stories that leave lasting impressions.<br /><br />
 
