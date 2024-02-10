@@ -84,7 +84,7 @@
         <div class="formsContainer">
             <div class="flex flex-col w-full h-fit-content gap-20 bg-zinc-800 p-8">
                 <h3 class="headerText2 text-2xl text-center font-grotesk font-['TomatoGrotesk'] leading-10 ">
-                    <span class="boldtest">Provide us relevant information</span>
+                    <span class="medium-font">Provide us relevant information</span>
                     for what you need and we will get back to you with the best path for you and your business.
                 </h3>
                 <form class="text-black flex flex-col items-center gap-6 w-full font-extralight leading-10"
@@ -123,18 +123,16 @@
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text"
                         name="additional_info" placeholder="Additional Information" />
 
-                    <button class="w-full bg-amber-500 text-black font-black py-4" type="submit">WE MOVE!</button>
+                    <button class="w-full bg-amber-500 text-black black-font text-[28px] py-4" type="submit">WE
+                        MOVE!</button>
                 </form>
             </div>
             <div class="divider-container">
                 <div class="divider">OR</div>
             </div>
             <div class="flex flex-col w-full h-fit-content gap-20 bg-zinc-800 p-8">
-                {{-- <h3 class="headerText2 text-2xl text-center font-grotesk leading-10">
-            <span>Book a meeting with us</span>, Gain clarity on what works in your industry and easily win your audience over.
-          </h3> --}}
                 <h3 class="headerText2 text-2xl text-center font-grotesk font-['TomatoGrotesk'] leading-10 ">
-                    <span class="boldtest">Book a meeting with us</span>
+                    <span class="medium-font">Book a meeting with us</span>
                     for what you need and we will get back to you with the best path for you and your business.
                 </h3>
                 <form class="flex flex-col items-center gap-6 w-full leading-10" action="/appointments"
@@ -163,7 +161,7 @@
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text"
                         name="additional_info" placeholder="Additional Information" />
 
-                    <button class="w-full bg-amber-500 text-black font-black py-4" type="submit">BOOK A
+                    <button class="w-full bg-amber-500 text-black black-font text-[28px] py-4" type="submit">BOOK A
                         MEETING</button>
 
                 </form>

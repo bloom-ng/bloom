@@ -1,5 +1,5 @@
 <section
-    class="black-font max-w-[100vw] bg-[#000000] opacity-90 flex items-center justify-between px-12 xl:px-14 lg:px-8 py-12">
+    class="max-w-[100vw] bg-[#000000] black-font opacity-90 flex items-center justify-between px-12 xl:px-14 lg:px-8 py-12">
     <a href="/">
         <div class="logo md:vw-[50%] lg:vw-[45%] xl:vw-[50%]">
             <img src="/images/images-v2/Logo.svg" alt="" />

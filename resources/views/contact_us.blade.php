@@ -31,7 +31,7 @@
 <!-- HEADER ONE -->
 <x-navbar logo="/images/images-v2/telephone.png" header="Contact Us" width="23%" />
 <!-- /END OF HEADER ONE -->
-<section class="font-['TomatoGrotesk']">
+<section class="medium-font">
 
     <div class="background pt-12 pb-12 lg:px-24 lg:pb-24 lg:pt-24">
         <div class="header-text">
@@ -45,7 +45,7 @@
             <input name="email" type="text" required placeholder="Email" />
             <input name="phone" hidden type="text" value="08130000000" required placeholder="Phone" />
             <textarea required name="message" rows="22" cols="13" placeholder="Message"></textarea>
-            <button type="submit">SUBMIT</button>
+            <button class="black-font" type="submit">SUBMIT</button>
         </form </div>
 
     </div>

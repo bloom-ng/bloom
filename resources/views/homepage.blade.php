@@ -3,6 +3,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="{{ asset('css/output.css') }}" />
      <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}" />
      <meta name="description"
          content="Bloom Digital Media is an award-winning digital marketing agency in Abuja, Nigeria driving client success with SEO, paid ads, social media, branding, web design, web development &amp; email" />
      <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
@@ -72,7 +73,8 @@
                      <img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
                  </div>
 
-                 <p class="xl:text-[27px] xl:leading-8 mb-18 text-xl md:text-xl lg:text-[17px] text-[#fff]">
+                 <p
+                     class="xl:text-[27px] extra-light-font xl:leading-8 mb-18 text-xl md:text-xl lg:text-[17px] text-[#fff]">
                      As an industry leading digital marketing agency in
                      Abuja, Nigeria, we pride ourselves on not just being
                      a media solutions company – we are curators of compelling
@@ -107,7 +109,7 @@
          </div>
 
          <div
-             class="lg:flex grid grid-cols-2 my-[4%] md:grid md:grid-cols-3 max-w-screen lg:px-24 lg:justify-between justify-around">
+             class="extra-light-font lg:flex grid grid-cols-2 my-[4%] md:grid md:grid-cols-3 max-w-screen lg:px-24 lg:justify-between justify-around">
              <div class="flex flex-col items-center pb-6">
                  <div class="w-fit p-1 border-2 border-amber-500 rounded-full">
                      <div class="w-[112px] h-[112px] rounded-full bg-white">
@@ -182,21 +184,21 @@
      <div class="pt-16 md:mt-12 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
          <div class="flex-col text-center">
              <p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">5</p>
-             <p class="text-white pt-2">
+             <p class="extra-light-font text-white pt-2">
                  Years of <br />
                  Experience
              </p>
          </div>
          <div class="flex-col text-center">
              <p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">130</p>
-             <p class="text-white pt-2">
+             <p class="extra-light-font text-white pt-2">
                  Finished <br />
                  Projects
              </p>
          </div>
          <div class="flex-col text-center">
              <p class="font-extrabold text-3xl lg:text-6xl text-[#FF9501]">34</p>
-             <p class="text-white pt-2">
+             <p class="extra-light-font text-white pt-2">
                  Satisfied <br />
                  Clients
              </p>
@@ -275,7 +277,7 @@
          </div> --}}
      </div>
      <div class="flex justify-end mx-[5%] py-[2%] lg:mx-32">
-         <a href="/footprint" class="font-black text-sm py-3.5 px-5 text-black bg-amber-500">
+         <a href="/footprint" class="black-font text-sm py-3.5 px-5 text-black bg-amber-500">
              SEE MORE
          </a>
      </div>
@@ -293,7 +295,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/brand-strategy">
                  <img src="/images/images-v2/idan.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      BRAND STRATEGY & <br />POSITIONING
                  </p>
              </a>
@@ -301,7 +303,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/creative-campaign">
                  <img src="/images/images-v2/bulb.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      CREATIVE <br />CAMPAIGNS
                  </p>
              </a>
@@ -309,7 +311,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/media-planning">
                  <img src="/images/images-v2/billboard.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      MEDIA PLANNING & <br />BUYING
                  </p>
              </a>
@@ -318,7 +320,7 @@
              <a href="/digital">
                  <img src="/images/images-v2/hand_holding_smartphone_social_media_concept.png"
                      class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      DIGITAL <br />
                      MARKETTING
                  </p>
@@ -327,7 +329,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/content-creation">
                  <img src="/images/images-v2/content_market.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      CONTENT <br />CREATION
                  </p>
              </a>
@@ -335,7 +337,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/public-relations">
                  <img src="/images/images-v2/microphones.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      PUBLIC <br />
                      RELATIONS
                  </p>
@@ -344,7 +346,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/branding-and-design">
                  <img src="/images/images-v2/brand.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      BRANDING <br />
                      & DESIGN
                  </p>
@@ -353,7 +355,7 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/media-production">
                  <img src="/images/images-v2/media.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      MEDIA PRODUCTION <br />
                      & PRODUCT SHOOT
                  </p>
@@ -362,63 +364,13 @@
          <div class="bg-[#3C3C3C] flex-col">
              <a href="/web-development">
                  <img src="/images/images-v2/code_screen.png" class="h-[400px] w-full" />
-                 <p class="p-6 text-center font-extrabold text-[#FF9501] text-2xl">
+                 <p class="p-6 text-center extra-bold-font text-[#FF9501] text-2xl">
                      WEB <br />
                      DEVELOPMENT
                  </p>
              </a>
          </div>
      </div>
-     {{-- <div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-8 mt-5 mx-[5%] lg:mx-32">
-				<div class="">
-					<a href="/brand-strategy">
-						<img src="/images/images-v2/Brand Strategy & Positioning.png" class="h-[400px] w-full" />
-					</a>
-				</div>
-				<div class="">
-					<a href="/creative-campaign">
-						<img src="/images/images-v2/Creative Campaigns.png" class="h-[400px] w-full" />
-					</a>	
-				</div>
-				<div class="">
-					<a href="/media-planning">
-						<img src="/images/images-v2/Media Planning And Buying.png" class="h-[400px] w-full" />
-					</a>	
-				</div>
-				<div class="">
-					<a href="/digital">
-						<img
-							src="/images/images-v2/Digital Marketing.png"
-							class="h-[400px] w-full"
-						/>
-					</a>
-				</div>
-				<div class="">
-					<a href="/content-creation">
-						<img src="/images/images-v2/Content Creation.png" class="h-[400px] w-full" />
-					</a>
-				</div>
-				<div class="">
-					<a href="/public-relations">
-						<img src="/images/images-v2/Public Relations.png" class="h-[400px] w-full" />
-					</a>
-				</div>
-				<div class="">
-					<a href="/branding-and-design">
-						<img src="/images/images-v2/Branding & Design.png" class="h-[400px] w-full" />
-					</a>
-				</div>
-				<div class="">
-					<a href="/media-production">
-						<img src="/images/images-v2/Media Production & Product Shoot.png" class="h-[400px] w-full" />
-					</a>
-				</div>
-				<div class="">
-					<a href="/web-development">
-						<img src="/images/images-v2/Web Development.png" class="h-[400px] w-full" />
-					</a>
-				</div>
-			</div> --}}
 
      <div class="flex-col max-w-[100vw]">
          <div class="mt-16 w-full flex justify-center">
@@ -578,7 +530,7 @@
              <div
                  class="items-center justify-center grid grid-rows-[auto,1fr,auto] w-64 h-80 p-8 text-sm bg-[#3C3C3C] text-center text-white">
                  <div>
-                     <p class="text-[9px] font-light italic leading-[16px]">
+                     <p class="text-[10px] leading-[16px] extra-light-italic-font">
                          Working with Bloom media has brought a
                          tremendous increase in our business sales and
                          social media engagement, thank you, Bloom!
@@ -590,10 +542,11 @@
                      <hr class="w-[30%] h-[0px] border border-amber-500 ml-[35%]" />
                  </div>
                  <div>
-                     <p class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk">
+                     <p
+                         class="text-[#FF9501] font-['Faustina'] text-white font-semibold text-[16px] leading-[30px] italic ">
                          Mr. Micahel Amejuma
                      </p>
-                     <p class="text-[10px] font-light italic">
+                     <p class="text-[10px] extra-light-italic-font">
                          CEO <br />
                          Duduye Global Concept Ltd
                      </p>
@@ -602,7 +555,7 @@
              <div
                  class="items-center justify-center grid grid-rows-[auto,1fr,auto] w-64 h-80 p-8 text-sm bg-[#3C3C3C] text-center text-white">
                  <div>
-                     <p class="text-[9px] font-light font-grotesk italic leading-[16px]">
+                     <p class="text-[10px] leading-[16px] extra-light-italic-font">
                          Bloom Media is a digital agency where you get above
                          what you'd ever expect. This was my case when I
                          hired them for my brand activation. Well done guy!
@@ -614,10 +567,11 @@
                      <hr class="w-[30%] h-[0px] border border-amber-500 ml-[35%]" />
                  </div>
                  <div>
-                     <p class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk">
+                     <p
+                         class="text-[#FF9501] font-['Faustina'] text-white font-semibold text-[16px] leading-[30px] italic font-grotesk">
                          Mrs Funmi Ojo.
                      </p>
-                     <p class="text-[10px] font-light italic">
+                     <p class="text-[10px] extra-light-italic-font">
                          Communications Manager<br />
                          Throne Investment homes.
                      </p>
@@ -626,7 +580,7 @@
              <div
                  class="items-center justify-center grid grid-rows-[auto,1fr,auto] w-64 h-80 p-8 text-sm bg-[#3C3C3C] text-center text-white">
                  <div>
-                     <p class="text-[9px] font-light italic leading-[16px]">
+                     <p class="text-[10px] leading-[16px] extra-light-italic-font">
                          Bloom built an e-commerce website for
                          my business and basically transition
                          my sales from an online market to an
@@ -641,10 +595,11 @@
                      <hr class="w-[30%] h-[0px] border border-amber-500 ml-[35%]" />
                  </div>
                  <div>
-                     <p class="text-[#FF9501] text-white font-semibold text-[12px] font-grotesk">
+                     <p
+                         class="text-[#FF9501] font-['Faustina'] text-white font-semibold text-[16px] leading-[30px] italic font-grotesk">
                          Dr Bukola Ologunagba.
                      </p>
-                     <p class="text-[10px] font-light italic">
+                     <p class="text-[10px] extra-light-italic-font">
                          Manager <br />
                          Doors and Handles Ltd.
                      </p>

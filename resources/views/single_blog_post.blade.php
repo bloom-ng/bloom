@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="{{asset('css/output.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/app.css')}}" />
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ asset('css/output.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
     <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
     <title>[BLOG-POST-NAME] - Bloom Digital Media</title>
-	  <meta name="description" content="[META CONTENT AS SPECIFIED BY COPYWRITER]"/>
-    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="description" content="[META CONTENT AS SPECIFIED BY COPYWRITER]" />
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
     <link rel="canonical" href="https://www.bloomdigitmedia.com/blog/[BLOG-POST-NAME]" />
     <meta property="og:locale" content="en_NG" />
     <meta property="og:type" content="website" />
@@ -26,20 +27,20 @@
     <meta name="twitter:data1" content="Babalola Dare" />
     <meta name="twitter:label2" content="Time to read" />
     <meta name="twitter:data2" content="1 minute" />
-    
-	</head>
-	<body class="font-grotesk">
-		<!-- HEADER ONE -->
-		<x-single_blog_header logo="{{$post->featured_image}}"
-              header="{{$post->title}}"/>
-		<!-- /END OF HEADER ONE -->
-    <div class="bg-stone-900 text-white text-xl lg:text-2xl py-12 lg:py-28 px-12 lg:px-20 text-left">
-      <div class="">
-         {!!$post->body!!}
-      </div>
-    </div>
-		
-	<x-newsletter />
-		
 
-<x-tailwind-footer-v2 />
+</head>
+
+<body class="font-grotesk">
+    <!-- HEADER ONE -->
+    <x-single_blog_header logo="{{ $post->featured_image }}" header="{{ $post->title }}" />
+    <!-- /END OF HEADER ONE -->
+    <div class="bg-stone-900 text-white medium-font text-xl lg:text-2xl py-12 lg:py-28 px-12 lg:px-20 text-left">
+        <div class="">
+            {!! $post->body !!}
+        </div>
+    </div>
+
+    <x-newsletter />
+
+
+    <x-tailwind-footer-v2 />

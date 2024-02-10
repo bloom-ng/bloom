@@ -174,7 +174,6 @@
 	height: fit-content;
 	width: fit-content;
 	padding: 40px;
-	font-family: "faustina", sans-serif;
 	color: white;
 	position: absolute;
 	top: 10px;
@@ -196,7 +195,6 @@
 .bookMeetingContainer > input,
 .bookMeetingContainer > select {
 	width: 100%;
-	font-family: "faustina", sans-serif;
 	padding: 10px 30px;
 	box-shadow: none;
 	outline: none;

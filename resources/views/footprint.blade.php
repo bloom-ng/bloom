@@ -107,8 +107,8 @@
         <div onclick="activateTab(1)" class="mb-16 flex justify-center">
             <div class="relative">
                 <h1
-                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
-                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    class="text-center text-white text-4xl lg:text-[20px] black-font 
+                    leading-10 inline px-3 relative z-10">
                     Flyers
                 </h1>
                 <div id="firstTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
@@ -118,8 +118,8 @@
         <div onclick="activateTab(2)" class="mb-16 flex justify-center">
             <div class="relative">
                 <h1
-                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
-                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    class="text-center text-white text-4xl lg:text-[20px] black-font 
+                    leading-10 inline px-3 relative z-10">
                     Video & Animation
                 </h1>
                 <div id="secondTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
@@ -129,8 +129,8 @@
         <div onclick="activateTab(3)" class="mb-16 flex justify-center">
             <div class="relative">
                 <h1
-                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
-                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    class="text-center text-white text-4xl lg:text-[20px] black-font 
+                    leading-10 inline px-3 relative z-10">
                     Print
                 </h1>
                 <div id="thirdTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
@@ -140,8 +140,8 @@
         <div onclick="activateTab(4)" class="mb-16 flex justify-center">
             <div class="relative">
                 <h1
-                    class="text-center text-white text-4xl lg:text-[20px] font-extrabold 
-                    font-['Faustina'] leading-10 inline px-3 relative z-10">
+                    class="text-center text-white text-4xl lg:text-[20px] black-font 
+                    leading-10 inline px-3 relative z-10">
                     Bloom Studios
                 </h1>
                 <div id="fourthTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
