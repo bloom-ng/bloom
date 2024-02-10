@@ -249,7 +249,7 @@
          <div class="bg-white">
              <img src="/images/images-v2/dazzle_jencc2.png" class="w-full" loading="lazy" />
          </div>
-         <div class="bg-white">
+         {{-- <div class="bg-white">
              <img src="/images/images-v2/reduced_flyers/Reduced Flyers 2-03.jpg" class="w-full" loading="lazy" />
          </div>
          <div class="bg-white">
@@ -272,7 +272,7 @@
          </div>
          <div class="bg-white">
              <img src="/images/images-v2/reduced_flyers/Reduced Flyers-119.jpg" class="w-full" loading="lazy" />
-         </div>
+         </div> --}}
      </div>
      <div class="flex justify-end mx-[5%] py-[2%] lg:mx-32">
          <a href="/footprint" class="font-black text-sm py-3.5 px-5 text-black bg-amber-500">

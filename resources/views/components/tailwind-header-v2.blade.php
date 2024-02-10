@@ -36,7 +36,7 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/output.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/size.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/font.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/fonts.css') }}" />
     <script type="script" src="{{asset('js/script.js')}}"></script>
 
 
@@ -190,4 +190,4 @@
     {{ $slot }}
 </head>
 
-<body class="bg-[#1E1E1E]">
+<body class="bg-[#1E1E1E] medium-font">

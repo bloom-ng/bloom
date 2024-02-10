@@ -1,4 +1,4 @@
-<section class="hidden lg:block">
+<section class="hidden lg:block black-font">
     <div style="background: url('{{ $logo }}')"
         class="relative w-[100vw] w-full h-[360px] bg-blend-darken bg-center bg-cover flex flex-col items-center justify-between px-12 py-10">
         <div class="absolute inset-0 bg-black opacity-75"></div>
@@ -20,32 +20,32 @@
 				</li> --}}
                 <a href="/#whoWeAre">
                     <li
-                        class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold lg:font-semibold font-grotesk uppercase tracking-wide">
+                        class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold lg:font-semibold uppercase tracking-wide">
                         WHO ARE WE?
                     </li>
                 </a>
                 <a href="/footprint">
                     <li
-                        class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+                        class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
                         OUR FOOTPRINT
                     </li>
                 </a>
                 <li
-                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
                     <a href="/#whatwedo"> WHAT WE DO</a>
                 </li>
                 <li
-                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
                     <a href="/blog"> BLOG </a>
                 </li>
                 <li
-                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
                     <a href="/contact">CONTACT US</a>
                 </li>
                 <li
-                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+                    class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
                     <a href="/help"
-                        class="text-center text-black text-base font-black font-grotesk uppercase 
+                        class="text-center text-black text-base font-black uppercase 
 					text-[18px] lg:text-[12px] xl:text-[18px]
 					tracking-wide bg-amber-500 px-[19px] py-[13px]">HOW
                         CAN WE HELP YOU?</a>
@@ -74,7 +74,8 @@
     </div>
 </section>
 
-<section class="block lg:hidden max-w-[100vw] bg-[#1E1E1E] opacity-90 flex items-center justify-between px-12 py-10">
+<section
+    class="black-font block lg:hidden max-w-[100vw] bg-[#1E1E1E] opacity-90 flex items-center justify-between px-12 py-10">
     <a href="/">
         <div class="logo">
             <img src="/images/images-v2/Logo.svg" alt="" />
@@ -99,31 +100,27 @@
     <ul class="flex flex-col gap-6 items-left justify-center py-6 px-8">
         <a href="/#whoWeAre">
             <li
-                class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+                class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
                 WHO ARE WE?
             </li>
         </a>
-        <li
-            class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+        <li class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
             <a href="/footprint">
                 OUR FOOTPRINT
             </a>
         </li>
-        <li
-            class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+        <li class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
             <a href="/#whatwedo">WHAT WE DO</a>
         </li>
-        <li
-            class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+        <li class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
             <a href="/blog"> BLOG </a>
         </li>
-        <li
-            class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold font-grotesk uppercase tracking-wide">
+        <li class="text-white lg:text-base xl:text-base md:text-sm font-black md:font-semibold uppercase tracking-wide">
             <a href="/contact">CONTACT US</a>
         </li>
         <li>
             <a href="/help"
-                class="text-center text-black lg:text-base xl:text-base md:text-xs font-black font-bold font-grotesk uppercase tracking-wide bg-amber-500 px-[19px] py-[13px]">
+                class="text-center text-black lg:text-base xl:text-base md:text-xs font-black font-bold uppercase tracking-wide bg-amber-500 px-[19px] py-[13px]">
                 HOW CAN WE HELP YOU?
             </a>
         </li>
