@@ -1,26 +1,27 @@
 <x-tailwind-header-v2 title="Error 500">
-
+    <link rel="stylesheet" href="{{ asset('css/output.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 </x-tailwind-header-v2>
 
 <x-homepage_navbar />
+<div class="mx-20 my-10 h-[60vh]">
+    <div class="absolute text-white" style="opacity:0.03; font-size:180px">
+        OOOPS
+    </div>
+    <div>
+        <div class="">
 
-<div class="position-absolute display-1 fw-bolder" style="opacity:0.02; font-size:180px">
-    OOOPS
+            <h6 class="text-white text-4xl">Error</h6>
+            <p class="text-amber-500">------- </p>
 
-</div>
+        </div>
 
-<div class=" container">
+        <div class="">
+            <h1 class="text-white my-10 text-[60px]">Looks like something went wrong here. </h1>
+            <a href="/" class="my-10 black-font text-sm py-3.5 px-5 text-black bg-amber-500">Go back Home</a>
 
-    <h6 class="display-4 mb-0 pb-0 mt-5">Error </h6>
-    <p class="mt-0 pt-0 fw-bolder text-warning">------ </p>
-
-</div>
-
-
-<div class="container">
-    <h1 class="display-1">Looks like something went wrong here. </h1>
-    <a href="/" class="btn btn-warning">Go back Home</a>
-
+        </div>
+    </div>
 </div>
 
 <x-newsletter />

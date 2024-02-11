@@ -905,6 +905,21 @@ video {
   margin-bottom: 4%;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .-ml-px {
   margin-left: -1px;
 }
@@ -1230,6 +1245,22 @@ video {
   height: 100%;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[60vh\] {
+  height: 60vh;
+}
+
 .max-h-\[70vh\] {
   max-height: 70vh;
 }
@@ -1325,6 +1356,18 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[30vw\] {
+  width: 30vw;
+}
+
+.w-\[65vw\] {
+  width: 65vw;
+}
+
+.w-\[55vw\] {
+  width: 55vw;
 }
 
 .min-w-full {
@@ -2037,10 +2080,6 @@ video {
   font-family: 'TomatoGroteskBold';
 }
 
-.font-\[\'Grotesk\'\] {
-  font-family: 'Grotesk';
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2070,10 +2109,6 @@ video {
   font-size: 10px;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
-}
-
 .text-\[16px\] {
   font-size: 16px;
 }
@@ -2082,12 +2117,12 @@ video {
   font-size: 18px;
 }
 
-.text-\[55px\] {
-  font-size: 55px;
+.text-\[28px\] {
+  font-size: 28px;
 }
 
-.text-\[9px\] {
-  font-size: 9px;
+.text-\[55px\] {
+  font-size: 55px;
 }
 
 .text-base {
@@ -2115,12 +2150,8 @@ video {
   line-height: 1rem;
 }
 
-.text-\[28px\] {
-  font-size: 28px;
-}
-
-.text-\[45px\] {
-  font-size: 45px;
+.text-\[60px\] {
+  font-size: 60px;
 }
 
 .font-black {
@@ -2195,6 +2226,10 @@ video {
   line-height: 3.5rem;
 }
 
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
 .leading-\[40px\] {
   line-height: 40px;
 }
@@ -2205,10 +2240,6 @@ video {
 
 .leading-tight {
   line-height: 1.25;
-}
-
-.leading-\[30px\] {
-  line-height: 30px;
 }
 
 .tracking-tighter {
@@ -2277,6 +2308,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-amber-500 {
+  --tw-text-opacity: 1;
+  color: rgb(245 158 11 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2820,6 +2856,10 @@ video {
     width: auto;
   }
 
+  .md\:w-\[70vw\] {
+    width: 70vw;
+  }
+
   .md\:max-w-full {
     max-width: 100%;
   }
@@ -3302,6 +3342,14 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-\[20vw\] {
+    width: 20vw;
+  }
+
+  .lg\:w-\[80vw\] {
+    width: 80vw;
   }
 
   .lg\:max-w-\[232px\] {
