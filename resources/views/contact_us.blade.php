@@ -31,9 +31,9 @@
 <!-- HEADER ONE -->
 <x-navbar logo="/images/images-v2/telephone.png" header="Contact Us" width="23%" />
 <!-- /END OF HEADER ONE -->
-<section class="medium-font">
+<section class="relative medium-font">
     @if (session('contact-success'))
-        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6">
+        <div id="alert" class="absolute top-0 right-0 flex items-center justify-center px-4 py-6">
             <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
                 <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"

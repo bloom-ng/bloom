@@ -78,9 +78,9 @@
 		</div> --}}
 <x-homepage_navbar />
 
-<section>
+<section class="relative">
     @if (session('contact-success'))
-        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6 z-40">
+        <div id="alert" class="absolute top-0 right-0 flex items-center justify-center px-4 py-6 z-40">
             <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
                 <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
@@ -116,7 +116,7 @@
     @endif
 
     @if (session('action-success'))
-        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6 z-40">
+        <div id="alert" class="absolute top-0 right-0 flex items-center justify-center px-4 py-6 z-40">
             <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
                 <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
@@ -152,8 +152,8 @@
     @endif
 
     @if (session('action-fail'))
-        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6 z-40">
-            <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
+        <div id="alert" class="absolute top-0 right-0 flex items-center justify-center px-4 py-6 z-40">
+            <div class="bg-red-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
                 <div class="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
