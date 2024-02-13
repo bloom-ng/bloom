@@ -32,6 +32,43 @@
 <x-navbar logo="/images/images-v2/telephone.png" header="Contact Us" width="23%" />
 <!-- /END OF HEADER ONE -->
 <section class="medium-font">
+    @if (session('contact-success'))
+        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6">
+            <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span class="regular-font">{{ session('contact-success') }}</span>
+                </div>
+                <button id="closeBtn" class="ml-4 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script>
+            setTimeout(function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            }, 3000);
+
+            document.getElementById('closeBtn').addEventListener('click', function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            });
+        </script>
+    @endif
+
+
 
     <div class="background pt-12 pb-12 lg:px-24 lg:pb-24 lg:pt-24">
         <div class="header-text">
@@ -39,14 +76,14 @@
             </h3>
         </div>
         <form action="/contact" method="POST" class="input-container">
-            @csrf
+            {{ csrf_field() }}
             <input name="subject" hidden type="text" value="Contact" placeholder="Subject" />
             <input name="name" type="text" required placeholder="Name" />
             <input name="email" type="text" required placeholder="Email" />
             <input name="phone" hidden type="text" value="08130000000" required placeholder="Phone" />
             <textarea required name="message" rows="22" cols="13" placeholder="Message"></textarea>
             <button class="black-font" type="submit">SUBMIT</button>
-        </form </div>
+        </form>
 
     </div>
     <div class="flex flex-col items-center justify-center max-h-[70vh] max-w-[100vw]">

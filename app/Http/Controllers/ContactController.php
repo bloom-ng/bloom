@@ -45,7 +45,7 @@ class ContactController extends Controller
 
         $this->sendMail('bloomdigitmedia@gmail.com',$data);
 
-        return back()->with('contact-success', 'We have received your message and our team is currently on it. Thanks');
+        return back()->with('contact-success', 'We have received your message and our team will contact you shortly on it. Thanks');
     }
 
     public function sendMail($to,$data){

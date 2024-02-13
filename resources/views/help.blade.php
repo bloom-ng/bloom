@@ -79,6 +79,113 @@
 <x-homepage_navbar />
 
 <section>
+    @if (session('contact-success'))
+        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6 z-40">
+            <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span class="regular-font">{{ session('contact-success') }}</span>
+                </div>
+                <button id="closeBtn" class="ml-4 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script>
+            setTimeout(function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            }, 3000);
+
+            document.getElementById('closeBtn').addEventListener('click', function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            });
+        </script>
+    @endif
+
+    @if (session('action-success'))
+        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6 z-40">
+            <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span class="regular-font">{{ session('action-success') }}</span>
+                </div>
+                <button id="closeBtn" class="ml-4 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script>
+            setTimeout(function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            }, 3000);
+
+            document.getElementById('closeBtn').addEventListener('click', function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            });
+        </script>
+    @endif
+
+    @if (session('action-fail'))
+        <div id="alert" class="fixed top-0 bottom-40 right-0 flex items-center justify-center px-4 py-6 z-40">
+            <div class="bg-green-500 text-white font-bold rounded-lg border shadow-lg py-3 px-4 flex items-center">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span class="regular-font">{{ session('action-fail') }}</span>
+                </div>
+                <button id="closeBtn" class="ml-4 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <script>
+            setTimeout(function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            }, 3000);
+
+            document.getElementById('closeBtn').addEventListener('click', function() {
+                var alert = document.getElementById('alert');
+                if (alert) {
+                    alert.remove();
+                }
+            });
+        </script>
+    @endif
 
     <div class="background p-24">
         <div class="formsContainer">
@@ -89,7 +196,7 @@
                 </h3>
                 <form class="text-black flex flex-col items-center gap-6 w-full font-extralight leading-10"
                     action="/contact" method="POST">
-                    @csrf
+                    {{ csrf_field() }}
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" name="subject"
                         hidden type="text" value="Contact" placeholder="Subject" />
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text"
@@ -137,7 +244,7 @@
                 </h3>
                 <form class="flex flex-col items-center gap-6 w-full leading-10" action="/appointments"
                     method="post">
-                    @csrf
+                    {{ csrf_field() }}
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text"
                         name="requester_name" required placeholder="Name" />
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="email"

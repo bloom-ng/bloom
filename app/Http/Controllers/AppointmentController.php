@@ -115,7 +115,7 @@ class AppointmentController extends Controller
                             'personnel_name' => $personnel->user->name,
                         ];
                         
-                $this->sendMail($personnel_record->user->email,$data,$request->input('requester_email'));
+                $this->sendMail("bloomdigitmedia@gmail.com",$data,$request->input('requester_email'));
             }
         }
         

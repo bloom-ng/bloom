@@ -186,6 +186,7 @@
         }(document, "script",
             "https://chimpstatic.com/mcjs-connected/js/users/a09869c5744b4eda66cb39c7c/90cb770fb2cd6591617d2d4fb.js");
     </script>
+
     <title>{{ $title }}</title>
     {{ $slot }}
 </head>
