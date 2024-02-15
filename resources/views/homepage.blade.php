@@ -68,7 +68,7 @@
                  </div>
              </div>
 
-             <div class="flex flex-col items-start md:items-start basis-1/2">
+             <div class="flex basis-1/2 flex-col items-start md:items-start">
                  <div class="lg:block mb-5 hidden">
                      <img src="/images/images-v2/wearebloom.svg" alt="We Are Bloom" />
                  </div>
