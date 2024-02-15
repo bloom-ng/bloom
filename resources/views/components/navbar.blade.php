@@ -1,6 +1,6 @@
 <section class="hidden lg:block black-font">
     <div style="background: url('{{ $logo }}')"
-        class="relative w-[100vw] w-full h-[360px] bg-blend-darken bg-center bg-cover flex flex-col items-center justify-between px-12 py-10">
+        class="relative w-[100vw] w-full h-[360px] bg-blend-darken bg-center bg-cover flex flex-col items-center justify-between xl:px-14 lg:px-8 px-12 py-10">
         <div class="absolute inset-0 bg-black opacity-75"></div>
 
         <div
@@ -130,7 +130,7 @@
 
 <div class="block lg:hidden ">
     <div style="background: url('{{ $logo }}')"
-        class="relative w-[100vw] w-full h-[300px] bg-blend-darken bg-center bg-cover flex flex-col items-center justify-between px-12 py-10">
+        class="relative w-[100vw] w-full h-[200px] bg-blend-darken bg-center bg-cover flex flex-col items-center justify-between px-12 py-10">
         <div class="absolute inset-0 bg-black opacity-75"></div>
         <!-- <h1 class="absolute top-[-5%] bottom-[0%] -mt-5 text-center text-white z-20 text-[55px] font-extrabold font-['Faustina'] leading-10">
    {{ $header }}
@@ -149,8 +149,8 @@
         <div class="mb-16 w-full flex justify-center">
             <div class="relative">
                 <h1
-                    class="text-center text-white text-3xl sm:text-4xl lg:text-[55px] font-extrabold 
-                    font-['Faustina'] xs:leading-3 md:leading-10 inline px-3 relative z-10">
+                    class="text-center text-white text-4xl sm:text-4xl lg:text-[55px] font-extrabold 
+                    font-['Faustina'] xs:leading-3 md:leading-10 inline  relative z-10">
                     {{ $header }}
                 </h1>
                 <div class="hidden sm:block absolute bg-[#FFB855] w-full h-8 top-5"></div>

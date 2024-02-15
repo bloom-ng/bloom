@@ -38,7 +38,7 @@
    alt="hero banner"
   /> -->
 
-<section class="text-white mx-[3%] md:mx-[3%] my-[3%] md:my-[7%] text-center">
+<section class="text-white mx-[3%] md:mx-[3%] mt-[13%] mb-[4%] md:my-[7%] text-center">
     <div>
         <div class="text-4xl md:text-[62.83px] md:leading-[65px] bold-font md:extra-bold-font mb-[5%]">
             Unveiling The Blueprint: Crafting <span class="text-[#FF9501]">Irresistible Content to Ignite Audience
