@@ -75,10 +75,10 @@
 
          </div>
          <div class="py-20">
-             <button
-                 class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                 BOok your brand strategy and positioning session today
-             </button>
+             <a href="/help"><button
+                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
+                     BOok your brand strategy and positioning session today
+                 </button></a>
          </div>
      </div>
      <div>
@@ -105,10 +105,10 @@
              </div>
          </div>
          <div class="py-20">
-             <button
-                 class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                 BOok your brand strategy and positioning session today
-             </button>
+             <a href="/help"><button
+                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
+                     BOok your brand strategy and positioning session today
+                 </button></a>
          </div>
      </div>
      <div>
@@ -134,10 +134,10 @@
              </div>
          </div>
          <div class="py-20">
-             <button
-                 class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                 BOok your brand strategy and positioning session today
-             </button>
+             <a href="/help"><button
+                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
+                     BOok your brand strategy and positioning session today
+                 </button></a>
          </div>
      </div>
      <div>
@@ -160,10 +160,10 @@
              </div>
          </div>
          <div class="py-20">
-             <button
-                 class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                 BOok your brand strategy and positioning session today
-             </button>
+             <a href="/help"><button
+                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
+                     BOok your brand strategy and positioning session today
+                 </button></a>
          </div>
      </div>
      <div>
@@ -208,10 +208,10 @@
              </div>
          </div>
          <div class="py-20">
-             <button
-                 class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                 BOok your brand strategy and positioning session today
-             </button>
+             <a href="/help"><button
+                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
+                     BOok your brand strategy and positioning session today
+                 </button></a>
          </div>
      </div>
  </section>
