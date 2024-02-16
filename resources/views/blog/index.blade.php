@@ -1,6 +1,8 @@
-  <link rel="stylesheet" href="{{asset('css/output.css')}}" />
-	<link rel="stylesheet" href="{{asset('css/app.css')}}" />
-  <meta name="description" content="Bloom Digital Media is a Media and Communications Agency looking to partner
+  <link rel="stylesheet" href="{{ asset('css/output.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+  <link rel="shortcut icon" href="/images/images-v2/favicon.png" type="image/x-icon">
+  <meta name="description"
+      content="Bloom Digital Media is a Media and Communications Agency looking to partner
               with leading brands to engineer ROI focused digital campaigns and activities
               that attract, connect, engage, improve sales and convert Nigerian consumers online.">
   <!-- Fb verification -->
@@ -9,25 +11,33 @@
 
   <!-- Facebook Pixel Code -->
   <script>
-    !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1544542205912428');
-        fbq('track', 'PageView');
+      ! function(f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function() {
+              n.callMethod ?
+                  n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = '2.0';
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1544542205912428');
+      fbq('track', 'PageView');
   </script>
   <noscript>
-    <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1544542205912428&ev=PageView&noscript=1" />
+      <img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=1544542205912428&ev=PageView&noscript=1" />
   </noscript>
 
-<x-navbar logo="/images/images-v2/blog.png"
-          header="Blog"
-			    width="11%"/>
+  <x-navbar logo="/images/images-v2/blog.png" header="Blog" width="11%" />
 
 
 
@@ -42,25 +52,26 @@
       </div>
     </div> --}}
 
-<section class="max-w-screen bg-[#1E1E1E] flex flex-col justify-center items-center pb-16 pt-12 lg:pb-24 lg:pt-12">
-    <x-metapartners />
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6 mx-[5%] lg:mx-32">
-					@foreach ($posts as $post)
-          <div class="bg-[#fff] flex-col">
-						<img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
-            class="w-full h-[310px]" />
-						<p
-							class="p-6 pr-10 leading-tight text-start font-['Faustina'] font-bold text-left text-[#000000] text-base"
-						>
-							{{$post->title}}
-						</p>
-						<a href="/blog/{{$post->slug}}" class="font-['Faustina'] text-sm font-bold flex items-center justify-end pr-6 pb-6" >Read More &nbsp; 
-							<img src="/images/images-v2/double_right.png" alt="" class="w-[7px] h-[7px]"> 
-						</a>
-					  </div>	
-            @endforeach
-		      </div>
-          <div>{{$posts->links()}}</div>
+  <section class="max-w-screen bg-[#1E1E1E] flex flex-col justify-center items-center pb-16 pt-12 lg:pb-24 lg:pt-12">
+      <x-metapartners />
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-6 mx-[5%] lg:mx-32">
+          @foreach ($posts as $post)
+              <div class="bg-[#fff] flex-col">
+                  <img src="{{ $post->featured_image ?? '/images/images-v2/african-american-software-developer.png' }}"
+                      class="w-full h-[310px]" />
+                  <p
+                      class="p-6 pr-10 leading-tight text-start font-['Faustina'] font-bold text-left text-[#000000] text-base">
+                      {{ $post->title }}
+                  </p>
+                  <a href="/blog/{{ $post->slug }}"
+                      class="font-['Faustina'] text-sm font-bold flex items-center justify-end pr-6 pb-6">Read More
+                      &nbsp;
+                      <img src="/images/images-v2/double_right.png" alt="" class="w-[7px] h-[7px]">
+                  </a>
+              </div>
+          @endforeach
+      </div>
+      <div>{{ $posts->links() }}</div>
       {{-- @else
       <h1>Sorry, No articles posted yet. </h1>
       @endif
@@ -86,19 +97,19 @@
           </a>
         </div>
       </div> --}}
-    </div>
-  </div>
-  <!-- /BLOG -->
+      </div>
+      </div>
+      <!-- /BLOG -->
 
-</section>
+  </section>
 
-<!-- Articles list -->
-{{-- <div class="container">
+  <!-- Articles list -->
+  {{-- <div class="container">
   <div class="row">
 
     <!-- Article start -->
-    @if($posts)
-    @foreach($posts as $post)
+    @if ($posts)
+    @foreach ($posts as $post)
     <div class="image-overlay col-sm-12 row my-3 py-5 hover-shadow">
       <div class="col-md-5 ">
         <a href="/blog/{{$post->slug}}">
@@ -123,9 +134,9 @@
 
 
   </div> --}}
-  
-				
-				<x-newsletter />
-		
 
-<x-tailwind-footer-v2 />
+
+  <x-newsletter />
+
+
+  <x-tailwind-footer-v2 />

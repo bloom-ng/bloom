@@ -104,7 +104,7 @@
     <div class="tab-buttons max-w-[100vw] mx-[3%] pt-[7%] md:px-12">
 
 
-        <div onclick="activateTab(1)" class="mb-16 flex md:gap-15 justify-center">
+        <div onclick="activateTab(1)" class="cursor-pointer mb-16 flex md:gap-15 justify-center">
             <div class="relative">
                 <h1
                     class="text-center text-white text-[8px] md:text-[20px] black-font 
@@ -115,18 +115,18 @@
             </div>
         </div>
 
-        <div onclick="activateTab(2)" class="mb-16 flex justify-center">
+        <div onclick="activateTab(2)" class="cursor-pointer mb-16 flex justify-center">
             <div class="relative">
                 <h1
                     class="text-center text-white text-[8px] md:text-[20px] black-font 
                     leading-10 inline px-3 relative z-10">
                     Video & Animation
                 </h1>
-                <div id="secondTab" class="hidden absolute bg-[#FFB855] w-full h-4:top-5"></div>
+                <div id="secondTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
             </div>
         </div>
 
-        <div onclick="activateTab(3)" class="mb-16 flex justify-center">
+        <div onclick="activateTab(3)" class="cursor-pointer mb-16 flex justify-center">
             <div class="relative">
                 <h1
                     class="text-center text-white text-[8px] md:text-[20px] black-font 
@@ -137,14 +137,14 @@
             </div>
         </div>
 
-        <div onclick="activateTab(4)" class="mb-16 flex justify-center">
+        <div onclick="activateTab(4)" class="cursor-pointer mb-16 flex justify-center">
             <div class="relative">
                 <h1
                     class="text-center text-white text-[8px] md:text-[20px] black-font 
                     leading-10 inline px-3 relative z-10">
                     Bloom Studios
                 </h1>
-                <div id="fourthTab" class="hidden absolute bg-[#FFB855] w-full h-4:top-5"></div>
+                <div id="fourthTab" class="hidden absolute bg-[#FFB855] w-full h-4 top-5"></div>
             </div>
         </div>
         {{-- <h3 id="firstTab" class="font-['TomatoGroteskBold'] " onclick="activateTab(2)">Flyers</h3>
