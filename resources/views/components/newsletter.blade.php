@@ -15,17 +15,14 @@
         and keep them interested in what you do.<br /><br />Subscribe to
         our newsletter!
     </p>
-    <form class="flex text-center justify-center items-center pt-4 lg:mx-4 mx-2 md:mx-[8%]">
+    <form method="POST" action="{{ route('addToMailchimpList') }}"
+        class="flex text-center justify-center items-center pt-4 lg:mx-4 mx-2 md:mx-[8%]">
+        @csrf
         <input
             class="w-[55vw] md:w-[70vw] lg:w-[80vw] px-10 leading-[40px] text-base lg:text-[24px] placeholder:text-slate-600 py-1 
 			lg:py-4 md:py-4 bg-neutral-300 italic md:w-[40vw]"
             placeholder="Email" type="email" name="email" id="email" />
-        <!-- <input
-     
-     placeholder="Email"
-     type="submit"
-     value="Submit"
-    /> -->
+
         <button
             class="w-[30vw] lg:w-[20vw] px-4 py-1 lg:py-4 md:py-4 bg-amber-500 text-sm md:text-md font-black lg:text-[24px] 
 								leading-[40px] text-center"
@@ -33,5 +30,11 @@
             SUBSCRIBE
         </button>
     </form>
+    <script>
+        function setEmail() {
+            var email = document.getElementById('user_email').value;
+            document.getElementById('email').value = email;
+        }
+    </script>
 </section>
 {{-- <p>sm:text-[14px] sm:leading-[20px]</p> --}}

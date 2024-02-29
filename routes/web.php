@@ -24,6 +24,7 @@ use Spatie\Sitemap\Tags\Url;
 use Wink\Wink;
 use Wink\WinkPost;
 use Wink\WinkTag;
+use App\Http\Controllers\MailchimpController;
 
 /*
 |--------------------------------------------------------------------------
@@ -259,6 +260,9 @@ Route::prefix('dashboard')->group(function(){
 
 
 
+// Route::get('/ping-mailchimp-api', [MailchimpController::class, 'pingMailchimpAPI']);
+Route::post('/add-to-mailchimp-list', [MailchimpController::class, 'addToMailchimpList'])->name('addToMailchimpList');
+// Route::post('/subscribe', [SubscriptionController::class, 'subscribe'])->name('subscribe');
 
 
 
