@@ -76,7 +76,7 @@
         <div class="py-20">
             <a href="/help"><button
                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                    BOok your brand strategy and positioning session today
+                    Book your Session Now
                 </button></a>
         </div>
     </div>
@@ -103,14 +103,8 @@
                 their full potential.
             </div>
         </div>
-        <div class="py-20">
-            <a href="/help"><button
-                    class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                    BOok your brand strategy and positioning session today
-                </button></a>
-        </div>
     </div>
-    <div>
+    <div class="py-20">
         <div class="flex gap-20 flex-row">
             <div class="flex flex-col items-center md:items-start gap-16 md:gap-20 md:flex-row">
                 <div class="md:text-lg lg:text-[24px] lg:leading-[39px] extra-light-font  md:text-left flex-1">
@@ -142,7 +136,7 @@
         <div class="py-20">
             <a href="/help"><button
                     class="uppercase text-[10px] md:text-base black-font py-2.5 md:py-3.5 px-3 md:px-5 text-black bg-[#FF9501]">
-                    BOok your brand strategy and positioning session today
+                    Book your Session Now
                 </button></a>
         </div>
     </div>
