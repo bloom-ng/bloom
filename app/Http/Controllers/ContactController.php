@@ -10,21 +10,24 @@ use Illuminate\Support\Facades\Auth;
 
 class ContactController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         $this->authorize('do-admin-operations');
-        return view('dashboard.contacts.index',[
-            'user'=> Auth::user(),
+        return view('dashboard.contacts.index', [
+            'user' => Auth::user(),
             'contacts' => Contact::all()
         ]);
     }
 
-    public function generate(){
-        return view('dashboard.contacts.generate',[
+    public function generate()
+    {
+        return view('dashboard.contacts.generate', [
             'contacts' => Contact::all()
         ]);
     }
 
-    public function store(Request $request){
+    public function store(Request $request)
+    {
         // validate form
         $data = $this->validate($request, [
             'name' => 'required',
@@ -35,6 +38,7 @@ class ContactController extends Controller
             'service' => 'nullable',
             'additional_info' => 'nullable',
             'message' => 'required',
+            'captcha' => 'required|captcha',
         ]);
 
         $data["message"] .= empty($data["budget"]) ? "" :  " \n Budget: {$data['budget']}";
@@ -43,22 +47,28 @@ class ContactController extends Controller
 
         Contact::create($data);
 
-        $this->sendMail('bloomdigitmedia@gmail.com',$data);
+        $this->sendMail('bloomdigitmedia@gmail.com', $data);
 
         return back()->with('contact-success', 'We have received your message and our team will contact you shortly on it. Thanks');
     }
 
-    public function sendMail($to,$data){
+    public function sendMail($to, $data)
+    {
         Mail::to($to)
-            ->send(new AgencyContacted($data) );
-        
+            ->send(new AgencyContacted($data));
     }
 
-    public function destroy(Contact $contact){
+    public function destroy(Contact $contact)
+    {
         $success = $contact->delete();
-        if($success){
-            return back()->with('action-success','Contact Deleted');
+        if ($success) {
+            return back()->with('action-success', 'Contact Deleted');
         }
-        return back()->with('action-fail','Something went wrong, Try again.');
+        return back()->with('action-fail', 'Something went wrong, Try again.');
+    }
+
+    public function reloadCaptcha()
+    {
+        return response()->json(['captcha' => captcha_img()]);
     }
 }

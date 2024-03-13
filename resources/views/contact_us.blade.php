@@ -82,6 +82,15 @@
             <input name="email" type="text" required placeholder="Email" />
             <input name="phone" hidden type="text" value="08130000000" required placeholder="Phone" />
             <textarea required name="message" rows="22" cols="13" placeholder="Message"></textarea>
+            <div id="captcha-field" class="flex items-start justify-center gap-2">
+                <span id="captcha-span">{!! captcha_img() !!}</span>
+                <button type="button" id="reload-captcha"
+                    class="bg-amber-500 rounded-md px-4 py-3 text-white font-bold">&#x21bb;</button>
+            </div>
+            <input name="captcha" type="text" required placeholder="Enter captcha" />
+            @error('captcha')
+                <p class="text-red-500 font-semibold">{{ $message }}</p>
+            @enderror
             <button class="black-font" type="submit">SUBMIT</button>
         </form>
 
@@ -94,6 +103,5 @@
     </div>
     <!-- FOOTER -->
     <x-newsletter />
-
 
     <x-tailwind-footer-v2 />

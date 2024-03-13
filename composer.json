@@ -12,6 +12,7 @@
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "mailchimp/marketing": "^3.0",
+        "mews/captcha": "^3.3",
         "spatie/laravel-sitemap": "^5.9",
         "themsaid/wink": "^1.2"
     },

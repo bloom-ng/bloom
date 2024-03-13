@@ -229,6 +229,16 @@
                         name="budget" placeholder="What’s your budget?" />
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text"
                         name="additional_info" placeholder="Additional Information" />
+                    <div id="captcha-field" class="flex items-start justify-center gap-2">
+                        <span id="captcha-span">{!! captcha_img() !!}</span>
+                        <button type="button" id="reload-captcha"
+                            class="bg-amber-500 rounded-md px-4 py-3 text-white font-bold">&#x21bb;</button>
+                    </div>
+                    <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" name="captcha"
+                        type="text" required placeholder="Enter captcha" />
+                    @error('captcha')
+                        <p class="text-red-500 font-semibold">{{ $message }}</p>
+                    @enderror
 
                     <button class="w-full bg-amber-500 text-black black-font text-[28px] py-4" type="submit">WE
                         MOVE!</button>
@@ -267,6 +277,17 @@
                     </select>
                     <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" type="text"
                         name="additional_info" placeholder="Additional Information" />
+
+                    <div id="captcha-field2" class="flex items-start justify-center gap-2">
+                        <span id="captcha-span">{!! captcha_img() !!}</span>
+                        <button type="button" id="reload-captcha2"
+                            class="bg-amber-500 rounded-md px-4 py-3 text-white font-bold">&#x21bb;</button>
+                    </div>
+                    <input class="w-full px-4 py-4 bg-neutral-300 italic text-black font-extralight" name="captcha"
+                        type="text" required placeholder="Enter captcha" />
+                    @error('captcha')
+                        <p class="text-red-500 font-semibold">{{ $message }}</p>
+                    @enderror
 
                     <button class="w-full bg-amber-500 text-black black-font text-[28px] py-4" type="submit">BOOK A
                         MEETING</button>
