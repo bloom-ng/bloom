@@ -175,6 +175,10 @@ Route::get('/subscribers', [SubscriberController::class, 'index'])->middleware('
 Route::get('/subscribers/generate', [SubscriberController::class, 'generate'])->middleware('auth');
 Route::delete('/subscribers/{subscriber}', [SubscriberController::class, 'destroy'])->middleware('auth');
 
+Route::get('/privacy-policy', function () {
+    return view('privacy_policy');
+});
+
 Route::resources(['company' => CompanyController::class]);
 
 //Special routes
