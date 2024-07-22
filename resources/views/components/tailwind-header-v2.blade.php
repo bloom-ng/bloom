@@ -39,9 +39,23 @@
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}" />
     <script type="script" src="{{asset('js/script.js')}}"></script>
 
-
-
     <meta name="google-site-verification" content="bjWCGcltjrwPQBsMdywGBz6Gaq7wSSgJnfM6dbsVdOo" />
+
+    {{-- NEW GOOGLE TAG PIXEL START --}}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2H3Y9EMT7F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2H3Y9EMT7F');
+    </script>
+    {{-- NEW GOOGLE TAG PIXEL END --}}
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213792160-1"></script>
