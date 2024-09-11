@@ -69,31 +69,70 @@
     @endif
 
 
+    <div class="pt-12 pb-12 lg:pb-24 lg:pt-24 flex flex-col md:flex-col lg:flex-row justify-center">
+        <div class="lg:w-1/2 w-full px-6 lg:px-24 flex flex-col mb-12 lg:mb-0 order-2 lg:order-1">
+            <p class="text-white mb-8 lg:mb-16 text-xl">Get in touch with Bloom Digital Media and let our team of specialists fix your problem.</p>
 
-    <div class="background pt-12 pb-12 lg:px-24 lg:pb-24 lg:pt-24">
-        <div class="header-text">
-            <h3 class="md:pb-24">Get in touch with Bloom Digital Media and let our team of specialists fix your problem.
-            </h3>
+            <div class="flex flex-col space-y-8 lg:space-y-16">
+                <div class="flex flex-row items-center lg:mb-16 mb-8 ">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_1541_7)"/>
+                        <defs>
+                        <pattern id="pattern0_1541_7" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1541_7" transform="scale(0.0111111)"/>
+                        </pattern>
+                        <image id="image0_1541_7" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC7ElEQVR4nO3cyWoUQRzH8b+45gnUk1EQIZFEEzc8SNST3l3ewwUvgnoI4sENwUTfIErcUPEZRBHX+AAqGrOACEZjvlJ0HSdkqp2Zrqr+faBhmHSquv/8U11bx0xERERERETCAKuB/cAF4B7wHpgGfgNz/vM7/7PzwJD7ncBq6gsYBG4Bs4SbAUaBgarvI1rAAPCM1nkKbKv6vqIBdAHXgHla7w9wBVhjdQZsAV7Tfq+AzVZHwE7gG50zBey1OgF2Az+aDJBrUsaAI8AG1wz4oxs4CtwJaHZcnbusRs3F9yYD8wHoa6LMfmCiyTIns29GKB58zbbJn4C1AWWvAz4HtNn5PiApehfNOlGi/FMB5V+2jPvJ8wGBOFSijsOBXb9+yw3hg5GTJeo4HVjHY8twWB0qtI1eD3wJrGMB2G65oJi7KGOimT9vN9QGPpasY8QymoWbpby/wF3gGLDR91y6/OfjwLg/pyw3C7jKUgccIH77LHV+Pjl25yx1wAPiN26p8ysjsXtrqfOzZrGbtNT59b3Y/bLU+cXU2M1Z6nw/NXZTlrpEHoZvLHXAQ+J331LnBgPE76ylDjhI/IYsdcDKyPvSbv1yheUAuE28Ri0XwFY/yR6jJVfZkwI8IT6PLDdAX5v215XlFmd7LUfAJeIxbLmi2MrlNq9U7WX2m9Yp1vrctqyquLq7rQ4oVq2rmGxyi8Q7rIbbdr92MMhuz8eg1RGwCXjRgSA/r01zscS+j4ttWiBwZQ5nsW+jVYAe/ypbK0aQC35jTU/V9xUtoNdv7y3TM3GvalxVgAMAy4E9wBn/asVixvw57tzlIXVIA4tFudG58h8U6A5BGa1AZwVltAKdFZTRCnRWUEYr0FlBGa1AZwVltAKdFZTRCnRWUEYr0FlBGa1AZwVltAKdFZTRCnRWUEYr0FlBGa1AZwVltAKdFZTRCnRWUEYr0FlBGd2xQM80iPV0h6qvD+BGg0Bfr/q6skPxTwVHgJ/+uOm+q/q6sgUsc0fV1yEiIiIiItZ2/wAFkvBgVkRJNQAAAABJRU5ErkJggg=="/>
+                        </defs>
+                    </svg>
+                    <p class="text-white ml-5 text-xl">S03 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja</p>
+                </div>
+
+                <div class="flex flex-row items-center lg:mb-16 mb-8 ">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_1541_8)"/>
+                        <defs>
+                        <pattern id="pattern0_1541_8" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1541_8" transform="scale(0.0111111)"/>
+                        </pattern>
+                        <image id="image0_1541_8" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADDklEQVR4nO2cO2sVQRiG10siQSxE8AaCCBYWwcJCLLTQSgtJIVZi663wL/gX/Asp7KwsFAstxKhRLCy0EFQQLARRE0W8PjKwR05Ek5lv5pvdnLwPnPJ8l4fd2dmZZZpGCCGEEEIIIYQQQgghxGIA48AF4B7wCTEguJgBzgNjWVcRsA149Ce0+B8Pga05V7IkxzNrurLb4UKkcc4i+n5iEgEzFtHzMpfMnEW0lZvAlmaZAmwCrlmbtyTM4TVwqFlmAPuBFzmNW5Lm8gO4BKxpeg6wCrgIfMtt2pK8FLeA7U1PATYDN0o1aymgJG+Bo03PAA4Db0o2aimiNL+Ay9mvqwUA1rbD2s/STVqK8XyD2uViMK6vHcAdr+YsBcUQFlUsvAOmXEwu3tNUm9tCVK+WomLIvQWngQkXqwt7WdcOW2H4sg55Ye1nSSzFRQcFjmQ8VB4Du0vLHaptZ8ZyQniIH7M4SSkwKWjmNGkOOFXI7XBNJ4D3xppu/z0tjfmTpcjkoAUm/tPA+ky/oY6J9nYv+qIV82dLseag7avsS2Ojz4C9Br+D3HuAJx5LBzEBLAVnBc1cnPkS7gxDzaeBz16LYTFBUmsuEnRoKPlqbP4qsDEizwbgijHH93aoWF3DiWtQYB/w3CjiFXCgi9ieTtyCUviqq3W3eDrxC9qUGUe7GP/dnLgEbQEmgacZM4PwsxByTjZGYhL0I2i5uW4nc/SYJP0IWv7trepbp4sTl6A+6xHV1lFcnLgE9Vthq7Iy6OLEJWgEwPGMNePAB+Bk48BIic7cBXnguXszcqIDiZsKVfYjR1J0wk51tR32kRY9tKlwvetvRkZe9D82FTr5CmpFiB4AHAy/pgNWlOgukehKSHQlJLoSEl0Jia6ERFdCoish0ZWQ6EpIdCUkuhISXQmJroREV0KiKyHRlZDoZS5aB6Ok89EiOhy/JtK4axEdznMTaZy1iB5vz3MT8Z+j2b6UCofmtacRiKUl2w4YHJI9Fs5zC+OPHpALmG+dnOnDGSRCCCGEEEIIIYQQQgjR9JvfsfD1c5zod2kAAAAASUVORK5CYII="/>
+                        </defs>
+                    </svg>
+                    <p class="text-white ml-5 text-xl">info@bloomdigitmedia.com</p>
+                </div>
+
+                <div class="flex flex-row items-center lg:mb-16">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0_1541_9)"/>
+                        <defs>
+                        <pattern id="pattern0_1541_9" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1541_9" transform="scale(0.0111111)"/>
+                        </pattern>
+                        <image id="image0_1541_9" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADtElEQVR4nO3cW6hmYxgH8DXMyDGGCHExTklNxs0kp1KaIZJSE2pMimSQC1duRLmZNJORKymHkQmTCxqNUqPI5gI5XCiHsUcTmUNyHsb8tNpLSnvb37cOnnet7/3Vvtx7vc//+/Za3/e8z1pFkWVZlmVZlmVZNimwCKuxDbuxF8/itOi1DQZW4Auz+wonRa+x13AINuCg/7Y5eq29hcOwxWgO4tLoNfcODsXzxvMxFkavvVewTj13RK+9N3D1COfkuezB8dE1JA9H4kvNPBZdR/Jwn+YOYGl0Lal/ytilHduj60kWVmrXquiakoRHWg56ujznR9eVHLypfQ9G15UcfNNB0L9iSXRtScFvurElurak4BfdWRldXzKqb3Vd+ST3Qf4J+l3dujX2rZQIbOo46Neja0wC7uw46Peja0wCzuk46Meja0xGC527ufyB86LrSwYe0I0N0bUlBadXbc42fYtjo2tLDra2HPTq6JqShItaDPktLIiuKVl4rYWQD2BZdC1Jw4UtBP1EdB29gOcaBn1xdA29gFPwfYOgl0TX0Bu4u0HQ10avv2+jYXW7em+Xvx9dQ2/gTPxQM+x10evvFdymvlui198reKHBBu3y6PX3Bk7Ajpphf11+iomuoTdwPn6uGfZHWBxdQ2/gJvVN4ajoGnoD6xuE/UreER896IXVbXB1PZ27eqOHfUy54Vo7ah7NYY/XD9nRIOxyxGHRqMebaDgL3zU8Z+fx3hHDvqTh7F45Mnxc5++KIcBV2N8g7A9xas1jL8WT1Yzf9qplMNx7HnEdfm8Q9q5xvq6X/wXYWM2N/Nun5YtfDBWun6PwUZVz2mvmOcYC3FyNMoxyDTijGCKswZ+a2ThbPxsXVLvr49hf/b2ji6HB7S2EPVWdjs7G5Xiq4YDP9CDvFjPTF2lyGunKG2WDrBgSrGp4gexK+d/2DE4shgLXVBsAKdqHewazv4krO74hqakPcFkxoG+Qe6WrfHzG5kE8IwrnNmxE/R+mB/H0MzNdv/ekbVMxoH72NunaXQxsp2a9NO0phgY34Cdp2VoMEZYldpG8sRj4kM5L0Qnjs0H3s/9WtUB/DPwsvaKYFGY6du8EBP1wMaHz2Xc1vPNgHC+WD74tJhVOrjptdZ8wOYry2nB4dK1JwHK82nLA5Yv30ES/k+e5Pe/lFm6nLh8+nh9DNJ+y8YP78fmYAe/EvThi3oNks05Mra3O5VPVDvm+6mdnNe9Rft2/Io+hZVmWZVmWZVmWZVmWFbP6C7iQWJhNB3m4AAAAAElFTkSuQmCC"/>
+                        </defs>
+                    </svg>
+                    <p class="text-white ml-5 text-xl">+234 708 627 8644 <br>+234 703 138 0418</p>
+                </div>
+            </div> 
         </div>
-        <form action="/contact" method="POST" class="input-container">
+
+        <form action="/contact" method="POST" class="w-full lg:w-2/3 flex flex-col px-6 lg:px-24 justify-center order-1 lg:order2">
             {{ csrf_field() }}
             <input name="subject" hidden type="text" value="Contact" placeholder="Subject" />
-            <input name="name" type="text" required placeholder="Name" />
-            <input name="email" type="text" required placeholder="Email" />
-            <input name="phone" hidden type="text" value="08130000000" required placeholder="Phone" />
-            <textarea required name="message" rows="22" cols="13" placeholder="Message"></textarea>
-            <div id="captcha-field" class="flex items-start justify-center gap-2">
+            <input name="name" type="text" required placeholder="Name" style="background-color: #D4D4D4; font-style: italic;" class="mb-5 py-3 px-3 text-xl" />
+            <input name="email" type="text" required placeholder="Email" style="background-color: #D4D4D4; font-style: italic;" class="mb-5 py-3 px-3 text-xl" />
+            <input name="phone" type="text"  required placeholder="Phone" style="background-color: #D4D4D4; font-style: italic;" class="mb-5 py-3 px-3 text-xl" />
+            <textarea required name="message" rows="10" placeholder="Message" style="background-color: #D4D4D4; font-style: italic;" class="mb-5 px-3 py-3 text-xl"></textarea>
+            <div id="captcha-field" class="flex items-start justify-center gap-2 mb-5">
                 <span id="captcha-span">{!! captcha_img() !!}</span>
                 <button type="button" id="reload-captcha"
                     class="bg-amber-500 rounded-md px-4 py-3 text-white font-bold">&#x21bb;</button>
             </div>
-            <input name="captcha" type="text" required placeholder="Enter captcha" />
+            <input name="captcha" type="text" required placeholder="Enter captcha" style="background-color: #D4D4D4; font-style: italic;" class="py-3 px-3 mb-5 text-xl"/>
             @error('captcha')
                 <p class="text-red-500 font-semibold">{{ $message }}</p>
             @enderror
-            <button class="black-font" type="submit">SUBMIT</button>
+            <button class="black-font bg-[#FF9501] py-3 text-lg" type="submit">SUBMIT</button>
         </form>
-
     </div>
     <div class="flex flex-col items-center justify-center max-h-[70vh] max-w-[100vw]">
         <iframe

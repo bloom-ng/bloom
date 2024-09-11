@@ -178,7 +178,7 @@
 
      </div>
      <div class="flex flex-col items-center justify-center bg-[#ffffff] py-[5%] max-w-[100vw]">
-         <img src="/images/images-v2/logodisplay.png" alt="">
+         <img src="/images/logodisplay.jpg" alt="logodisplay">
      </div>
 
      <div class="pt-16 md:mt-12 flex gap-8 lg:gap-x-20 justify-center max-w-[100vw]">
@@ -388,7 +388,7 @@
                  class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between block md:hidden lg:hidden xl:hidden">
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
-                     <img src="/images/images-v2/Group 16.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+                     <img src="/images/images-v2/Group 63.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
@@ -398,12 +398,8 @@
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
-                     <img src="/images/images-v2/Group 18.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-
-                 </swiper-slide>
-                 <swiper-slide class="px-2 lg:px-6 flex-col items-center">
-
                      <img src="/images/images-v2/Group 19.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
@@ -432,17 +428,12 @@
                  class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:block lg:hidden xl:hidden">
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
-                     <img src="/images/images-v2/Group 16.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+                     <img src="/images/images-v2/Group 63.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
                      <img src="/images/images-v2/Group 17.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-
-                 </swiper-slide>
-                 <swiper-slide class="px-2 lg:px-6 flex-col items-center">
-
-                     <img src="/images/images-v2/Group 18.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
@@ -470,21 +461,17 @@
 
                  </swiper-slide>
              </swiper-container>
+
              <swiper-container slides-per-view="5" speed="500" loop="true" autoplay="true" css-mode="true"
                  class="swiper-container-second flex md:px-20 gap-2 max-w-[100vw] mt-16 justify-between hidden sm:hidden md:hidden lg:block">
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
-                     <img src="/images/images-v2/Group 16.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
+                     <img src="/images/images-v2/Group 63.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
 
                      <img src="/images/images-v2/Group 17.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
-
-                 </swiper-slide>
-                 <swiper-slide class="px-2 lg:px-6 flex-col items-center">
-
-                     <img src="/images/images-v2/Group 18.png" class="w-full lg:max-h-[290px] lg:max-w-[232px]" />
 
                  </swiper-slide>
                  <swiper-slide class="px-2 lg:px-6 flex-col items-center">
