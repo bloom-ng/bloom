@@ -1,7 +1,11 @@
  <footer class="bg-stone-900 max-w-[100vw] px-14 py-8 flex-col flex lg:flex-row items-center justify-around">
-     <p class="h-10 text-white text-md lg:text-2xl font-normal font-grotesk leading-10 mb-10 lg:mb-0">
-         All Rights Reserved. Bloom Digital Media Limited.
-     </p>
+     <div>
+         <a href="/privacy-policy"
+             class="h-10 text-white text-sm font-normal font-grotesk leading-10 mb-10 lg:mb-5">Privacy Policy</a>
+         <p class="h-10 text-white text-md lg:text-2xl font-normal font-grotesk leading-10 mb-10 lg:mb-0">
+             All Rights Reserved. Bloom Digital Media Limited.
+         </p>
+     </div>
 
      <div class="flex">
          <a href="https://www.instagram.com/bloom_digitalmedia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
