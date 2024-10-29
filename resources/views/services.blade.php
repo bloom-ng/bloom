@@ -2,6 +2,23 @@
     <meta name="description" content="Bloom Digital Media is a Media and Communications Agency looking to partner
                 with leading brands to engineer ROI focused digital campaigns and activities
                 that attract, connect, engage, improve sales and convert Nigerian consumers online.">
+
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2H3Y9EMT7F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2H3Y9EMT7F');
+    </script>
+    
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 </x-tailwind-header>
 
 <x-tailwind-navbar />
