@@ -109,7 +109,7 @@
                     fill="white" />
             </svg>
 
-            <p class="font-semibold text-xs md:text-sm lg:text-base">S03 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja.</p>
+            <p class="font-semibold text-xs md:text-sm lg:text-base">Plot 91A, 43 Crescent, Gwarinpa Estate, Abuja.</p>
         </div>
         <div class="flex gap-4">
             <svg class="w-8 h-5" width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">

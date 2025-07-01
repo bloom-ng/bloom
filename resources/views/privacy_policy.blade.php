@@ -38,7 +38,7 @@
          </div> --}}
          <div class="text-[20px] md:text-[24px] leading-[30px] md:leading-[40px] extra-light-font">
              <div class="mb-[4%]">This Privacy Policy is prepared by Bloom Digital Media Ltd and whose registered
-                 address is Pathfield Mall, 4th Avenue,, Gwarinpa, Abuja 901108, Federal Capital Territory, Abuja (“We”)
+                 address is Plot 91A, 43 Cres, Gwarinpa Estate, Gwarinpa 901108, Federal Capital Territory, Abuja (“We”)
                  are committed to protecting and preserving the privacy of our visitors when visiting our site or
                  communicating electronically with us. <br>
 

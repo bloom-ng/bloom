@@ -73,7 +73,7 @@
             </form> 
         </div>
         <div class="col-md-6 my-5">
-            <p class="py-2 h6 my-2" > <i class="fa fa-paper-plane"></i> G10 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja. </p>
+            <p class="py-2 h6 my-2" > <i class="fa fa-paper-plane"></i> Plot 91A, 43 Crescent, Gwarinpa Estate, Abuja. </p>
             <p class="py-2 h6 my-2"> <i class="fa fa-envelope"></i> info@bloomdigitmedia.com </p>
             <p class="py-2 h6 my-2"> <i class="fa fa-phone"></i> +2347086278644, +2347031380418 </p>
         </div>

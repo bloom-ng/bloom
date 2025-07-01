@@ -74,7 +74,7 @@
         </svg>
 
         <p class="font-semi-bold">
-          S03 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja.
+        Plot 91A, 43 Crescent, Gwarinpa Estate, Abuja.
         </p>
       </div>
 

@@ -282,7 +282,7 @@
         <div class="col-md-4 services-bordered mt-7">
           <i class="fas fa-map-marker fa-5x"></i>
           <h4 class="text-dark my-5">HEAD OFFICE</h4>          
-          <p>G10 Pathfield Mall, 4th Avenue, Gwarimpa, Abuja.</p>
+          <p>Plot 91A, 43 Crescent, Gwarinpa Estate, Abuja</p>
         </div>
         </div>
  <!--Grid container -->
