@@ -67,9 +67,9 @@ class OnboardingController extends Controller
             
             // Send notification to admin team
             $adminEmails = [
-                'segun8427@gmail.com',
-                'segun8428@gmail.com',
-                'davidaremu@bloomdigitmedia.com',
+                'agharayetseyi@bloomdigitmedia.com',
+                'emmanuelalexander@bloomdigitmedia.com',
+                'johannahharris@bloomdigitmedia.com',
             ];
             
             // Send notification to admin team
