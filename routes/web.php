@@ -12,6 +12,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\UserAccountController;
 use App\Http\Controllers\MeetingController;
+use App\Http\Controllers\OnboardingController;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\TaskController;
 use App\Http\Controllers\CompanyController;
@@ -274,3 +275,10 @@ Route::post('/add-to-mailchimp-list', [MailchimpController::class, 'addToMailchi
 
 //CAPTCH Reload
 Route::get("/reload-captcha", [ContactController::class, 'reloadCaptcha']);
+
+// Onboarding routes
+Route::get('/onboarding', function() {
+    return view('new_meeting');
+});
+
+Route::post('/onboarding/store', [OnboardingController::class, 'store'])->name('onboarding.store');

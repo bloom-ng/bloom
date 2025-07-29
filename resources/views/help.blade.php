@@ -11,7 +11,7 @@
     <link rel="canonical" href="https://www.bloomdigitmedia.com/how-can-we-help" />
     <meta property="og:locale" content="en_NG" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content=Digital Marketing - Bloom Digital Media" />
+    <meta property="og:title" content="Digital Marketing - Bloom Digital Media" />
     <meta property="og:description"
         content="Choose an award winning digital marketing agency in Abuja, Nigeria to handle your business marketing. Contact Bloom Media to schedule a marketing consultation and review of your current efforts. We offer knowledgeable advice on digital marketing services to elevate your marketing and get more leads." />
     <meta property="og:url" content="https://www.bloomdigitmedia.com/how-can-we-help" />
