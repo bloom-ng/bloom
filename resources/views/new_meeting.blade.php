@@ -67,7 +67,7 @@
 
                 <p class="mb-3 mt-7 font-[TomatoGrotesk-Regular]">Who do you want to meet?</p>
                 <select name="meeting_with" id="meeting_with" class="border border-[#2B2B2B]/70 rounded-lg p-4 w-full mb-4 bg-transparent placeholder:text-[#2B2B2B]/70">
-                    <option value="Johanna">Johanna Ziv</option>
+                    <option value="Johannah">Johannah Harris</option>
                     <option value="Emma">Emmanuel Alexander</option>
                     <option value="Tseyi">Tseyi Agharaye</option>
                 </select>

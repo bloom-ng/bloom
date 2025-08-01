@@ -19,7 +19,7 @@ class OnboardingController extends Controller
             'requester_email' => 'required|email',
             'date' => 'required|date',
             'meeting_duration' => 'required|in:15,30,60,90',
-            'meeting_with' => 'required|in:Johanna,Emma,Tseyi',
+            'meeting_with' => 'required|in:Johannah,Emma,Tseyi',
             'additional_info' => 'nullable|string|max:1000'
         ]);
         
